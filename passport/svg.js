@@ -1,15 +1,39 @@
 /**
  * DiArt Passport
  * File: passport/svg.js
- * Version: 1.0.0
+ * Version: 2.0.0
+ *
+ * Shared SVG helpers for both passport pages.
  */
 
 "use strict";
 
-const SVG_NS = "http://www.w3.org/2000/svg";
+const SVG_VERSION = "2.0.0";
+const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
+
+function esc(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function attrs(attributes = {}) {
+  return Object.entries(attributes)
+    .filter(([, value]) =>
+      value !== undefined &&
+      value !== null &&
+      value !== false &&
+      value !== ""
+    )
+    .map(([key, value]) => `${key}="${esc(value)}"`)
+    .join(" ");
+}
 
 function svg(width, height, viewBox) {
-  return `<svg xmlns="${SVG_NS}" width="${width}" height="${height}" viewBox="${viewBox}">`;
+  return `<svg xmlns="${SVG_NAMESPACE}" width="${width}" height="${height}" viewBox="${esc(viewBox)}">`;
 }
 
 function end() {
@@ -20,52 +44,211 @@ function defs(content = "") {
   return `<defs>${content}</defs>`;
 }
 
-function group(content = "", attrs = "") {
-  return `<g ${attrs}>${content}</g>`;
+function group(content = "", attributes = {}) {
+  return `<g ${attrs(attributes)}>${content}</g>`;
 }
 
-function rect(x, y, width, height, fill = "none", rx = 0, attrs = "") {
-  return `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${rx}" fill="${fill}" ${attrs}/>`;
+function rect({
+  x,
+  y,
+  width,
+  height,
+  rx = 0,
+  ry = null,
+  fill = "none",
+  stroke = null,
+  strokeWidth = null,
+  opacity = null,
+  filter = null,
+  id = null
+}) {
+  return `<rect ${attrs({
+    id,
+    x,
+    y,
+    width,
+    height,
+    rx,
+    ry: ry ?? rx,
+    fill,
+    stroke,
+    "stroke-width": strokeWidth,
+    opacity,
+    filter
+  })}/>`;
 }
 
-function circle(cx, cy, r, fill = "none", attrs = "") {
-  return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${fill}" ${attrs}/>`;
+function circle({
+  cx,
+  cy,
+  r,
+  fill = "none",
+  stroke = null,
+  strokeWidth = null,
+  opacity = null,
+  filter = null,
+  id = null
+}) {
+  return `<circle ${attrs({
+    id,
+    cx,
+    cy,
+    r,
+    fill,
+    stroke,
+    "stroke-width": strokeWidth,
+    opacity,
+    filter
+  })}/>`;
 }
 
-function line(x1, y1, x2, y2, attrs = "") {
-  return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" ${attrs}/>`;
+function line({
+  x1,
+  y1,
+  x2,
+  y2,
+  stroke = "#000000",
+  strokeWidth = 1,
+  linecap = null,
+  dasharray = null,
+  opacity = null
+}) {
+  return `<line ${attrs({
+    x1,
+    y1,
+    x2,
+    y2,
+    stroke,
+    "stroke-width": strokeWidth,
+    "stroke-linecap": linecap,
+    "stroke-dasharray": dasharray,
+    opacity
+  })}/>`;
 }
 
-function image(href, x, y, width, height, attrs = "") {
-  return `<image href="${href}" x="${x}" y="${y}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice" ${attrs}/>`;
+function image({
+  href,
+  x,
+  y,
+  width,
+  height,
+  preserveAspectRatio = "xMidYMid slice",
+  clipPath = null,
+  opacity = null
+}) {
+  if (!href) return "";
+
+  return `<image ${attrs({
+    href,
+    x,
+    y,
+    width,
+    height,
+    preserveAspectRatio,
+    "clip-path": clipPath,
+    opacity
+  })}/>`;
 }
 
-function text(value, x, y, attrs = "") {
-  return `<text x="${x}" y="${y}" ${attrs}>${escape(value)}</text>`;
+function text({
+  value,
+  x,
+  y,
+  fontFamily = "Arial, Helvetica, sans-serif",
+  fontSize = 24,
+  fontWeight = 400,
+  fill = "#241912",
+  textAnchor = "start",
+  letterSpacing = 0,
+  fontStyle = null,
+  opacity = null
+}) {
+  return `<text ${attrs({
+    x,
+    y,
+    "font-family": fontFamily,
+    "font-size": fontSize,
+    "font-weight": fontWeight,
+    fill,
+    "text-anchor": textAnchor,
+    "letter-spacing": letterSpacing,
+    "font-style": fontStyle,
+    opacity
+  })}>${esc(value)}</text>`;
 }
 
-function path(d, attrs = "") {
-  return `<path d="${d}" ${attrs}/>`;
+function path({
+  d,
+  fill = "none",
+  stroke = null,
+  strokeWidth = null,
+  linecap = null,
+  linejoin = null,
+  opacity = null,
+  filter = null
+}) {
+  return `<path ${attrs({
+    d,
+    fill,
+    stroke,
+    "stroke-width": strokeWidth,
+    "stroke-linecap": linecap,
+    "stroke-linejoin": linejoin,
+    opacity,
+    filter
+  })}/>`;
 }
 
-function clipPath(id, body) {
-  return `<clipPath id="${id}">${body}</clipPath>`;
+function clipPath(id, content) {
+  return `<clipPath id="${esc(id)}">${content}</clipPath>`;
 }
 
-function shadowFilter(id="shadow"){
-  return `<filter id="${id}" x="-20%" y="-20%" width="140%" height="140%">
-<feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.15"/>
+function shadowFilter(
+  id = "shadow",
+  {
+    dx = 0,
+    dy = 8,
+    stdDeviation = 12,
+    floodColor = "#000000",
+    floodOpacity = 0.15
+  } = {}
+) {
+  return `
+<filter id="${esc(id)}" x="-25%" y="-25%" width="150%" height="160%">
+  <feDropShadow
+    dx="${dx}"
+    dy="${dy}"
+    stdDeviation="${stdDeviation}"
+    flood-color="${floodColor}"
+    flood-opacity="${floodOpacity}"/>
 </filter>`;
 }
 
-function escape(v){
-  return String(v)
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;");
+function linearGradient(
+  id,
+  stops,
+  {
+    x1 = "0%",
+    y1 = "0%",
+    x2 = "100%",
+    y2 = "100%"
+  } = {}
+) {
+  const body = (Array.isArray(stops) ? stops : [])
+    .map(stop => `<stop ${attrs({
+      offset: stop.offset,
+      "stop-color": stop.color,
+      "stop-opacity": stop.opacity
+    })}/>`).join("");
+
+  return `<linearGradient ${attrs({ id, x1, y1, x2, y2 })}>${body}</linearGradient>`;
 }
 
 module.exports = {
+  SVG_VERSION,
+  SVG_NAMESPACE,
+  esc,
+  attrs,
   svg,
   end,
   defs,
@@ -77,5 +260,6 @@ module.exports = {
   text,
   path,
   clipPath,
-  shadowFilter
+  shadowFilter,
+  linearGradient
 };
