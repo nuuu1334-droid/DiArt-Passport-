@@ -1,222 +1,230 @@
 /**
- * DiArt Passport
+ * DiArt Color Passport
  * File: passport/layout.js
- * Version: 2.0.0
+ * Version: 3.0.0-approved
  *
- * Final geometry for the approved two-page passport.
- * SVG viewBox: 0 0 1536 2048
+ * Fixed geometry for the approved DiArt Color Passport mockup.
+ * One page: 768 × 1024 px.
  */
 
 "use strict";
 
-const LAYOUT_VERSION = "2.0.0";
+const LAYOUT_VERSION = "3.0.0-approved";
 
 const PAGE = Object.freeze({
-  width: 1536,
-  height: 2048,
-  viewBox: "0 0 1536 2048",
-  outerRadius: 34,
-  margin: 38
+  width: 768,
+  height: 1024,
+  viewBox: "0 0 768 1024",
+  outerRadius: 18,
+  margin: 4
 });
 
-const COLORS = Object.freeze({
-  paper: "#FBF7F1",
-  paperAlt: "#FFFDFC",
-  ink: "#241912",
-  muted: "#71645B",
-  border: "#E4D8CC",
-  line: "#DED2C6",
-  white: "#FFFFFF"
+const TOKENS = Object.freeze({
+  pageBackground: "#FBF7F1",
+  panelBackground: "#FFFDFC",
+  panelSoft: "#F8F0E8",
+  ink: "#24160F",
+  muted: "#6C5B50",
+  line: "#E7DDD3",
+  accentFallback: "#7B3F20",
+  white: "#FFFFFF",
+  panelRadius: 16,
+  cardRadius: 10,
+  thinStroke: 1,
+  mediumStroke: 1.4
 });
 
 const PAGE_1 = Object.freeze({
-  header: Object.freeze({
-    x: 56,
-    y: 48,
-    width: 1424,
-    height: 278
-  }),
-
-  logo: Object.freeze({
-    x: 62,
-    y: 58,
-    width: 250,
-    height: 188
-  }),
+  logo: Object.freeze({ x: 28, y: 24, width: 204, height: 146 }),
 
   identity: Object.freeze({
-    x: 318,
-    y: 58,
-    width: 760,
-    height: 220,
-    eyebrowY: 82,
-    titleRuY: 150,
-    titleEnY: 210,
-    descriptionY: 254
+    x: 245, y: 28, width: 370, height: 154,
+    eyebrowY: 48,
+    titleRuY: 92,
+    titleEnY: 126,
+    descriptionY: 151,
+    descriptionLineHeight: 20
   }),
 
   confidence: Object.freeze({
-    x: 1110,
-    y: 66,
-    width: 338,
-    height: 226,
-    labelY: 100,
-    percentY: 190,
-    starsY: 230,
-    pillY: 266
+    x: 620, y: 28, width: 132, height: 154,
+    labelY: 49,
+    percentY: 106,
+    starsY: 142,
+    pillX: 632,
+    pillY: 153,
+    pillWidth: 108,
+    pillHeight: 24
   }),
 
   portrait: Object.freeze({
-    x: 56,
-    y: 338,
-    width: 570,
-    height: 664
+    x: 28, y: 194, width: 302, height: 334, radius: 18
   }),
 
   scalesPanel: Object.freeze({
-    x: 652,
-    y: 338,
-    width: 828,
-    height: 664
-  }),
-
-  scaleRows: Object.freeze({
-    temperature: Object.freeze({ y: 366 }),
-    depth: Object.freeze({ y: 523 }),
-    contrast: Object.freeze({ y: 680 }),
-    clarity: Object.freeze({ y: 837 })
+    x: 344, y: 194, width: 408, height: 334, radius: 18,
+    rowHeight: 83.5,
+    iconX: 374,
+    titleX: 420,
+    labelsX: 546,
+    scaleX1: 596,
+    scaleX2: 724,
+    rows: Object.freeze({
+      temperature: Object.freeze({ top: 208 }),
+      depth: Object.freeze({ top: 291 }),
+      contrast: Object.freeze({ top: 374 }),
+      clarity: Object.freeze({ top: 457 })
+    })
   }),
 
   naturalPalette: Object.freeze({
-    x: 56,
-    y: 1026,
-    width: 626,
-    height: 616,
-    titleY: 1080,
-    cropY: 1164,
+    x: 28, y: 542, width: 338, height: 298, radius: 18,
+    titleX: 52,
+    titleY: 574,
+    itemY: 603,
+    itemWidth: 100,
+    itemGap: 5,
     columns: Object.freeze([
-      Object.freeze({ x: 78, width: 182 }),
-      Object.freeze({ x: 278, width: 182 }),
-      Object.freeze({ x: 478, width: 182 })
-    ])
+      Object.freeze({ x: 40, centerX: 90 }),
+      Object.freeze({ x: 145, centerX: 195 }),
+      Object.freeze({ x: 250, centerX: 300 })
+    ]),
+    cropSize: 88,
+    cropY: 620,
+    swatchY: 720,
+    swatchSize: 13,
+    swatchGap: 5,
+    nameY: 758,
+    hexY: 805
   }),
 
-  orbit: Object.freeze({
-    x: 706,
-    y: 1026,
-    width: 774,
-    height: 616,
-    titleY: 1080,
-    centerX: 1092,
-    centerY: 1320,
-    outerRadius: 176,
-    noteY: 1576
+  nearestSeasons: Object.freeze({
+    x: 378, y: 542, width: 374, height: 298, radius: 18,
+    titleX: 468,
+    titleY: 574,
+    donutCenterX: 486,
+    donutCenterY: 676,
+    donutOuterRadius: 93,
+    donutInnerRadius: 48,
+    listX: 594,
+    listY: 614,
+    listRowHeight: 59,
+    pinSize: 36,
+    noteX: 415,
+    noteY: 814,
+    noteWidth: 302
   }),
 
-  service: Object.freeze({
-    x: 56,
-    y: 1668,
-    width: 1424,
-    height: 166,
-    itemWidth: 474.6666667,
-    labelY: 1726,
-    valueY: 1774,
-    divider1X: 530.6666667,
-    divider2X: 1005.3333333
+  meta: Object.freeze({
+    x: 28, y: 858, width: 724, height: 88, radius: 14,
+    columns: Object.freeze([
+      Object.freeze({ x: 56, width: 206 }),
+      Object.freeze({ x: 281, width: 206 }),
+      Object.freeze({ x: 506, width: 206 })
+    ]),
+    iconY: 878,
+    labelY: 891,
+    valueY: 917,
+    divider1X: 268,
+    divider2X: 493
   }),
 
   footer: Object.freeze({
-    x: 56,
-    y: 1850,
-    width: 1424,
-    height: 138,
-    logoX: 650,
-    logoY: 1858,
-    logoWidth: 236,
-    logoHeight: 84,
-    sloganY: 1970
+    x: 28, y: 956, width: 724, height: 60,
+    logoX: 298,
+    logoY: 942,
+    logoWidth: 172,
+    logoHeight: 54,
+    sloganY: 1006,
+    leftStarX: 276,
+    rightStarX: 492
   })
 });
 
 const PAGE_2 = Object.freeze({
   header: Object.freeze({
-    x: 56,
-    y: 48,
-    width: 1424,
-    height: 120,
-    titleY: 108
+    titleX: 384,
+    titleY: 47,
+    leftStarX: 168,
+    rightStarX: 600
   }),
 
-  paletteGallery: Object.freeze({
-    x: 56,
-    y: 182,
-    width: 1424,
-    height: 744,
-    titleY: 232
+  palette12: Object.freeze({
+    x: 28, y: 76, width: 712, height: 385, radius: 16,
+    titleY: 102,
+    gridX: 42,
+    gridY: 118,
+    columns: 6,
+    rows: 2,
+    cardWidth: 103,
+    cardHeight: 154,
+    gapX: 10,
+    gapY: 18,
+    colorHeight: 78,
+    nameY: 102,
+    hexY: 137
   }),
 
-  neutralBase: Object.freeze({
-    x: 56,
-    y: 954,
-    width: 696,
-    height: 372,
-    titleY: 1006,
-    swatchesX: 84,
-    swatchesY: 1060,
-    swatchWidth: 86,
-    swatchHeight: 190,
-    gap: 20
+  neutral: Object.freeze({
+    x: 28, y: 474, width: 350, height: 195, radius: 16,
+    titleY: 505,
+    swatchX: 45,
+    swatchY: 526,
+    swatchWidth: 45,
+    swatchHeight: 76,
+    gap: 9,
+    nameY: 619,
+    hexY: 647
   }),
 
-  accents: Object.freeze({
-    x: 780,
-    y: 954,
-    width: 700,
-    height: 372,
-    titleY: 1006,
-    swatchesX: 808,
-    swatchesY: 1060,
-    swatchWidth: 86,
-    swatchHeight: 190,
-    gap: 20
+  accent: Object.freeze({
+    x: 390, y: 474, width: 350, height: 195, radius: 16,
+    titleY: 505,
+    swatchX: 407,
+    swatchY: 526,
+    swatchWidth: 45,
+    swatchHeight: 76,
+    gap: 9,
+    nameY: 619,
+    hexY: 647
   }),
 
-  harmonyGuide: Object.freeze({
-    x: 56,
-    y: 1354,
-    width: 868,
-    height: 446,
-    titleY: 1410,
-    itemX: 88,
-    textX: 182,
-    itemStartY: 1470,
-    itemGap: 86
+  usage: Object.freeze({
+    x: 28, y: 686, width: 350, height: 235, radius: 16,
+    titleX: 86,
+    titleY: 716,
+    iconX: 48,
+    textX: 88,
+    rowY: 750,
+    rowHeight: 45,
+    iconSize: 28
   }),
 
   important: Object.freeze({
-    x: 952,
-    y: 1354,
-    width: 528,
-    height: 446,
-    titleY: 1452,
-    textX: 1004,
-    textY: 1530,
-    branchX: 1240,
-    branchY: 1432,
-    branchWidth: 204,
-    branchHeight: 318
+    x: 390, y: 686, width: 350, height: 235, radius: 16,
+    starX: 426,
+    starY: 728,
+    titleX: 463,
+    titleY: 735,
+    textX: 414,
+    textY: 778,
+    textWidth: 178,
+    lineHeight: 22,
+    branchX: 590,
+    branchY: 705,
+    branchWidth: 130,
+    branchHeight: 196
   }),
 
   footer: Object.freeze({
-    x: 56,
-    y: 1824,
-    width: 1424,
-    height: 164,
-    logoX: 650,
-    logoY: 1842,
-    logoWidth: 236,
-    logoHeight: 84,
-    sloganY: 1970
+    x: 28, y: 938, width: 712, height: 78,
+    logoX: 298,
+    logoY: 922,
+    logoWidth: 172,
+    logoHeight: 54,
+    sloganY: 1007,
+    leftStarX: 276,
+    rightStarX: 492
   })
 });
 
@@ -245,18 +253,16 @@ function validateLayout() {
   const errors = [];
 
   [
-    ["PAGE_1.header", PAGE_1.header],
     ["PAGE_1.portrait", PAGE_1.portrait],
     ["PAGE_1.scalesPanel", PAGE_1.scalesPanel],
     ["PAGE_1.naturalPalette", PAGE_1.naturalPalette],
-    ["PAGE_1.orbit", PAGE_1.orbit],
-    ["PAGE_1.service", PAGE_1.service],
+    ["PAGE_1.nearestSeasons", PAGE_1.nearestSeasons],
+    ["PAGE_1.meta", PAGE_1.meta],
     ["PAGE_1.footer", PAGE_1.footer],
-    ["PAGE_2.header", PAGE_2.header],
-    ["PAGE_2.paletteGallery", PAGE_2.paletteGallery],
-    ["PAGE_2.neutralBase", PAGE_2.neutralBase],
-    ["PAGE_2.accents", PAGE_2.accents],
-    ["PAGE_2.harmonyGuide", PAGE_2.harmonyGuide],
+    ["PAGE_2.palette12", PAGE_2.palette12],
+    ["PAGE_2.neutral", PAGE_2.neutral],
+    ["PAGE_2.accent", PAGE_2.accent],
+    ["PAGE_2.usage", PAGE_2.usage],
     ["PAGE_2.important", PAGE_2.important],
     ["PAGE_2.footer", PAGE_2.footer]
   ].forEach(([name, box]) => validateBox(name, box, errors));
@@ -270,7 +276,7 @@ function validateLayout() {
 module.exports = {
   LAYOUT_VERSION,
   PAGE,
-  COLORS,
+  TOKENS,
   PAGE_1,
   PAGE_2,
   validateLayout
