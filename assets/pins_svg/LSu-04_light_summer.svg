@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="640" viewBox="0 0 512 640">
+  <defs>
+    <linearGradient id="pinGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87A9C4" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#87A9C4" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)" color="#87A9C4">
+    <path d="M256 40 C132 40 70 130 70 240 C70 390 256 590 256 590 C256 590 442 390 442 240 C442 130 380 40 256 40 Z" fill="url(#pinGradient)"/>
+    <ellipse cx="256" cy="240" rx="138" ry="138" fill="#87A9C4" opacity="0.24"/>
+    <ellipse cx="306.9" cy="300.9" rx="50" ry="68" fill="#fff" transform="rotate(45 306.9 300.9)"/>
+<ellipse cx="205.1" cy="300.9" rx="50" ry="68" fill="#fff" transform="rotate(135 205.1 300.9)"/>
+<ellipse cx="205.1" cy="199.1" rx="50" ry="68" fill="#fff" transform="rotate(225 205.1 199.1)"/>
+<ellipse cx="306.9" cy="199.1" rx="50" ry="68" fill="#fff" transform="rotate(315 306.9 199.1)"/><circle cx="256" cy="250" r="24" fill="#fff"/>
+  </g>
+  <metadata>
+    <code>LSu-04</code>
+    <name_ru>Светлое лето</name_ru>
+    <name_en>Light Summer</name_en>
+  </metadata>
+</svg>
