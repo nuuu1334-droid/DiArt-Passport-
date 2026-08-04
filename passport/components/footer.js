@@ -1,18 +1,20 @@
 /**
  * DiArt Passport
  * File: passport/components/footer.js
- * Version: 1.0.0
+ * Version: 2.0.0
  *
- * Draws the approved DiArt footer:
+ * Renders the approved DiArt Signature footer:
  * - divider
- * - official logo
+ * - official emblem
  * - slogan
- * - service information
+ * - optional service line
  */
 
 "use strict";
 
-function escapeXml(value) {
+const FOOTER_VERSION = "2.0.0";
+
+function esc(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -26,71 +28,98 @@ function footer({
   y,
   width,
   height,
-  logoUrl,
+  logoUrl = "",
   logoX,
   logoY,
   logoWidth,
   logoHeight,
-  slogan = "Цвет украшает тебя ✨",
+  slogan = "Цвет украшает тебя",
   sloganY,
   dividerColor = "#D9CEC2",
   textColor = "#6F6259",
   accentColor = "#8B5E3C",
-  serviceInfo = null
+  serviceInfo = "",
+  serviceY = null
 }) {
+  const centerX = x + width / 2;
   const dividerY = y + 2;
+  const finalServiceY = serviceY ?? (y + height - 18);
 
-  const logo = logoUrl
-    ? `
-<image
-  href="${escapeXml(logoUrl)}"
-  x="${logoX}"
-  y="${logoY}"
-  width="${logoWidth}"
-  height="${logoHeight}"
-  preserveAspectRatio="xMidYMid meet"/>`
-    : "";
-
-  const service = serviceInfo
-    ? `
-<text
-  x="${x}"
-  y="${y + height - 18}"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="18"
-  font-weight="400"
-  fill="${textColor}">
-  ${escapeXml(serviceInfo)}
-</text>`
-    : "";
-
-  return `
-<g id="diart-footer">
+  let out = `
+<g id="diart-signature-footer">
   <line
     x1="${x}"
     y1="${dividerY}"
     x2="${x + width}"
     y2="${dividerY}"
     stroke="${dividerColor}"
-    stroke-width="1.5"/>
+    stroke-width="1.5"/>`;
 
-  ${logo}
+  if (logoUrl) {
+    out += `
+  <image
+    href="${esc(logoUrl)}"
+    x="${logoX}"
+    y="${logoY}"
+    width="${logoWidth}"
+    height="${logoHeight}"
+    preserveAspectRatio="xMidYMid meet"/>`;
+  }
 
+  out += `
   <text
-    x="${x + width / 2}"
+    x="${centerX}"
     y="${sloganY}"
     text-anchor="middle"
     font-family="Georgia, 'Times New Roman', serif"
     font-size="28"
     font-weight="600"
+    letter-spacing="0.5"
     fill="${accentColor}">
-    ${escapeXml(slogan)}
+    ${esc(slogan)}
   </text>
 
-  ${service}
+  <text
+    x="${centerX + 156}"
+    y="${sloganY - 8}"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="22"
+    fill="${accentColor}">
+    ✦
+  </text>
+
+  <text
+    x="${centerX + 184}"
+    y="${sloganY + 6}"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="14"
+    fill="${accentColor}"
+    fill-opacity="0.75">
+    ✦
+  </text>`;
+
+  if (serviceInfo) {
+    out += `
+  <text
+    x="${x}"
+    y="${finalServiceY}"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="400"
+    fill="${textColor}">
+    ${esc(serviceInfo)}
+  </text>`;
+  }
+
+  out += `
 </g>`;
+
+  return out;
 }
 
 module.exports = {
+  FOOTER_VERSION,
   footer
 };
