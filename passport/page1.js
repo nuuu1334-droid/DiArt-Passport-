@@ -1,7 +1,7 @@
 /**
  * DiArt Passport
  * File: passport/page1.js
- * Version: 2.1.0
+ * Version: 2.2.0
  *
  * Approved first page:
  * Identity Header, Portrait Frame, Harmony Scales,
@@ -539,7 +539,8 @@ function renderOrbit(data, theme) {
     cx: L.centerX,
     cy: L.centerY,
     radius: L.outerRadius,
-    pinSize: 54
+    pinSize: 54,
+    assetsBaseUrl: assets.pins_base_url || ""
   });
 
   out += txt({
