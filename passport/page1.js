@@ -15,7 +15,7 @@ const { buildNearestSeasonsBlock } = require("./components/nearest_seasons_block
 const { buildInformationPanelBlock } = require("./components/information_panel_block");
 const { buildFooterBlock } = require("./components/footer_block");
 
-const PAGE1_VERSION = "1.0.0-approved";
+const PAGE1_VERSION = "1.1.0-typography";
 const PAGE_WIDTH = 768;
 const PAGE_HEIGHT = 1134;
 
