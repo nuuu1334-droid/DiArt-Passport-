@@ -1,0 +1,140 @@
+{
+  "name": "DiArt Adaptive Information Icon Pack",
+  "version": "1.0.0",
+  "format": "SVG",
+  "icons_per_season": 3,
+  "seasons": [
+    {
+      "slug": "light_spring",
+      "name_ru": "Светлая весна",
+      "name_en": "Light Spring",
+      "accent_color": "#8FB36A",
+      "files": {
+        "calendar": "info_icons/light_spring/calendar.svg",
+        "brain": "info_icons/light_spring/brain.svg",
+        "database": "info_icons/light_spring/database.svg"
+      }
+    },
+    {
+      "slug": "warm_spring",
+      "name_ru": "Тёплая весна",
+      "name_en": "Warm Spring",
+      "accent_color": "#F2A900",
+      "files": {
+        "calendar": "info_icons/warm_spring/calendar.svg",
+        "brain": "info_icons/warm_spring/brain.svg",
+        "database": "info_icons/warm_spring/database.svg"
+      }
+    },
+    {
+      "slug": "bright_spring",
+      "name_ru": "Яркая весна",
+      "name_en": "Bright Spring",
+      "accent_color": "#FF5C57",
+      "files": {
+        "calendar": "info_icons/bright_spring/calendar.svg",
+        "brain": "info_icons/bright_spring/brain.svg",
+        "database": "info_icons/bright_spring/database.svg"
+      }
+    },
+    {
+      "slug": "light_summer",
+      "name_ru": "Светлое лето",
+      "name_en": "Light Summer",
+      "accent_color": "#87A9C4",
+      "files": {
+        "calendar": "info_icons/light_summer/calendar.svg",
+        "brain": "info_icons/light_summer/brain.svg",
+        "database": "info_icons/light_summer/database.svg"
+      }
+    },
+    {
+      "slug": "true_summer",
+      "name_ru": "Истинное лето",
+      "name_en": "True Summer",
+      "accent_color": "#5F7E9B",
+      "files": {
+        "calendar": "info_icons/true_summer/calendar.svg",
+        "brain": "info_icons/true_summer/brain.svg",
+        "database": "info_icons/true_summer/database.svg"
+      }
+    },
+    {
+      "slug": "soft_summer",
+      "name_ru": "Мягкое лето",
+      "name_en": "Soft Summer",
+      "accent_color": "#9A6C9D",
+      "files": {
+        "calendar": "info_icons/soft_summer/calendar.svg",
+        "brain": "info_icons/soft_summer/brain.svg",
+        "database": "info_icons/soft_summer/database.svg"
+      }
+    },
+    {
+      "slug": "soft_autumn",
+      "name_ru": "Мягкая осень",
+      "name_en": "Soft Autumn",
+      "accent_color": "#C79B57",
+      "files": {
+        "calendar": "info_icons/soft_autumn/calendar.svg",
+        "brain": "info_icons/soft_autumn/brain.svg",
+        "database": "info_icons/soft_autumn/database.svg"
+      }
+    },
+    {
+      "slug": "true_autumn",
+      "name_ru": "Истинная осень",
+      "name_en": "True Autumn",
+      "accent_color": "#D85F00",
+      "files": {
+        "calendar": "info_icons/true_autumn/calendar.svg",
+        "brain": "info_icons/true_autumn/brain.svg",
+        "database": "info_icons/true_autumn/database.svg"
+      }
+    },
+    {
+      "slug": "deep_autumn",
+      "name_ru": "Глубокая осень",
+      "name_en": "Deep Autumn",
+      "accent_color": "#5B2A0C",
+      "files": {
+        "calendar": "info_icons/deep_autumn/calendar.svg",
+        "brain": "info_icons/deep_autumn/brain.svg",
+        "database": "info_icons/deep_autumn/database.svg"
+      }
+    },
+    {
+      "slug": "bright_winter",
+      "name_ru": "Яркая зима",
+      "name_en": "Bright Winter",
+      "accent_color": "#B0004F",
+      "files": {
+        "calendar": "info_icons/bright_winter/calendar.svg",
+        "brain": "info_icons/bright_winter/brain.svg",
+        "database": "info_icons/bright_winter/database.svg"
+      }
+    },
+    {
+      "slug": "true_winter",
+      "name_ru": "Истинная зима",
+      "name_en": "True Winter",
+      "accent_color": "#17345C",
+      "files": {
+        "calendar": "info_icons/true_winter/calendar.svg",
+        "brain": "info_icons/true_winter/brain.svg",
+        "database": "info_icons/true_winter/database.svg"
+      }
+    },
+    {
+      "slug": "deep_winter",
+      "name_ru": "Глубокая зима",
+      "name_en": "Deep Winter",
+      "accent_color": "#1F1F1F",
+      "files": {
+        "calendar": "info_icons/deep_winter/calendar.svg",
+        "brain": "info_icons/deep_winter/brain.svg",
+        "database": "info_icons/deep_winter/database.svg"
+      }
+    }
+  ]
+}

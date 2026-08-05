@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "name": "DiArt Assets Database",
+    "version": "1.1",
+    "status": "approved_for_implementation"
+  },
+  "logos": {
+    "logo.primary": {
+      "type": "image",
+      "file": "assets/diart_logo_primary.png",
+      "status": "must_use_official_emblem"
+    }
+  },
+  "pins": {
+    "pin.light_spring": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/LS-01_light_spring.svg",
+      "passport_code": "LS-01",
+      "name_ru": "Светлая весна",
+      "name_en": "Light Spring"
+    },
+    "pin.warm_spring": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/WS-02_warm_spring.svg",
+      "passport_code": "WS-02",
+      "name_ru": "Тёплая весна",
+      "name_en": "Warm Spring"
+    },
+    "pin.bright_spring": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/BS-03_bright_spring.svg",
+      "passport_code": "BS-03",
+      "name_ru": "Яркая весна",
+      "name_en": "Bright Spring"
+    },
+    "pin.light_summer": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/LSu-04_light_summer.svg",
+      "passport_code": "LSu-04",
+      "name_ru": "Светлое лето",
+      "name_en": "Light Summer"
+    },
+    "pin.true_summer": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/CSu-05_true_summer.svg",
+      "passport_code": "CSu-05",
+      "name_ru": "Истинное лето",
+      "name_en": "True Summer"
+    },
+    "pin.soft_summer": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/SSu-06_soft_summer.svg",
+      "passport_code": "SSu-06",
+      "name_ru": "Мягкое лето",
+      "name_en": "Soft Summer"
+    },
+    "pin.soft_autumn": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/SA-07_soft_autumn.svg",
+      "passport_code": "SA-07",
+      "name_ru": "Мягкая осень",
+      "name_en": "Soft Autumn"
+    },
+    "pin.true_autumn": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/WA-08_true_autumn.svg",
+      "passport_code": "WA-08",
+      "name_ru": "Истинная осень",
+      "name_en": "True Autumn"
+    },
+    "pin.deep_autumn": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/DA-09_deep_autumn.svg",
+      "passport_code": "DA-09",
+      "name_ru": "Глубокая осень",
+      "name_en": "Deep Autumn"
+    },
+    "pin.bright_winter": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/BW-10_bright_winter.svg",
+      "passport_code": "BW-10",
+      "name_ru": "Яркая зима",
+      "name_en": "Bright Winter"
+    },
+    "pin.true_winter": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/CW-11_true_winter.svg",
+      "passport_code": "CW-11",
+      "name_ru": "Истинная зима",
+      "name_en": "True Winter"
+    },
+    "pin.deep_winter": {
+      "type": "svg",
+      "file": "DiArt_Visual_Assets_v2/pins_svg/DW-12_deep_winter.svg",
+      "passport_code": "DW-12",
+      "name_ru": "Глубокая зима",
+      "name_en": "Deep Winter"
+    }
+  },
+  "decor": {
+    "decor.star.four_point": {
+      "type": "svg_component",
+      "implementation": "procedural_four_point_star"
+    },
+    "decor.divider.thin": {
+      "type": "svg_component",
+      "implementation": "1px_theme_divider"
+    }
+  },
+  "patterns": [
+    "airy_stars",
+    "botanical_stars",
+    "clear_sparkles",
+    "cool_constellation",
+    "deep_geometric_stars",
+    "electric_sparkles",
+    "golden_leaf_stars",
+    "icy_stars",
+    "soft_mist_stars",
+    "soft_sun_stars",
+    "sunray_stars",
+    "warm_handdrawn_stars"
+  ]
+}

@@ -1,0 +1,1529 @@
+{
+  "metadata": {
+    "name": "DiArt Theme Database",
+    "version": "1.0",
+    "status": "approved_for_implementation",
+    "source": "diart_color_database_v2.json + DiArt Visual Assets v2",
+    "code_standard": "DiArt Data Model v1.0",
+    "notes": [
+      "Все 12 тем заполнены без заглушек.",
+      "Исторические коды cool_summer, warm_autumn и cool_winter нормализованы.",
+      "SVG-пины берутся только из утверждённого пакета DiArt Visual Assets v2.",
+      "Жёсткие HEX-коды в SVG-компонентах запрещены: используются токены темы."
+    ]
+  },
+  "aliases": {
+    "cool_summer": "true_summer",
+    "warm_autumn": "true_autumn",
+    "cool_winter": "true_winter"
+  },
+  "tokens": {
+    "required_color_tokens": [
+      "primary",
+      "secondary",
+      "background_top",
+      "background_bottom",
+      "surface",
+      "surface_alt",
+      "title",
+      "text",
+      "text_muted",
+      "divider",
+      "border",
+      "pin",
+      "pin_inner",
+      "star",
+      "shadow"
+    ],
+    "required_components": [
+      "identity_header",
+      "portrait_frame",
+      "confidence_card",
+      "harmony_scales",
+      "color_orbit",
+      "palette_gallery",
+      "neutral_base",
+      "accent_collection",
+      "harmony_guide",
+      "diart_signature"
+    ]
+  },
+  "themes": {
+    "light_spring": {
+      "id": "theme.light_spring",
+      "schema_version": "1.0",
+      "passport_code": "LS-01",
+      "source_database_code": "light_spring",
+      "name_ru": "Светлая весна",
+      "name_en": "Light Spring",
+      "theme_name_ru": "Солнечная лёгкость",
+      "colors": {
+        "primary": "#F49A8A",
+        "secondary": "#F7C85E",
+        "background_top": "#FFFCF5",
+        "background_bottom": "#FFF2D8",
+        "surface": "#FFFDF9",
+        "surface_alt": "#FFF8EC",
+        "title": "#6B4D3B",
+        "text": "#5C5149",
+        "text_muted": "#5C5149",
+        "divider": "#E7CBA7",
+        "border": "#DDBF93",
+        "pin": "#F49A8A",
+        "pin_inner": "#FFF8EC",
+        "star": "#E9B44C",
+        "shadow": "#7A56331F"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.light_spring",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/LS-01_light_spring.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.light_spring",
+          "type": "linear_gradient",
+          "top": "#FFFCF5",
+          "bottom": "#FFF2D8",
+          "pattern_id": "soft_sun_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.soft_sun_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.light_spring",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.light_spring",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "warm_spring": {
+      "id": "theme.warm_spring",
+      "schema_version": "1.0",
+      "passport_code": "WS-02",
+      "source_database_code": "warm_spring",
+      "name_ru": "Теплая весна",
+      "name_en": "Warm Spring",
+      "theme_name_ru": "Золотое солнце",
+      "colors": {
+        "primary": "#E96F4C",
+        "secondary": "#F5C542",
+        "background_top": "#FFFDF5",
+        "background_bottom": "#FBE8C4",
+        "surface": "#FFF9ED",
+        "surface_alt": "#FFF5E4",
+        "title": "#6A4025",
+        "text": "#5D4A3B",
+        "text_muted": "#5D4A3B",
+        "divider": "#DDB879",
+        "border": "#D5A65D",
+        "pin": "#E96F4C",
+        "pin_inner": "#FFF5E4",
+        "star": "#C98E24",
+        "shadow": "#6A40251F"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.warm_spring",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/WS-02_warm_spring.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.warm_spring",
+          "type": "linear_gradient",
+          "top": "#FFFDF5",
+          "bottom": "#FBE8C4",
+          "pattern_id": "sunray_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.sunray_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.warm_spring",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.warm_spring",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "bright_spring": {
+      "id": "theme.bright_spring",
+      "schema_version": "1.0",
+      "passport_code": "BS-03",
+      "source_database_code": "bright_spring",
+      "name_ru": "Яркая весна",
+      "name_en": "Bright Spring",
+      "theme_name_ru": "Чистая энергия",
+      "colors": {
+        "primary": "#00A9D6",
+        "secondary": "#FF5A5F",
+        "background_top": "#FFFEF7",
+        "background_bottom": "#EAF9F7",
+        "surface": "#FFFFFF",
+        "surface_alt": "#FFFFFF",
+        "title": "#243C45",
+        "text": "#425158",
+        "text_muted": "#425158",
+        "divider": "#84D7D2",
+        "border": "#38B4A6",
+        "pin": "#FF5A5F",
+        "pin_inner": "#FFFFFF",
+        "star": "#FFD23F",
+        "shadow": "#243C451A"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.bright_spring",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/BS-03_bright_spring.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.bright_spring",
+          "type": "linear_gradient",
+          "top": "#FFFEF7",
+          "bottom": "#EAF9F7",
+          "pattern_id": "clear_sparkles"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.clear_sparkles"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.bright_spring",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.bright_spring",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "light_summer": {
+      "id": "theme.light_summer",
+      "schema_version": "1.0",
+      "passport_code": "LSu-04",
+      "source_database_code": "light_summer",
+      "name_ru": "Светлое лето",
+      "name_en": "Light Summer",
+      "theme_name_ru": "Воздушная прохлада",
+      "colors": {
+        "primary": "#A7CFE8",
+        "secondary": "#C8B8DF",
+        "background_top": "#FCFBFD",
+        "background_bottom": "#EEF4F8",
+        "surface": "#FFFFFF",
+        "surface_alt": "#F8FBFD",
+        "title": "#596779",
+        "text": "#68717B",
+        "text_muted": "#68717B",
+        "divider": "#C4CFDA",
+        "border": "#A9AFC4",
+        "pin": "#93BFD2",
+        "pin_inner": "#F8FBFD",
+        "star": "#B7A8CE",
+        "shadow": "#59677918"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.light_summer",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/LSu-04_light_summer.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.light_summer",
+          "type": "linear_gradient",
+          "top": "#FCFBFD",
+          "bottom": "#EEF4F8",
+          "pattern_id": "airy_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.airy_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.light_summer",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.light_summer",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "true_summer": {
+      "id": "theme.true_summer",
+      "schema_version": "1.0",
+      "passport_code": "CSu-05",
+      "source_database_code": "cool_summer",
+      "name_ru": "Холодное лето",
+      "name_en": "Cool Summer",
+      "theme_name_ru": "Холодная элегантность",
+      "colors": {
+        "primary": "#5E76A8",
+        "secondary": "#A85E78",
+        "background_top": "#FAF9FB",
+        "background_bottom": "#ECECF3",
+        "surface": "#FEFDFE",
+        "surface_alt": "#F5F4F8",
+        "title": "#47546F",
+        "text": "#5F6370",
+        "text_muted": "#5F6370",
+        "divider": "#B8B7C0",
+        "border": "#8787B8",
+        "pin": "#5E76A8",
+        "pin_inner": "#F5F4F8",
+        "star": "#9B7690",
+        "shadow": "#47546F1A"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.true_summer",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/CSu-05_true_summer.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.true_summer",
+          "type": "linear_gradient",
+          "top": "#FAF9FB",
+          "bottom": "#ECECF3",
+          "pattern_id": "cool_constellation"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.cool_constellation"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.true_summer",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.true_summer",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "soft_summer": {
+      "id": "theme.soft_summer",
+      "schema_version": "1.0",
+      "passport_code": "SSu-06",
+      "source_database_code": "soft_summer",
+      "name_ru": "Мягкое лето",
+      "name_en": "Soft Summer",
+      "theme_name_ru": "Дымчатая мягкость",
+      "colors": {
+        "primary": "#788CA3",
+        "secondary": "#B88E98",
+        "background_top": "#FAF8F8",
+        "background_bottom": "#EAE6E7",
+        "surface": "#FDFBFB",
+        "surface_alt": "#F7F3F4",
+        "title": "#5D5962",
+        "text": "#69646A",
+        "text_muted": "#69646A",
+        "divider": "#B9B0B2",
+        "border": "#8F8483",
+        "pin": "#8D7F9B",
+        "pin_inner": "#F7F3F4",
+        "star": "#A88C98",
+        "shadow": "#5D596218"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.soft_summer",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/SSu-06_soft_summer.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.soft_summer",
+          "type": "linear_gradient",
+          "top": "#FAF8F8",
+          "bottom": "#EAE6E7",
+          "pattern_id": "soft_mist_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.soft_mist_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.soft_summer",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.soft_summer",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "soft_autumn": {
+      "id": "theme.soft_autumn",
+      "schema_version": "1.0",
+      "passport_code": "SA-07",
+      "source_database_code": "soft_autumn",
+      "name_ru": "Мягкая осень",
+      "name_en": "Soft Autumn",
+      "theme_name_ru": "Тёплая природная мягкость",
+      "colors": {
+        "primary": "#A8957D",
+        "secondary": "#B8735C",
+        "background_top": "#FCFAF5",
+        "background_bottom": "#F0E4D5",
+        "surface": "#FFFDF8",
+        "surface_alt": "#FAF3E9",
+        "title": "#5B493B",
+        "text": "#655B52",
+        "text_muted": "#655B52",
+        "divider": "#C7B49B",
+        "border": "#9A8F5E",
+        "pin": "#A66D61",
+        "pin_inner": "#FAF3E9",
+        "star": "#B6925D",
+        "shadow": "#5B493B1B"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.soft_autumn",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/SA-07_soft_autumn.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.soft_autumn",
+          "type": "linear_gradient",
+          "top": "#FCFAF5",
+          "bottom": "#F0E4D5",
+          "pattern_id": "botanical_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.botanical_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.soft_autumn",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.soft_autumn",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "true_autumn": {
+      "id": "theme.true_autumn",
+      "schema_version": "1.0",
+      "passport_code": "WA-08",
+      "source_database_code": "warm_autumn",
+      "name_ru": "Теплая осень",
+      "name_en": "Warm Autumn",
+      "theme_name_ru": "Золотая осень",
+      "colors": {
+        "primary": "#B6532E",
+        "secondary": "#C68B2C",
+        "background_top": "#FCF8F1",
+        "background_bottom": "#EFDCC2",
+        "surface": "#FFF9F1",
+        "surface_alt": "#F9EAD8",
+        "title": "#553A28",
+        "text": "#5F5147",
+        "text_muted": "#5F5147",
+        "divider": "#B99567",
+        "border": "#8C7A32",
+        "pin": "#B6532E",
+        "pin_inner": "#F9EAD8",
+        "star": "#B8862E",
+        "shadow": "#553A281F"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.true_autumn",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/WA-08_true_autumn.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.true_autumn",
+          "type": "linear_gradient",
+          "top": "#FCF8F1",
+          "bottom": "#EFDCC2",
+          "pattern_id": "golden_leaf_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.golden_leaf_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.true_autumn",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.true_autumn",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "deep_autumn": {
+      "id": "theme.deep_autumn",
+      "schema_version": "1.0",
+      "passport_code": "DA-09",
+      "source_database_code": "deep_autumn",
+      "name_ru": "Глубокая осень",
+      "name_en": "Deep Autumn",
+      "theme_name_ru": "Шоколадная глубина",
+      "colors": {
+        "primary": "#6B4423",
+        "secondary": "#A55A2A",
+        "background_top": "#FBF7F2",
+        "background_bottom": "#EEDCC9",
+        "surface": "#FFF9F2",
+        "surface_alt": "#F5E8D8",
+        "title": "#3C2B20",
+        "text": "#51463F",
+        "text_muted": "#51463F",
+        "divider": "#B59673",
+        "border": "#8F3F2E",
+        "pin": "#6B4423",
+        "pin_inner": "#F5E8D8",
+        "star": "#B8863B",
+        "shadow": "#3C2B2024"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.deep_autumn",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/DA-09_deep_autumn.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.deep_autumn",
+          "type": "linear_gradient",
+          "top": "#FBF7F2",
+          "bottom": "#EEDCC9",
+          "pattern_id": "warm_handdrawn_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.warm_handdrawn_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.deep_autumn",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.deep_autumn",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "deep_winter": {
+      "id": "theme.deep_winter",
+      "schema_version": "1.0",
+      "passport_code": "DW-12",
+      "source_database_code": "deep_winter",
+      "name_ru": "Глубокая зима",
+      "name_en": "Deep Winter",
+      "theme_name_ru": "Драгоценная глубина",
+      "colors": {
+        "primary": "#183B66",
+        "secondary": "#54245F",
+        "background_top": "#F8F9FC",
+        "background_bottom": "#E3E8F0",
+        "surface": "#FCFCFE",
+        "surface_alt": "#F1F2F7",
+        "title": "#20283A",
+        "text": "#434957",
+        "text_muted": "#434957",
+        "divider": "#9299AA",
+        "border": "#233D8B",
+        "pin": "#54245F",
+        "pin_inner": "#F1F2F7",
+        "star": "#6D7896",
+        "shadow": "#20283A24"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.deep_winter",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/DW-12_deep_winter.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.deep_winter",
+          "type": "linear_gradient",
+          "top": "#F8F9FC",
+          "bottom": "#E3E8F0",
+          "pattern_id": "deep_geometric_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.deep_geometric_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.deep_winter",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.deep_winter",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "true_winter": {
+      "id": "theme.true_winter",
+      "schema_version": "1.0",
+      "passport_code": "CW-11",
+      "source_database_code": "cool_winter",
+      "name_ru": "Холодная зима",
+      "name_en": "Cool Winter",
+      "theme_name_ru": "Ледяная ясность",
+      "colors": {
+        "primary": "#3557B7",
+        "secondary": "#C2185B",
+        "background_top": "#FBFCFF",
+        "background_bottom": "#E8EDF7",
+        "surface": "#FFFFFF",
+        "surface_alt": "#F5F8FF",
+        "title": "#24345F",
+        "text": "#46516A",
+        "text_muted": "#46516A",
+        "divider": "#AAB5D0",
+        "border": "#64307D",
+        "pin": "#3557B7",
+        "pin_inner": "#F5F8FF",
+        "star": "#7D88B8",
+        "shadow": "#24345F1F"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.true_winter",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/CW-11_true_winter.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.true_winter",
+          "type": "linear_gradient",
+          "top": "#FBFCFF",
+          "bottom": "#E8EDF7",
+          "pattern_id": "icy_stars"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.icy_stars"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.true_winter",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.true_winter",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    },
+    "bright_winter": {
+      "id": "theme.bright_winter",
+      "schema_version": "1.0",
+      "passport_code": "BW-10",
+      "source_database_code": "bright_winter",
+      "name_ru": "Яркая зима",
+      "name_en": "Bright Winter",
+      "theme_name_ru": "Контрастный блеск",
+      "colors": {
+        "primary": "#0047AB",
+        "secondary": "#E40046",
+        "background_top": "#FFFFFF",
+        "background_bottom": "#EDF3FA",
+        "surface": "#FFFFFF",
+        "surface_alt": "#FFFFFF",
+        "title": "#151B2B",
+        "text": "#353B48",
+        "text_muted": "#353B48",
+        "divider": "#93A8C7",
+        "border": "#0047AB",
+        "pin": "#E40046",
+        "pin_inner": "#FFFFFF",
+        "star": "#00A7E1",
+        "shadow": "#151B2B1F"
+      },
+      "assets": {
+        "pin": {
+          "asset_id": "pin.bright_winter",
+          "file": "DiArt_Visual_Assets_v2/pins_svg/BW-10_bright_winter.svg",
+          "format": "svg"
+        },
+        "background": {
+          "asset_id": "bg.bright_winter",
+          "type": "linear_gradient",
+          "top": "#FFFFFF",
+          "bottom": "#EDF3FA",
+          "pattern_id": "electric_sparkles"
+        },
+        "decor": {
+          "star": "decor.star.four_point",
+          "divider": "decor.divider.thin",
+          "pattern": "pattern.electric_sparkles"
+        }
+      },
+      "components": {
+        "identity_header": {
+          "logo_variant": "primary",
+          "title_color_token": "title",
+          "subtitle_color_token": "secondary",
+          "divider_color_token": "divider"
+        },
+        "portrait_frame": {
+          "radius_px": 32,
+          "border_width_px": 3,
+          "border_color_token": "border",
+          "glow_color_token": "primary",
+          "shadow_token": "shadow",
+          "sample_shape": "rounded_square",
+          "sample_radius_px": 22
+        },
+        "confidence_card": {
+          "surface_color_token": "surface",
+          "value_color_token": "title",
+          "label_color_token": "secondary",
+          "progress_color_token": "primary"
+        },
+        "harmony_scales": {
+          "track_color_token": "divider",
+          "active_color_token": "primary",
+          "marker": {
+            "shape": "approved_pin_mini",
+            "asset_id": "pin.bright_winter",
+            "size_px": 42
+          },
+          "show_numeric_values": false
+        },
+        "color_orbit": {
+          "center_pin_asset_id": "pin.bright_winter",
+          "orbit_color_token": "primary",
+          "connector_color_token": "divider",
+          "label_color_token": "text",
+          "closest_pin_source": "theme_database",
+          "max_closest_types": 3,
+          "layout": "orbital"
+        },
+        "palette_gallery": {
+          "card_radius_px": 20,
+          "surface_color_token": "surface",
+          "border_color_token": "divider",
+          "layout": {
+            "signature": "4_large_cards",
+            "core": "4_medium_cards",
+            "additional": "4_compact_cards"
+          }
+        },
+        "neutral_base": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "accent_collection": {
+          "layout": "premium_swatch_strip",
+          "surface_color_token": "surface"
+        },
+        "harmony_guide": {
+          "surface_color_token": "surface",
+          "icon_color_token": "primary",
+          "max_rules": 4
+        },
+        "diart_signature": {
+          "logo_variant": "primary",
+          "slogan": "Цвет украшает тебя",
+          "star_color_token": "star"
+        }
+      },
+      "global_style": {
+        "card_radius_px": 28,
+        "card_gap_px": 28,
+        "page_padding_px": 64,
+        "pattern_intensity": "subtle",
+        "decorative_element": "hand_drawn_stars",
+        "texture": "subtle_paper"
+      }
+    }
+  }
+}
