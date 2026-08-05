@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "total_files": 109,
+  "pins_found": 12,
+  "analysis_icons_found": 48,
+  "info_icons_found": 36,
+  "footer_star_found": true,
+  "logos_found": 2,
+  "theme_files_found": 4,
+  "missing": {
+    "pins": [],
+    "analysis": {
+      "temperature": [],
+      "depth": [],
+      "chroma": [],
+      "contrast": []
+    },
+    "info": {
+      "calendar": [],
+      "ai_model": [],
+      "palette_database": []
+    }
+  }
+}

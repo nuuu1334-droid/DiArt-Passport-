@@ -1,0 +1,140 @@
+{
+  "name": "DiArt Assets",
+  "version": "1.0.0",
+  "asset_root": "Assets",
+  "season_aliases": {
+    "true_spring": "warm_spring"
+  },
+  "logos": {
+    "dd8816b9_472b_4b34_8f9c_7681060c557b": "logos/DD8816B9-472B-4B34-8F9C-7681060C557B.jpeg",
+    "diart_logo_transparent": "logos/DiArt_logo_transparent.png"
+  },
+  "footer": {
+    "star": "footer/footer_star.svg"
+  },
+  "pins": {
+    "light_spring": "pins/light_spring.svg",
+    "warm_spring": "pins/warm_spring.svg",
+    "bright_spring": "pins/bright_spring.svg",
+    "light_summer": "pins/light_summer.svg",
+    "true_summer": "pins/true_summer.svg",
+    "soft_summer": "pins/soft_summer.svg",
+    "soft_autumn": "pins/soft_autumn.svg",
+    "true_autumn": "pins/true_autumn.svg",
+    "deep_autumn": "pins/deep_autumn.svg",
+    "bright_winter": "pins/bright_winter.svg",
+    "true_winter": "pins/true_winter.svg",
+    "deep_winter": "pins/deep_winter.svg"
+  },
+  "icons": {
+    "analysis": {
+      "temperature": {
+        "light_spring": "icons/analysis/temperature/light_spring/analysis_temperature.svg",
+        "warm_spring": "icons/analysis/temperature/warm_spring/analysis_temperature.svg",
+        "bright_spring": "icons/analysis/temperature/bright_spring/analysis_temperature.svg",
+        "light_summer": "icons/analysis/temperature/light_summer/analysis_temperature.svg",
+        "true_summer": "icons/analysis/temperature/true_summer/analysis_temperature.svg",
+        "soft_summer": "icons/analysis/temperature/soft_summer/analysis_temperature.svg",
+        "soft_autumn": "icons/analysis/temperature/soft_autumn/analysis_temperature.svg",
+        "true_autumn": "icons/analysis/temperature/true_autumn/analysis_temperature.svg",
+        "deep_autumn": "icons/analysis/temperature/deep_autumn/analysis_temperature.svg",
+        "bright_winter": "icons/analysis/temperature/bright_winter/analysis_temperature.svg",
+        "true_winter": "icons/analysis/temperature/true_winter/analysis_temperature.svg",
+        "deep_winter": "icons/analysis/temperature/deep_winter/analysis_temperature.svg"
+      },
+      "depth": {
+        "light_spring": "icons/analysis/depth/light_spring/analysis_depth.svg",
+        "warm_spring": "icons/analysis/depth/warm_spring/analysis_depth.svg",
+        "bright_spring": "icons/analysis/depth/bright_spring/analysis_depth.svg",
+        "light_summer": "icons/analysis/depth/light_summer/analysis_depth.svg",
+        "true_summer": "icons/analysis/depth/true_summer/analysis_depth.svg",
+        "soft_summer": "icons/analysis/depth/soft_summer/analysis_depth.svg",
+        "soft_autumn": "icons/analysis/depth/soft_autumn/analysis_depth.svg",
+        "true_autumn": "icons/analysis/depth/true_autumn/analysis_depth.svg",
+        "deep_autumn": "icons/analysis/depth/deep_autumn/analysis_depth.svg",
+        "bright_winter": "icons/analysis/depth/bright_winter/analysis_depth.svg",
+        "true_winter": "icons/analysis/depth/true_winter/analysis_depth.svg",
+        "deep_winter": "icons/analysis/depth/deep_winter/analysis_depth.svg"
+      },
+      "chroma": {
+        "light_spring": "icons/analysis/chroma/light_spring/analysis_chroma.svg",
+        "warm_spring": "icons/analysis/chroma/warm_spring/analysis_chroma.svg",
+        "bright_spring": "icons/analysis/chroma/bright_spring/analysis_chroma.svg",
+        "light_summer": "icons/analysis/chroma/light_summer/analysis_chroma.svg",
+        "true_summer": "icons/analysis/chroma/true_summer/analysis_chroma.svg",
+        "soft_summer": "icons/analysis/chroma/soft_summer/analysis_chroma.svg",
+        "soft_autumn": "icons/analysis/chroma/soft_autumn/analysis_chroma.svg",
+        "true_autumn": "icons/analysis/chroma/true_autumn/analysis_chroma.svg",
+        "deep_autumn": "icons/analysis/chroma/deep_autumn/analysis_chroma.svg",
+        "bright_winter": "icons/analysis/chroma/bright_winter/analysis_chroma.svg",
+        "true_winter": "icons/analysis/chroma/true_winter/analysis_chroma.svg",
+        "deep_winter": "icons/analysis/chroma/deep_winter/analysis_chroma.svg"
+      },
+      "contrast": {
+        "light_spring": "icons/analysis/contrast/light_spring/analysis_contrast.svg",
+        "warm_spring": "icons/analysis/contrast/warm_spring/analysis_contrast.svg",
+        "bright_spring": "icons/analysis/contrast/bright_spring/analysis_contrast.svg",
+        "light_summer": "icons/analysis/contrast/light_summer/analysis_contrast.svg",
+        "true_summer": "icons/analysis/contrast/true_summer/analysis_contrast.svg",
+        "soft_summer": "icons/analysis/contrast/soft_summer/analysis_contrast.svg",
+        "soft_autumn": "icons/analysis/contrast/soft_autumn/analysis_contrast.svg",
+        "true_autumn": "icons/analysis/contrast/true_autumn/analysis_contrast.svg",
+        "deep_autumn": "icons/analysis/contrast/deep_autumn/analysis_contrast.svg",
+        "bright_winter": "icons/analysis/contrast/bright_winter/analysis_contrast.svg",
+        "true_winter": "icons/analysis/contrast/true_winter/analysis_contrast.svg",
+        "deep_winter": "icons/analysis/contrast/deep_winter/analysis_contrast.svg"
+      }
+    },
+    "info": {
+      "calendar": {
+        "light_spring": "icons/info/calendar/light_spring/info_calendar.svg",
+        "warm_spring": "icons/info/calendar/warm_spring/info_calendar.svg",
+        "bright_spring": "icons/info/calendar/bright_spring/info_calendar.svg",
+        "light_summer": "icons/info/calendar/light_summer/info_calendar.svg",
+        "true_summer": "icons/info/calendar/true_summer/info_calendar.svg",
+        "soft_summer": "icons/info/calendar/soft_summer/info_calendar.svg",
+        "soft_autumn": "icons/info/calendar/soft_autumn/info_calendar.svg",
+        "true_autumn": "icons/info/calendar/true_autumn/info_calendar.svg",
+        "deep_autumn": "icons/info/calendar/deep_autumn/info_calendar.svg",
+        "bright_winter": "icons/info/calendar/bright_winter/info_calendar.svg",
+        "true_winter": "icons/info/calendar/true_winter/info_calendar.svg",
+        "deep_winter": "icons/info/calendar/deep_winter/info_calendar.svg"
+      },
+      "ai_model": {
+        "light_spring": "icons/info/ai_model/light_spring/info_ai_model.svg",
+        "warm_spring": "icons/info/ai_model/warm_spring/info_ai_model.svg",
+        "bright_spring": "icons/info/ai_model/bright_spring/info_ai_model.svg",
+        "light_summer": "icons/info/ai_model/light_summer/info_ai_model.svg",
+        "true_summer": "icons/info/ai_model/true_summer/info_ai_model.svg",
+        "soft_summer": "icons/info/ai_model/soft_summer/info_ai_model.svg",
+        "soft_autumn": "icons/info/ai_model/soft_autumn/info_ai_model.svg",
+        "true_autumn": "icons/info/ai_model/true_autumn/info_ai_model.svg",
+        "deep_autumn": "icons/info/ai_model/deep_autumn/info_ai_model.svg",
+        "bright_winter": "icons/info/ai_model/bright_winter/info_ai_model.svg",
+        "true_winter": "icons/info/ai_model/true_winter/info_ai_model.svg",
+        "deep_winter": "icons/info/ai_model/deep_winter/info_ai_model.svg"
+      },
+      "palette_database": {
+        "light_spring": "icons/info/palette_database/light_spring/info_palette_database.svg",
+        "warm_spring": "icons/info/palette_database/warm_spring/info_palette_database.svg",
+        "bright_spring": "icons/info/palette_database/bright_spring/info_palette_database.svg",
+        "light_summer": "icons/info/palette_database/light_summer/info_palette_database.svg",
+        "true_summer": "icons/info/palette_database/true_summer/info_palette_database.svg",
+        "soft_summer": "icons/info/palette_database/soft_summer/info_palette_database.svg",
+        "soft_autumn": "icons/info/palette_database/soft_autumn/info_palette_database.svg",
+        "true_autumn": "icons/info/palette_database/true_autumn/info_palette_database.svg",
+        "deep_autumn": "icons/info/palette_database/deep_autumn/info_palette_database.svg",
+        "bright_winter": "icons/info/palette_database/bright_winter/info_palette_database.svg",
+        "true_winter": "icons/info/palette_database/true_winter/info_palette_database.svg",
+        "deep_winter": "icons/info/palette_database/deep_winter/info_palette_database.svg"
+      }
+    }
+  },
+  "theme_database": [
+    "theme_database/README.txt",
+    "theme_database/assets_database_v1.1.json",
+    "theme_database/theme_database_v1.0.json",
+    "theme_database/validation_report.json"
+  ],
+  "images": []
+}

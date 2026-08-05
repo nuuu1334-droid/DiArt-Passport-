@@ -1,0 +1,547 @@
+[
+  {
+    "path": "footer/footer_star.svg",
+    "bytes": 431,
+    "sha256": "d7d8f4d7a812daba1dadf2f23e1afb85121e58617a33096eb8d0ba9766982706"
+  },
+  {
+    "path": "icons/analysis/chroma/bright_spring/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "984423b573c17d59f0c15c93ce22364a2382292d6bc4f18632ffed53b7fd736a"
+  },
+  {
+    "path": "icons/analysis/chroma/bright_winter/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "2380aa12963f76fbfaa26762478dc8224131d425acccc4e691923cd7fe4eb433"
+  },
+  {
+    "path": "icons/analysis/chroma/deep_autumn/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "1c1f8f700d43234fe486037dc00e94a9d365cdb0b8cbb0c83fcac9b06a7a2647"
+  },
+  {
+    "path": "icons/analysis/chroma/deep_winter/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "90c0a4ab300fcb15ea64fe4f0ea8a64992233b7d2dfbb8681963d2e9c7c2ebc3"
+  },
+  {
+    "path": "icons/analysis/chroma/light_spring/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "13ca2bb4504f27a3357afe0cd35cc0f35fa5a7dcc137062ba230619af7d47655"
+  },
+  {
+    "path": "icons/analysis/chroma/light_summer/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "1778fbbdbac9163209ed034b8647e055e5a8bf4fa95ae820d437e36c7f148069"
+  },
+  {
+    "path": "icons/analysis/chroma/soft_autumn/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "afb313f340c49eebd7ab852352d43dd857a6cc6df55966bee59838e4965476a6"
+  },
+  {
+    "path": "icons/analysis/chroma/soft_summer/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "48ca3786bb550a89ef4b4ecf3e44834527db4552e099637b937f83e16716f48a"
+  },
+  {
+    "path": "icons/analysis/chroma/true_autumn/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "ff54fb0515a2d7ec584b4a0cf29dc8b66c8f9e11f1bf3a634bbf91331004e643"
+  },
+  {
+    "path": "icons/analysis/chroma/true_summer/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "5d265424b42253e0f7c04f32786fe4fa84130d0b8db2836fd99dd2fa7e82d03f"
+  },
+  {
+    "path": "icons/analysis/chroma/true_winter/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "324327405e275c56f133f9fd096f120102bf8fc61c8baae37856af1cc9130b86"
+  },
+  {
+    "path": "icons/analysis/chroma/warm_spring/analysis_chroma.svg",
+    "bytes": 513,
+    "sha256": "3b6ca0ee2fe07b5ece59f55cfe3e49c8d5e51652b08948806a7ecfcf0138eb5d"
+  },
+  {
+    "path": "icons/analysis/contrast/bright_spring/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "82fea32ca6575cd4968e3919beac649f33c58be9bab1db6406cf0d154d85f218"
+  },
+  {
+    "path": "icons/analysis/contrast/bright_winter/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "b8d177f003fcfa52f9eebe820219e3601b1c588026f5f3b211cc8e3956fa46e5"
+  },
+  {
+    "path": "icons/analysis/contrast/deep_autumn/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "87bcea10bd2a382b3d69a01783b1f6247fecebb39f79c528ccb6e0e9408aec63"
+  },
+  {
+    "path": "icons/analysis/contrast/deep_winter/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "96df794663aa7e4f30524608dfde9640f49f931d29602bad9387979b529aa93d"
+  },
+  {
+    "path": "icons/analysis/contrast/light_spring/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "6ca137bb57ed01b575f0021c2b9f2ca9f7117380866107f1482c64da0ef666c8"
+  },
+  {
+    "path": "icons/analysis/contrast/light_summer/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "203401a5c813aee1393f12b10dcd8d28bc3ca1c497ed55ac189c37775d6af16c"
+  },
+  {
+    "path": "icons/analysis/contrast/soft_autumn/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "1d32ea8fdae1fb61998178ed9afdfa2286aa94ff6b306413a4bdcb717c7bebca"
+  },
+  {
+    "path": "icons/analysis/contrast/soft_summer/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "770809d7006531e1076324554b576ce3c23c28dd44394adea41b18481fc1326c"
+  },
+  {
+    "path": "icons/analysis/contrast/true_autumn/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "8e1f6803f8184ed87f6247a03d859dc997112761bffc471ea696b82be863744b"
+  },
+  {
+    "path": "icons/analysis/contrast/true_summer/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "b4608b0fc695dcd6781da1154550ac77857f257423cdc2d4975541d018f0fcb9"
+  },
+  {
+    "path": "icons/analysis/contrast/true_winter/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "1c2e1945747d317b10231f8fe2636af7169e60beb67fc3d1f3eab432669b0f75"
+  },
+  {
+    "path": "icons/analysis/contrast/warm_spring/analysis_contrast.svg",
+    "bytes": 413,
+    "sha256": "60f99f88b27f8097f89d1af398e055caec41fe424d7f940676fd8e39be6ef012"
+  },
+  {
+    "path": "icons/analysis/depth/bright_spring/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "e8655f42523b7073957a4f49107c55a9ef0559676547232c61944f6e214b8598"
+  },
+  {
+    "path": "icons/analysis/depth/bright_winter/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "c94deb33cd4fec5978a0aa62b7ea9659267fb4539378b8bcc1c2f09a73968a34"
+  },
+  {
+    "path": "icons/analysis/depth/deep_autumn/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "d7dc543d3cbfad10a71c72c39d7e5fe017bde99ea1dba935cc2f033abc20a08b"
+  },
+  {
+    "path": "icons/analysis/depth/deep_winter/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "87a1a1c92c0494724bd9776d5bf8dd4d55d7604125d58c281f5a110536624b0c"
+  },
+  {
+    "path": "icons/analysis/depth/light_spring/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "0181d899f94aa648a5ba3531c49afca1e0c3c4c9df1d13f2e67d6249db6cb8d3"
+  },
+  {
+    "path": "icons/analysis/depth/light_summer/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "e07e65fe0cd9bb4cf43faf55e11e74766c94a81c78ae79e53b894c4c6f3a1578"
+  },
+  {
+    "path": "icons/analysis/depth/soft_autumn/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "1417cbe36a0a12ac0016b5d948959298ba0415f57d04ff7bc2a01d1d462234bf"
+  },
+  {
+    "path": "icons/analysis/depth/soft_summer/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "9703a60b802bd1f51f6cdea7e3d1eda64ba5ccadf4fa8938d4a6590e01a56b16"
+  },
+  {
+    "path": "icons/analysis/depth/true_autumn/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "f046a722c122b6b0d7233733fab31dd32f6fdd0c1a17a8bbdedcb471bff179e9"
+  },
+  {
+    "path": "icons/analysis/depth/true_summer/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "754adfe83f2bad554a567be2521e93e983b178749f1092e929df4648d38db521"
+  },
+  {
+    "path": "icons/analysis/depth/true_winter/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "99afce9df8ac2338a0dda7e41b220d553cdf07df5265a4c8103256998f4b97bc"
+  },
+  {
+    "path": "icons/analysis/depth/warm_spring/analysis_depth.svg",
+    "bytes": 584,
+    "sha256": "1fc979eee6995fab322a49b6308fa8426bd8c5b4c68e5ee60e0bfcba3d942c5c"
+  },
+  {
+    "path": "icons/analysis/temperature/bright_spring/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "547905bc88c496028ec4807dc69cf43d6f23bdff31447c6b4c339f771e3632f1"
+  },
+  {
+    "path": "icons/analysis/temperature/bright_winter/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "46b8b4217853108c3ec6691bce412cf4d5a30d1b6dae73c1e2b09c4610fbb612"
+  },
+  {
+    "path": "icons/analysis/temperature/deep_autumn/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "7af0a2c57cdee903493737b0531c865ce2923214d65e5dab2a9e0f314bfaf960"
+  },
+  {
+    "path": "icons/analysis/temperature/deep_winter/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "dc2bf91df045754d41a3a801e83e749cafa0bc9e1b6bc6db1dcaca23239ef3e1"
+  },
+  {
+    "path": "icons/analysis/temperature/light_spring/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "fb49bc090836840f3931ba46ca702d7cb3cfaec7f71a7a735dcddeb07db890ef"
+  },
+  {
+    "path": "icons/analysis/temperature/light_summer/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "fcded46c13bc3518d942196d8579a8a4be3670cd77b2651d789ecb5eb4710eef"
+  },
+  {
+    "path": "icons/analysis/temperature/soft_autumn/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "9f7068d2d4baf111a91e148b2aac678355e9d464606e4375b9bf75b6aaf21d5a"
+  },
+  {
+    "path": "icons/analysis/temperature/soft_summer/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "a8b9d17a48df35fa0c3c2972b73e2afa37f7a0d811fdf645f0240ed59e7f8a94"
+  },
+  {
+    "path": "icons/analysis/temperature/true_autumn/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "a43935638ac4a386691fbe6f81deaed42d9a178f386161c60d6b91ecb4caf1e7"
+  },
+  {
+    "path": "icons/analysis/temperature/true_summer/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "3656a18f1e5c2f9ce8a7108e83d556a23b4720519f39d46c33180e25426c1a6e"
+  },
+  {
+    "path": "icons/analysis/temperature/true_winter/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "9d31297959b5da59c939541d05ca977931a041d9c4b670b00f522bbc2c9e7b27"
+  },
+  {
+    "path": "icons/analysis/temperature/warm_spring/analysis_temperature.svg",
+    "bytes": 640,
+    "sha256": "2b53fd1d706f6d2256c5b2bf085ff09ff83737a0b4a256d0b572cd96d2d7db92"
+  },
+  {
+    "path": "icons/info/ai_model/bright_spring/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "57fb4ca864477837be7cfbd023357396dce21a8a11e2ddb7e1fbd43bb6712217"
+  },
+  {
+    "path": "icons/info/ai_model/bright_winter/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "53b345313b73dc08eb595b84e737d779cc46432ee0e2c0e14b2e9058c20b72b3"
+  },
+  {
+    "path": "icons/info/ai_model/deep_autumn/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "83e4095e677f941a6213268133e7846f7ac4d5d270965ccbc377773d0c395dca"
+  },
+  {
+    "path": "icons/info/ai_model/deep_winter/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "023937a93dacb59297c9da260abd65468a99f505393322ed429f0703935d7b97"
+  },
+  {
+    "path": "icons/info/ai_model/light_spring/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "78b2ec6164e9fc0850692efe09a00a257edcfe077e6c3dff4dd5a030527afc3c"
+  },
+  {
+    "path": "icons/info/ai_model/light_summer/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "f43e27007b94779b71b0eeb32d3af537b6df587b2251b6a6213c4dbfb56210fd"
+  },
+  {
+    "path": "icons/info/ai_model/soft_autumn/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "9af65e78010efb4d5992aeb981a2a5ec6fe5968b8c9bbeafda10028a7f56f6cf"
+  },
+  {
+    "path": "icons/info/ai_model/soft_summer/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "43b8da481b8a48a1b5b7b15844a8ec555409b5fd585ff4180021c9739fc961bd"
+  },
+  {
+    "path": "icons/info/ai_model/true_autumn/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "0b4768261c3e4dde457534313b263b8d5284785a8e6ef6fe4014c8c7fddb9d19"
+  },
+  {
+    "path": "icons/info/ai_model/true_summer/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "5a352decc7516982fdf4f7635c88b649950ffce4603bddaad21fb3c81163b15d"
+  },
+  {
+    "path": "icons/info/ai_model/true_winter/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "2308644b667587846f7ef83a5a71d99538f9eb0bba98c311a4aff770fb70dc47"
+  },
+  {
+    "path": "icons/info/ai_model/warm_spring/info_ai_model.svg",
+    "bytes": 890,
+    "sha256": "c42a01971dec05329c6c0cac86ebd308fc18bdfe151419d5f655f5f800701458"
+  },
+  {
+    "path": "icons/info/calendar/bright_spring/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "983910d9e846f2d5926bc8a37156759a43133bfd9a0b2c85e84f72ace8776cc2"
+  },
+  {
+    "path": "icons/info/calendar/bright_winter/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "f22888a88485908e3dacad92f29970a8d1bb9e72876ea85bf974159c78addc35"
+  },
+  {
+    "path": "icons/info/calendar/deep_autumn/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "2345367dc5c5bb0f09acefddeb2879c5f35028d9c0881d983bee34bf94bb279a"
+  },
+  {
+    "path": "icons/info/calendar/deep_winter/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "258dceb08a92fa1a576435fc902ce034c3f8345f7700d30e35cedb3b5ef5af63"
+  },
+  {
+    "path": "icons/info/calendar/light_spring/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "960ab8476f3a2a5e0d83debb1ec0b7c5d61d889a3ba039af9018bbf0dfd36f69"
+  },
+  {
+    "path": "icons/info/calendar/light_summer/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "7f6bcb0ea93d9df23eadb42f7e007c4fa00a07e2b04410a8351d544bc1eeb77a"
+  },
+  {
+    "path": "icons/info/calendar/soft_autumn/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "81ab55e4293a7bfeef49572c03e0d42284014a63e405e85b45916c3d9d49e37f"
+  },
+  {
+    "path": "icons/info/calendar/soft_summer/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "824363c748894925f438916293d411712e7f901608bea4eb33c2c865e0d88b75"
+  },
+  {
+    "path": "icons/info/calendar/true_autumn/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "11cb79f3ed03217d04b804d6d316e9fcd957907bee8946ccdaf02350250c2c7d"
+  },
+  {
+    "path": "icons/info/calendar/true_summer/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "6b02ed1058e8e6082934d0a66f0150fe0f44823f54cf5e7294264198df24ff5d"
+  },
+  {
+    "path": "icons/info/calendar/true_winter/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "66d7f278817fd84f885abd9a9254522cd147d55473264fef0a95db411a3ee864"
+  },
+  {
+    "path": "icons/info/calendar/warm_spring/info_calendar.svg",
+    "bytes": 780,
+    "sha256": "bc34c051a06c6b17282ebb7b4dd98d230a63e254d87fb2515e3867f5d03cd376"
+  },
+  {
+    "path": "icons/info/palette_database/bright_spring/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "e5006d60366004e1d0f52c483efbdbcfbaf46a6438c5f6597d1c599cf6418424"
+  },
+  {
+    "path": "icons/info/palette_database/bright_winter/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "8dae9246a16c660845621126c5325aace5a84246dca473e6d33ed0157fd0fbfc"
+  },
+  {
+    "path": "icons/info/palette_database/deep_autumn/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "f6901017a8c1b17ff218b43ec901ad5349563bb14b1475505fb04049e19dba85"
+  },
+  {
+    "path": "icons/info/palette_database/deep_winter/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "4a3d76474c35c34b841c6c024316f45c53bc8f438e5eaf5cc891160c9ed8e6bd"
+  },
+  {
+    "path": "icons/info/palette_database/light_spring/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "59bc1e7a3cb24de48b4a9b1cae76754b0f570e1863369a5a3ce4f0c05047ad20"
+  },
+  {
+    "path": "icons/info/palette_database/light_summer/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "acd47202c8c2bc52ec98896a242285d283f11b4425a37c19f243e395307ad610"
+  },
+  {
+    "path": "icons/info/palette_database/soft_autumn/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "d754e635ae98e1f0a107f8994ff494c990d12ff682acccb3d0e21c59d2d14be4"
+  },
+  {
+    "path": "icons/info/palette_database/soft_summer/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "999cbae9caea55e1259367ab6c737afd7b0bb78922c516812eef87bd600a7be7"
+  },
+  {
+    "path": "icons/info/palette_database/true_autumn/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "f01311a21c653293c2424cda90096aab088229cae413ed40c3bd9766f2b2d9f2"
+  },
+  {
+    "path": "icons/info/palette_database/true_summer/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "0df479bceb33965a449e726baa1c19466959b4d625b6cc1c0f71ed61cd2507a7"
+  },
+  {
+    "path": "icons/info/palette_database/true_winter/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "7104fe1cb6a019c898f8f14d15df120aa03ff8b9cd48a1a48eb6f092fec66697"
+  },
+  {
+    "path": "icons/info/palette_database/warm_spring/info_palette_database.svg",
+    "bytes": 738,
+    "sha256": "9abe5071fb75a3dce4b4adaa7ade9c38990c86f4814ed89a89ecb62f010edb51"
+  },
+  {
+    "path": "logos/DD8816B9-472B-4B34-8F9C-7681060C557B.jpeg",
+    "bytes": 52300,
+    "sha256": "15ca117f09f6647412eff8d6e16174448d86ec643294f6d76a841dae1d9783a2"
+  },
+  {
+    "path": "logos/DiArt_logo_transparent.png",
+    "bytes": 108737,
+    "sha256": "a11d1ab3c939e3bb0624454be5ae6fde7174d9bcf4905f2e62080fccdbaee59e"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 8388,
+    "sha256": "01777a4a7397a68e53e0e07d1880735f4ae67d05713a19f736e83ce5dc8bbcc4"
+  },
+  {
+    "path": "pins/bright_spring.svg",
+    "bytes": 1150,
+    "sha256": "bc8b279837f52a407f83339f46aa1e3107b9b613c81619e4ee4e56a9e0eae054"
+  },
+  {
+    "path": "pins/bright_winter.svg",
+    "bytes": 1148,
+    "sha256": "243784a28685c62640a0d10065d35d440ec5ca65e56351eff5f7c5d8d30a6714"
+  },
+  {
+    "path": "pins/deep_autumn.svg",
+    "bytes": 1154,
+    "sha256": "a38f42db8aeec416c2fb5e18ec3dae63443375886863f2dcc2f1244e43bd813f"
+  },
+  {
+    "path": "pins/deep_winter.svg",
+    "bytes": 1205,
+    "sha256": "142679b3f767b688c70f150325684049e7a90c282912d6a9d6609daf93990eb1"
+  },
+  {
+    "path": "pins/light_spring.svg",
+    "bytes": 1459,
+    "sha256": "7fdb867d9c7144caf555df25162d089a8054c35de883fdf6c7809dbfc0e1b786"
+  },
+  {
+    "path": "pins/light_summer.svg",
+    "bytes": 1361,
+    "sha256": "8d598dce9a91be6545d635ca9d8d8edb7da5190933542b2b148d2491c87ebf48"
+  },
+  {
+    "path": "pins/soft_autumn.svg",
+    "bytes": 1347,
+    "sha256": "c23e99b92fcfccf3609486480d0cc3ae2cd81248a2ea9c7c9bf1425d1ec6954f"
+  },
+  {
+    "path": "pins/soft_summer.svg",
+    "bytes": 1455,
+    "sha256": "723cfe0529927215c2d3ab2863d22f9bf0c43fa446b372e87c77237163cee7fc"
+  },
+  {
+    "path": "pins/true_autumn.svg",
+    "bytes": 1192,
+    "sha256": "4a71db5ce716a1f35cb4adf793d1965a7100a9e98f6ce4eb8386224eb7084ef7"
+  },
+  {
+    "path": "pins/true_summer.svg",
+    "bytes": 1081,
+    "sha256": "7edab66aae55dc2eae850f1cb68c4aae65536c69f8528c47b69be672cc0e345a"
+  },
+  {
+    "path": "pins/true_winter.svg",
+    "bytes": 4114,
+    "sha256": "6a312305d50ccff2e7e977d30d0e5d455215f6c243dab14f8412210d712baa64"
+  },
+  {
+    "path": "pins/warm_spring.svg",
+    "bytes": 2288,
+    "sha256": "5431984ee10da73c3036a4a6be7adaa1b018f0d96081cf80680f503f3804f24b"
+  },
+  {
+    "path": "source_docs/analysis_README_UPLOAD.txt",
+    "bytes": 472,
+    "sha256": "342348b06c3a589132b23afe16f8e6dd9daff8ee8c39ac6ce52a9c175f890756"
+  },
+  {
+    "path": "source_docs/analysis_icons_manifest.json",
+    "bytes": 4846,
+    "sha256": "2ef446d28142159e41996f8e68d4468c1e4f94a66176e38235137ed2079bcb7f"
+  },
+  {
+    "path": "source_docs/info_info_icons_manifest.json",
+    "bytes": 4327,
+    "sha256": "f559e5477804feab6922760f6e42f139fa66e58301483e3bd1ef99f402dd9725"
+  },
+  {
+    "path": "source_docs/visual_README.txt",
+    "bytes": 664,
+    "sha256": "e62e186514eb2553ab31cd1f0e425abe47871cedfa7399546474607c0816d517"
+  },
+  {
+    "path": "source_docs/visual_manifest_original.json",
+    "bytes": 2657,
+    "sha256": "e7527ba8e341e9f72f72ddbff2db8fd4aef2182e4e0848aa8f10de75513cc072"
+  },
+  {
+    "path": "theme_database/README.txt",
+    "bytes": 1030,
+    "sha256": "9f4db80b59259fc24b6478d0c20d7973dfa85dcd698c3dbde4780864b251d22d"
+  },
+  {
+    "path": "theme_database/assets_database_v1.1.json",
+    "bytes": 3651,
+    "sha256": "6773d8cccb69a3dc833b7a9ad80bb549d0007456d928e8cd82dbc068abaee8e4"
+  },
+  {
+    "path": "theme_database/theme_database_v1.0.json",
+    "bytes": 48108,
+    "sha256": "561a145bdffa8ba2b8af7421e8aaf40f3a8e605a4bdb1415cc988247e575cf0d"
+  },
+  {
+    "path": "theme_database/validation_report.json",
+    "bytes": 91,
+    "sha256": "04012a6983791c35cba6041ef958b044da63906c6495dbad0d644375e3958057"
+  }
+]
