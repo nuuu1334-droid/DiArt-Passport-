@@ -1,21 +1,21 @@
 /**
  * DiArt Passport
  * File: PassportBuilder/page1.js
- * Version: 1.0.0-approved
+ * Version: 1.2.0-approved-components
  *
  * FINAL FIRST PAGE ASSEMBLY.
  */
 
 "use strict";
 
-const { buildHeader } = require("./components/header");
-const { buildAnalysisBlock } = require("./components/analysis_block");
-const { buildNaturalPaletteBlock } = require("./components/natural_palette_block");
-const { buildNearestSeasonsBlock } = require("./components/nearest_seasons_block");
-const { buildInformationPanelBlock } = require("./components/information_panel_block");
-const { buildFooterBlock } = require("./components/footer_block");
+const { buildHeader } = require("./components/header_block_approved");
+const { buildAnalysisBlock } = require("./components/analysis_block_adaptive_icons");
+const { buildNaturalPaletteBlock } = require("./components/natural_palette_block_approved");
+const { buildNearestSeasonsBlock } = require("./components/nearest_seasons_block_balanced");
+const { buildInformationPanelBlock } = require("./components/information_panel_block_approved");
+const { buildFooterBlock } = require("./components/footer_block_approved");
 
-const PAGE1_VERSION = "1.1.0-typography";
+const PAGE1_VERSION = "1.2.0-approved-components";
 const PAGE_WIDTH = 768;
 const PAGE_HEIGHT = 1134;
 
