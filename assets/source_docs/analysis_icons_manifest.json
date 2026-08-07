@@ -10,10 +10,10 @@
       "name_en": "Light Spring",
       "accent_color": "#8FB36A",
       "files": {
-        "temperature": "icons/light_spring/temperature.svg",
-        "depth": "icons/light_spring/depth.svg",
-        "contrast": "icons/light_spring/contrast.svg",
-        "clarity": "icons/light_spring/clarity.svg"
+        "temperature": "icons/analysis/temperature/light_spring/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/light_spring/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/light_spring/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/light_spring/analysis_chroma.svg"
       }
     },
     {
@@ -22,10 +22,10 @@
       "name_en": "Warm Spring",
       "accent_color": "#F2A900",
       "files": {
-        "temperature": "icons/warm_spring/temperature.svg",
-        "depth": "icons/warm_spring/depth.svg",
-        "contrast": "icons/warm_spring/contrast.svg",
-        "clarity": "icons/warm_spring/clarity.svg"
+        "temperature": "icons/analysis/temperature/warm_spring/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/warm_spring/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/warm_spring/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/warm_spring/analysis_chroma.svg"
       }
     },
     {
@@ -34,10 +34,10 @@
       "name_en": "Bright Spring",
       "accent_color": "#FF5C57",
       "files": {
-        "temperature": "icons/bright_spring/temperature.svg",
-        "depth": "icons/bright_spring/depth.svg",
-        "contrast": "icons/bright_spring/contrast.svg",
-        "clarity": "icons/bright_spring/clarity.svg"
+        "temperature": "icons/analysis/temperature/bright_spring/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/bright_spring/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/bright_spring/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/bright_spring/analysis_chroma.svg"
       }
     },
     {
@@ -46,10 +46,10 @@
       "name_en": "Light Summer",
       "accent_color": "#87A9C4",
       "files": {
-        "temperature": "icons/light_summer/temperature.svg",
-        "depth": "icons/light_summer/depth.svg",
-        "contrast": "icons/light_summer/contrast.svg",
-        "clarity": "icons/light_summer/clarity.svg"
+        "temperature": "icons/analysis/temperature/light_summer/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/light_summer/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/light_summer/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/light_summer/analysis_chroma.svg"
       }
     },
     {
@@ -58,10 +58,10 @@
       "name_en": "True Summer",
       "accent_color": "#5F7E9B",
       "files": {
-        "temperature": "icons/true_summer/temperature.svg",
-        "depth": "icons/true_summer/depth.svg",
-        "contrast": "icons/true_summer/contrast.svg",
-        "clarity": "icons/true_summer/clarity.svg"
+        "temperature": "icons/analysis/temperature/true_summer/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/true_summer/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/true_summer/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/true_summer/analysis_chroma.svg"
       }
     },
     {
@@ -70,10 +70,10 @@
       "name_en": "Soft Summer",
       "accent_color": "#9A6C9D",
       "files": {
-        "temperature": "icons/soft_summer/temperature.svg",
-        "depth": "icons/soft_summer/depth.svg",
-        "contrast": "icons/soft_summer/contrast.svg",
-        "clarity": "icons/soft_summer/clarity.svg"
+        "temperature": "icons/analysis/temperature/soft_summer/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/soft_summer/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/soft_summer/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/soft_summer/analysis_chroma.svg"
       }
     },
     {
@@ -82,10 +82,10 @@
       "name_en": "Soft Autumn",
       "accent_color": "#C79B57",
       "files": {
-        "temperature": "icons/soft_autumn/temperature.svg",
-        "depth": "icons/soft_autumn/depth.svg",
-        "contrast": "icons/soft_autumn/contrast.svg",
-        "clarity": "icons/soft_autumn/clarity.svg"
+        "temperature": "icons/analysis/temperature/soft_autumn/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/soft_autumn/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/soft_autumn/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/soft_autumn/analysis_chroma.svg"
       }
     },
     {
@@ -94,10 +94,10 @@
       "name_en": "True Autumn",
       "accent_color": "#D85F00",
       "files": {
-        "temperature": "icons/true_autumn/temperature.svg",
-        "depth": "icons/true_autumn/depth.svg",
-        "contrast": "icons/true_autumn/contrast.svg",
-        "clarity": "icons/true_autumn/clarity.svg"
+        "temperature": "icons/analysis/temperature/true_autumn/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/true_autumn/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/true_autumn/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/true_autumn/analysis_chroma.svg"
       }
     },
     {
@@ -106,10 +106,10 @@
       "name_en": "Deep Autumn",
       "accent_color": "#5B2A0C",
       "files": {
-        "temperature": "icons/deep_autumn/temperature.svg",
-        "depth": "icons/deep_autumn/depth.svg",
-        "contrast": "icons/deep_autumn/contrast.svg",
-        "clarity": "icons/deep_autumn/clarity.svg"
+        "temperature": "icons/analysis/temperature/deep_autumn/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/deep_autumn/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/deep_autumn/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/deep_autumn/analysis_chroma.svg"
       }
     },
     {
@@ -118,10 +118,10 @@
       "name_en": "Bright Winter",
       "accent_color": "#B0004F",
       "files": {
-        "temperature": "icons/bright_winter/temperature.svg",
-        "depth": "icons/bright_winter/depth.svg",
-        "contrast": "icons/bright_winter/contrast.svg",
-        "clarity": "icons/bright_winter/clarity.svg"
+        "temperature": "icons/analysis/temperature/bright_winter/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/bright_winter/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/bright_winter/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/bright_winter/analysis_chroma.svg"
       }
     },
     {
@@ -130,10 +130,10 @@
       "name_en": "True Winter",
       "accent_color": "#17345C",
       "files": {
-        "temperature": "icons/true_winter/temperature.svg",
-        "depth": "icons/true_winter/depth.svg",
-        "contrast": "icons/true_winter/contrast.svg",
-        "clarity": "icons/true_winter/clarity.svg"
+        "temperature": "icons/analysis/temperature/true_winter/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/true_winter/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/true_winter/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/true_winter/analysis_chroma.svg"
       }
     },
     {
@@ -142,10 +142,10 @@
       "name_en": "Deep Winter",
       "accent_color": "#1F1F1F",
       "files": {
-        "temperature": "icons/deep_winter/temperature.svg",
-        "depth": "icons/deep_winter/depth.svg",
-        "contrast": "icons/deep_winter/contrast.svg",
-        "clarity": "icons/deep_winter/clarity.svg"
+        "temperature": "icons/analysis/temperature/deep_winter/analysis_temperature.svg",
+        "depth": "icons/analysis/depth/deep_winter/analysis_depth.svg",
+        "contrast": "icons/analysis/contrast/deep_winter/analysis_contrast.svg",
+        "clarity": "icons/analysis/chroma/deep_winter/analysis_chroma.svg"
       }
     }
   ]
