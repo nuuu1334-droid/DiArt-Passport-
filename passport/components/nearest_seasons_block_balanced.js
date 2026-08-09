@@ -227,6 +227,7 @@ function buildNearestSeasonsBlock({
     y: panelY + 32,
     size: 14,
     weight: 700,
+    fill: accentColor,
     anchor: "middle",
     tracking: 0.5
   });
