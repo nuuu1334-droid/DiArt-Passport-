@@ -177,7 +177,7 @@ function buildInformationPanelBlock({
   out += `<rect x="${panelX}" y="${panelY}"
     width="${panelWidth}" height="${panelHeight}"
     rx="18" fill="#FFFDFC"
-    stroke="#DCCFC2" stroke-width="1"/>`;
+    stroke="${accentColor}" stroke-opacity="0.22"
 
   out += renderCell({
     x: panelX,
@@ -211,11 +211,11 @@ function buildInformationPanelBlock({
 
   out += `<line x1="${panelX + cellWidth}" y1="${panelY + 18}"
     x2="${panelX + cellWidth}" y2="${panelY + panelHeight - 18}"
-    stroke="${accentColor}" stroke-opacity="0.18" stroke-width="1"/>`;
+    stroke="${accentColor}" stroke-opacity="0.22"
 
   out += `<line x1="${panelX + cellWidth * 2}" y1="${panelY + 18}"
     x2="${panelX + cellWidth * 2}" y2="${panelY + panelHeight - 18}"
-    stroke="${accentColor}" stroke-opacity="0.18" stroke-width="1"/>`;
+    stroke="${accentColor}" stroke-opacity="0.22"
 
   out += `</g>`;
   return out;
