@@ -177,7 +177,7 @@ function runPipeline(input) {
     paletteResult,
     pinManifest,
     photoUrl: input.photoUrl,
-    logoUrl: logoUrl: "https://raw.githubusercontent.com/nuuu1334-droid/DiArt-Passport-/main/assets/logos/DiArt_logo_transparent.png",
+    logoUrl: "https://raw.githubusercontent.com/nuuu1334-droid/DiArt-Passport-/main/assets/logos/DiArt_logo_transparent.png",
     photoSamples,
     aiModel: input.aiModel,
     clientName: input.clientName,
