@@ -24,6 +24,59 @@ const SEASONS = {
   deep_winter: ["Глубокая Зима", "Deep Winter", "Прохладный, глубокий и контрастный природный колорит"]
 };
 
+const SEASON_THEMES = {
+  light_spring: {
+    backgroundColor: "#FFF9EF",
+    accentColor: "#8FB36A"
+  },
+  true_spring: {
+    backgroundColor: "#FFF6E7",
+    accentColor: "#D98B14"
+  },
+  bright_spring: {
+    backgroundColor: "#FFF5F2",
+    accentColor: "#D94C4C"
+  },
+
+  light_summer: {
+    backgroundColor: "#F4F8FC",
+    accentColor: "#6F8FAF"
+  },
+  true_summer: {
+    backgroundColor: "#F2F5F8",
+    accentColor: "#5F7E9B"
+  },
+  soft_summer: {
+    backgroundColor: "#F6F4F5",
+    accentColor: "#8C7284"
+  },
+
+  soft_autumn: {
+    backgroundColor: "#FAF5EC",
+    accentColor: "#9A7655"
+  },
+  true_autumn: {
+    backgroundColor: "#FBF2E7",
+    accentColor: "#B55F20"
+  },
+  deep_autumn: {
+    backgroundColor: "#FBF4EC",
+    accentColor: "#6A351D"
+  },
+
+  bright_winter: {
+    backgroundColor: "#F8F5FA",
+    accentColor: "#A00046"
+  },
+  true_winter: {
+    backgroundColor: "#F3F6FA",
+    accentColor: "#294B72"
+  },
+  deep_winter: {
+    backgroundColor: "#F4F3F4",
+    accentColor: "#352D38"
+  }
+};
 function obj(v){return v&&typeof v==="object"&&!Array.isArray(v)?v:{};}
 function arr(v){return Array.isArray(v)?v:[];}
 function parse(v,name){
@@ -161,6 +214,10 @@ function main(input){
     const seasonData=SEASONS[seasonId];
     if(!seasonData) throw new Error(`Неизвестный сезон: ${seasonId}`);
 
+    const seasonTheme=SEASON_THEMES[seasonId] || {
+  backgroundColor:"#FBF7F1",
+  accentColor:"#8A4E25"
+};
     const dims=obj(engine.dimension_results);
     const observed=obj(engine.observed_colors);
     const skin=obj(observed.skin),eyes=obj(observed.eyes),hair=obj(observed.hair);
@@ -204,6 +261,8 @@ function main(input){
           limitations:engine.quality&&arr(engine.quality.limitations)
         },
         season:{id:seasonId,name_ru:seasonData[0],name_en:seasonData[1],description_ru:seasonData[2]},
+        backgroundColor:seasonTheme.backgroundColor,
+        accentColor:seasonTheme.accentColor,
         confidence:{
           value:round(clamp(engine.result.confidence,0,1)),
           percent:confidencePercent,
