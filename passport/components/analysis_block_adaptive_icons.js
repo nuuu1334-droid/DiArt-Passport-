@@ -210,7 +210,7 @@ function scaleRow({
     y: y + 31,
     size: 13.2,
     weight: 700,
-    fill: "#2C1A13",
+    fill: accentColor,
     tracking: 0.25
   });
 
