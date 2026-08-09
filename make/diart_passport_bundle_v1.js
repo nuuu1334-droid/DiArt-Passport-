@@ -155,7 +155,6 @@ function runPipeline(input) {
   const paletteResolver = modules.load("passport/palette_resolver.js");
   const adapter = modules.load("passport/passport_input_adapter.js");
   const builder = modules.load("passport/passport_builder.js");
-  const officialAssets = modules.load("passport/asset_registry.js");
   const seasonId = unwrapEngineForSeason(engineResult);
 
   const paletteResult = paletteResolver.resolvePalette({
