@@ -63,7 +63,7 @@ function buildFooterBlock({
   starUrl = "",
   slogan = "Цвет украшает тебя",
   passportId = "",
-  accentColor = "#8A4E25"
+  fill: accentColor
 }) {
   const width = 768;
   const centerX = width / 2;
