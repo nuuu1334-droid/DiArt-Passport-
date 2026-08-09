@@ -261,14 +261,15 @@ function buildNaturalPaletteBlock({
     rx="18" fill="#FFFDFC" stroke="#DCCFC2" stroke-width="1"/>`;
 
   out += text({
-    value: "ТВОЯ ПРИРОДНАЯ ПАЛИТРА",
-    x: 195,
-    y: 574,
-    size: 14,
-    weight: 700,
-    anchor: "middle",
-    tracking: 0.5
-  });
+  value: "ТВОЯ ПРИРОДНАЯ ПАЛИТРА",
+  x: 195,
+  y: 574,
+  size: 14,
+  weight: 700,
+  fill: accentColor,
+  anchor: "middle",
+  tracking: 0.5
+});
 
   out += renderNaturalItem({
     type: "eye",
