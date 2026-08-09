@@ -47,7 +47,7 @@ function text({
   size,
   weight = 400,
   family = "Georgia, 'Times New Roman', serif",
-  fill = "#2C1A13",
+  fill: "#2C1A13",
   anchor = "start",
   tracking = 0
 }) {
@@ -263,7 +263,7 @@ function buildHeader({
     y: 43,
     size: 14,
     weight: 700,
-    fill: "#2C1A13",
+    fill: accentColor,
     anchor: "middle",
     tracking: 0.9
   });
@@ -274,7 +274,7 @@ function buildHeader({
     y: 91,
     size: titleSize(nameRu),
     weight: 700,
-    fill: "#2C1A13",
+    fill: accentColor,
     anchor: "middle"
   });
 
@@ -284,7 +284,7 @@ function buildHeader({
     y: 124,
     size: 21,
     weight: 500,
-    fill: "#2C1A13",
+    fill: accentColor,
     anchor: "middle"
   });
 
@@ -296,7 +296,7 @@ function buildHeader({
     maxLines: 2,
     lineHeight: 18,
     size: 13.5,
-    fill: "#2C1A13",
+    fill: accentColor,
     anchor: "middle"
   });
 
