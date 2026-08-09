@@ -88,20 +88,61 @@ function passportId(v,season){
   const code=season.split("_").map(x=>x[0]).join("").toUpperCase();
   return `DIART-${code}-${Date.now().toString(36).toUpperCase()}`;
 }
-function top3(engine){
+function top3(engine, pinManifest){
+  const manifest = obj(pinManifest);
+  const pins = arr(manifest.pins);
+
+  function findPin(seasonId){
+    const slug = seasonId === "true_spring"
+      ? "warm_spring"
+      : seasonId;
+
+    return pins.find(
+      p => p && p.slug === slug
+    ) || null;
+  }
+
   return arr(engine.season_ranking)
-    .filter(x=>x&&!x.hard_excluded)
-    .sort((a,b)=>Number(a.rank||999)-Number(b.rank||999))
+    .filter(x => x && !x.hard_excluded)
+    .sort(
+      (a,b) =>
+        Number(a.rank || 999) -
+        Number(b.rank || 999)
+    )
     .slice(0,3)
-    .map((x,i)=>{
-      const s=SEASONS[x.season_id];
-      if(!s) throw new Error(`Неизвестный сезон: ${x.season_id}`);
+    .map((x,i) => {
+      const s = SEASONS[x.season_id];
+
+      if(!s){
+        throw new Error(
+          `Неизвестный сезон: ${x.season_id}`
+        );
+      }
+
+      const pin = findPin(x.season_id);
+
       return {
-        rank:i+1,
-        season_id:x.season_id,
-        name_ru:s[0],
-        name_en:s[1],
-        score:round(x.score_after_modifiers!==undefined?x.score_after_modifiers:x.base_score,1)
+        rank: i + 1,
+        season_id: x.season_id,
+        name_ru: s[0],
+        name_en: s[1],
+
+        score: round(
+          x.score_after_modifiers !== undefined
+            ? x.score_after_modifiers
+            : x.base_score,
+          1
+        ),
+
+        color:
+          pin && pin.color
+            ? pin.color
+            : "#8A4E25",
+
+        pin_url:
+          pin && pin.file
+            ? "https://raw.githubusercontent.com/nuuu1334-droid/DiArt-Passport-/main/assets/" + pin.file
+            : ""
       };
     });
 }
@@ -207,7 +248,7 @@ function main(input){
             position:round(weighted(dims.contrast.scores,{low:0,medium:0.5,high:1}))
           }
         },
-        top3:top3(engine),
+        top3:top3(engine,pinManifest),
         natural_colors:natural,
         photo_samples:samples(photoSamples,natural),
         palette:paletteResult.palette,
