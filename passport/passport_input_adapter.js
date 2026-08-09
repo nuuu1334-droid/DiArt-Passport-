@@ -6,6 +6,7 @@
 
 "use strict";
 
+const officialAssets = require("./asset_registry");
 const ADAPTER_VERSION = "1.1.0";
 
 const SEASONS = {
@@ -89,45 +90,32 @@ function passportId(v,season){
   return `DIART-${code}-${Date.now().toString(36).toUpperCase()}`;
 }
 function top3(engine, pinManifest){
-  const manifest = obj(pinManifest);
-  const pins = arr(manifest.pins);
-
-  function findPin(seasonId){
-    const slug = seasonId === "true_spring"
-      ? "warm_spring"
-      : seasonId;
-
-    return pins.find(
-      p => p && p.slug === slug
-    ) || null;
-  }
+  const pins = arr(obj(pinManifest).pins);
 
   return arr(engine.season_ranking)
-    .filter(x => x && !x.hard_excluded)
-    .sort(
-      (a,b) =>
-        Number(a.rank || 999) -
-        Number(b.rank || 999)
-    )
+    .filter(x=>x&&!x.hard_excluded)
+    .sort((a,b)=>Number(a.rank||999)-Number(b.rank||999))
     .slice(0,3)
-    .map((x,i) => {
-      const s = SEASONS[x.season_id];
+    .map((x,i)=>{
+      const s=SEASONS[x.season_id];
 
       if(!s){
-        throw new Error(
-          `Неизвестный сезон: ${x.season_id}`
-        );
+        throw new Error(`Неизвестный сезон: ${x.season_id}`);
       }
 
-      const pin = findPin(x.season_id);
+      const assetSlug = officialAssets.normalizeSeasonId(x.season_id);
+
+      const manifestPin = pins.find(
+        p => p && String(p.slug) === assetSlug
+      );
 
       return {
-        rank: i + 1,
-        season_id: x.season_id,
-        name_ru: s[0],
-        name_en: s[1],
+        rank:i+1,
+        season_id:x.season_id,
+        name_ru:s[0],
+        name_en:s[1],
 
-        score: round(
+        score:round(
           x.score_after_modifiers !== undefined
             ? x.score_after_modifiers
             : x.base_score,
@@ -135,14 +123,12 @@ function top3(engine, pinManifest){
         ),
 
         color:
-          pin && pin.color
-            ? pin.color
+          manifestPin && manifestPin.color
+            ? String(manifestPin.color)
             : "#8A4E25",
 
         pin_url:
-          pin && pin.file
-            ? "https://raw.githubusercontent.com/nuuu1334-droid/DiArt-Passport-/main/assets/" + pin.file
-            : ""
+          officialAssets.pin(x.season_id)
       };
     });
 }
