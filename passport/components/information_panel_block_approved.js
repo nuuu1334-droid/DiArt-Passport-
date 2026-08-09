@@ -186,6 +186,7 @@ function buildInformationPanelBlock({
     iconUrl: icons.calendar,
     label: "ПАСПОРТ СОЗДАН",
     value: createdDate
+    fill: accentColor,
   });
 
   out += renderCell({
@@ -195,6 +196,7 @@ function buildInformationPanelBlock({
     iconUrl: icons.brain,
     label: "AI-МОДЕЛЬ",
     value: aiModel
+    fill: accentColor,
   });
 
   out += renderCell({
@@ -204,6 +206,7 @@ function buildInformationPanelBlock({
     iconUrl: icons.database,
     label: "БАЗА ПАЛИТР",
     value: databaseVersion
+    fill: accentColor,
   });
 
   out += `<line x1="${panelX + cellWidth}" y1="${panelY + 18}"
