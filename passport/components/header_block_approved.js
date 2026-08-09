@@ -255,7 +255,7 @@ function buildHeader({
   out += `<image href="${esc(logoUrl)}" x="24" y="13"
     width="222" height="164" preserveAspectRatio="xMidYMid meet"/>`;
 
-  const centerX = 432;
+  const centerX = 384;
 
   out += text({
     value: "ТВОЙ ЦВЕТОТИП",
