@@ -1,0 +1,86 @@
+{
+  "light_spring": {
+    "name_en": "Light Spring",
+    "name_ru": "Светлая весна",
+    "svg": "svg/light_spring.svg",
+    "png": "png/light_spring.png",
+    "motif": "blossom"
+  },
+  "warm_spring": {
+    "name_en": "Warm Spring",
+    "name_ru": "Тёплая весна",
+    "svg": "svg/warm_spring.svg",
+    "png": "png/warm_spring.png",
+    "motif": "blossom"
+  },
+  "bright_spring": {
+    "name_en": "Bright Spring",
+    "name_ru": "Яркая весна",
+    "svg": "svg/bright_spring.svg",
+    "png": "png/bright_spring.png",
+    "motif": "berries"
+  },
+  "light_summer": {
+    "name_en": "Light Summer",
+    "name_ru": "Светлое лето",
+    "svg": "svg/light_summer.svg",
+    "png": "png/light_summer.png",
+    "motif": "lavender"
+  },
+  "soft_summer": {
+    "name_en": "Soft Summer",
+    "name_ru": "Мягкое лето",
+    "svg": "svg/soft_summer.svg",
+    "png": "png/soft_summer.png",
+    "motif": "berries"
+  },
+  "true_summer": {
+    "name_en": "True Summer",
+    "name_ru": "Холодное лето",
+    "svg": "svg/true_summer.svg",
+    "png": "png/true_summer.png",
+    "motif": "blossom"
+  },
+  "soft_autumn": {
+    "name_en": "Soft Autumn",
+    "name_ru": "Мягкая осень",
+    "svg": "svg/soft_autumn.svg",
+    "png": "png/soft_autumn.png",
+    "motif": "seedpods"
+  },
+  "true_autumn": {
+    "name_en": "True Autumn",
+    "name_ru": "Тёплая осень",
+    "svg": "svg/true_autumn.svg",
+    "png": "png/true_autumn.png",
+    "motif": "leaves"
+  },
+  "deep_autumn": {
+    "name_en": "Deep Autumn",
+    "name_ru": "Глубокая осень",
+    "svg": "svg/deep_autumn.svg",
+    "png": "png/deep_autumn.png",
+    "motif": "acorns"
+  },
+  "bright_winter": {
+    "name_en": "Bright Winter",
+    "name_ru": "Яркая зима",
+    "svg": "svg/bright_winter.svg",
+    "png": "png/bright_winter.png",
+    "motif": "berries"
+  },
+  "true_winter": {
+    "name_en": "True Winter",
+    "name_ru": "Холодная зима",
+    "svg": "svg/true_winter.svg",
+    "png": "png/true_winter.png",
+    "motif": "evergreen"
+  },
+  "deep_winter": {
+    "name_en": "Deep Winter",
+    "name_ru": "Глубокая зима",
+    "svg": "svg/deep_winter.svg",
+    "png": "png/deep_winter.png",
+    "motif": "darkberries"
+  }
+}
