@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="220" viewBox="0 0 768 220">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- LEFT large dark ribbon -->
+    <path d="M0 129
+             C30 126, 60 130, 88 143
+             C118 157, 148 181, 188 178
+             C238 174, 279 156, 322 149
+             C346 145, 366 153, 384 171
+             C337 166, 284 175, 225 188
+             C158 202, 96 193, 44 176
+             C23 169, 10 164, 0 163 Z"
+          fill="#6D3418" opacity="0.88"/>
+
+    <!-- RIGHT large dark ribbon -->
+    <path d="M768 129
+             C738 126, 708 130, 680 143
+             C650 157, 620 181, 580 178
+             C530 174, 489 156, 446 149
+             C422 145, 402 153, 384 171
+             C431 166, 484 175, 543 188
+             C610 202, 672 193, 724 176
+             C745 169, 758 164, 768 163 Z"
+          fill="#6D3418" opacity="0.88"/>
+
+    <!-- translucent upper edge veils -->
+    <path d="M0 105 C43 112, 79 136, 117 152 C151 166, 190 174, 232 170 C280 165, 329 152, 384 170"
+          stroke="#EFDCC7" stroke-width="30" opacity="0.48"/>
+    <path d="M768 105 C725 112, 689 136, 651 152 C617 166, 578 174, 536 170 C488 165, 439 152, 384 170"
+          stroke="#EFDCC7" stroke-width="30" opacity="0.48"/>
+
+    <path d="M0 116 C50 124, 91 143, 134 157 C172 169, 209 174, 251 171 C296 168, 340 159, 384 171"
+          stroke="#F6EADF" stroke-width="22" opacity="0.62"/>
+    <path d="M768 116 C718 124, 677 143, 634 157 C596 169, 559 174, 517 171 C472 168, 428 159, 384 171"
+          stroke="#F6EADF" stroke-width="22" opacity="0.62"/>
+
+    <!-- medium caramel ribbons -->
+    <path d="M0 151
+             C45 154, 88 165, 133 178
+             C177 191, 225 197, 272 188
+             C319 179, 351 164, 384 170
+             C339 173, 299 188, 256 201
+             C198 218, 132 214, 78 200
+             C41 191, 15 182, 0 176 Z"
+          fill="#C98A55" opacity="0.64"/>
+    <path d="M768 151
+             C723 154, 680 165, 635 178
+             C591 191, 543 197, 496 188
+             C449 179, 417 164, 384 170
+             C429 173, 469 188, 512 201
+             C570 218, 636 214, 690 200
+             C727 191, 753 182, 768 176 Z"
+          fill="#C98A55" opacity="0.64"/>
+
+    <!-- pale flowing undershape -->
+    <path d="M0 138 C52 145, 109 172, 160 176 C213 181, 272 165, 327 164 C348 164, 366 167, 384 172"
+          stroke="#E5C6A6" stroke-width="18" opacity="0.56"/>
+    <path d="M768 138 C716 145, 659 172, 608 176 C555 181, 496 165, 441 164 C420 164, 402 167, 384 172"
+          stroke="#E5C6A6" stroke-width="18" opacity="0.56"/>
+
+    <!-- main dark flowing line through sides -->
+    <path d="M41 131 C84 130, 118 146, 165 141 C211 136, 241 117, 278 122 C318 128, 352 157, 384 172"
+          stroke="#88502C" stroke-width="1.55" opacity="0.88"/>
+    <path d="M727 131 C684 130, 650 146, 603 141 C557 136, 527 117, 490 122 C450 128, 416 157, 384 172"
+          stroke="#88502C" stroke-width="1.55" opacity="0.88"/>
+
+    <!-- dotted soft arc higher -->
+    <path d="M97 133 C136 106, 175 100, 223 110 C262 118, 304 141, 354 137"
+          stroke="#C68956" stroke-width="1.2" stroke-dasharray="0.1 4.6" opacity="0.86"/>
+    <path d="M671 133 C632 106, 593 100, 545 110 C506 118, 464 141, 414 137"
+          stroke="#C68956" stroke-width="1.2" stroke-dasharray="0.1 4.6" opacity="0.86"/>
+
+    <!-- very high sweeping edge curves -->
+    <path d="M0 84 C49 86, 75 135, 113 141 C150 147, 187 118, 230 111"
+          stroke="#A96A36" stroke-width="1.0" opacity="0.72"/>
+    <path d="M768 84 C719 86, 693 135, 655 141 C618 147, 581 118, 538 111"
+          stroke="#A96A36" stroke-width="1.0" opacity="0.72"/>
+
+    <path d="M0 99 C39 85, 79 69, 119 68 C164 67, 205 92, 253 98"
+          stroke="#D1A26D" stroke-width="0.9" opacity="0.55"/>
+    <path d="M768 99 C729 85, 689 69, 649 68 C604 67, 563 92, 515 98"
+          stroke="#D1A26D" stroke-width="0.9" opacity="0.55"/>
+
+    <!-- thin center fountain lines -->
+    <path d="M384 171 C352 162, 330 151, 306 145 C273 136, 244 137, 208 146"
+          stroke="#E6C19B" stroke-width="0.78" opacity="0.86"/>
+    <path d="M384 171 C416 162, 438 151, 462 145 C495 136, 524 137, 560 146"
+          stroke="#E6C19B" stroke-width="0.78" opacity="0.86"/>
+
+    <path d="M384 171 C349 163, 321 154, 293 150 C258 145, 222 150, 182 160"
+          stroke="#F0D8BF" stroke-width="0.7" opacity="0.80"/>
+    <path d="M384 171 C419 163, 447 154, 475 150 C510 145, 546 150, 586 160"
+          stroke="#F0D8BF" stroke-width="0.7" opacity="0.80"/>
+
+    <path d="M384 171 C356 166, 333 163, 309 164 C284 165, 259 170, 228 181"
+          stroke="#E6B279" stroke-width="0.72" opacity="0.82"/>
+    <path d="M384 171 C412 166, 435 163, 459 164 C484 165, 509 170, 540 181"
+          stroke="#E6B279" stroke-width="0.72" opacity="0.82"/>
+
+    <!-- long low lines from center -->
+    <path d="M384 171 C333 162, 287 166, 236 179 C194 191, 156 195, 112 189"
+          stroke="#D2A97D" stroke-width="0.92" opacity="0.52"/>
+    <path d="M384 171 C435 162, 481 166, 532 179 C574 191, 612 195, 656 189"
+          stroke="#D2A97D" stroke-width="0.92" opacity="0.52"/>
+
+    <!-- brightest gold edge line -->
+    <path d="M0 173 C37 176, 71 183, 105 184 C138 185, 171 176, 207 176 C250 176, 287 190, 321 192"
+          stroke="#F0C774" stroke-width="1.6" opacity="0.94"/>
+    <path d="M768 173 C731 176, 697 183, 663 184 C630 185, 597 176, 561 176 C518 176, 481 190, 447 192"
+          stroke="#F0C774" stroke-width="1.6" opacity="0.94"/>
+
+    <!-- center circle accent -->
+    <path d="M329 127 C334 105, 344 85, 358 70 C367 60, 376 53, 384 47"
+          stroke="#D8B081" stroke-width="0.95" opacity="0.46" stroke-dasharray="0.1 3.6"/>
+    <path d="M439 127 C434 105, 424 85, 410 70 C401 60, 392 53, 384 47"
+          stroke="#D8B081" stroke-width="0.95" opacity="0.46" stroke-dasharray="0.1 3.6"/>
+
+    <!-- right hill arcs -->
+    <path d="M457 152 C502 118, 542 109, 588 116 C627 122, 665 143, 707 138"
+          stroke="#B77641" stroke-width="1.0" opacity="0.74"/>
+    <path d="M471 146 C517 138, 547 143, 583 160 C617 176, 648 182, 684 177"
+          stroke="#D8B185" stroke-width="0.78" opacity="0.62"/>
+
+    <!-- left hill arcs -->
+    <path d="M311 152 C266 118, 226 109, 180 116 C141 122, 103 143, 61 138"
+          stroke="#B77641" stroke-width="1.0" opacity="0.74"/>
+    <path d="M297 146 C251 138, 221 143, 185 160 C151 176, 120 182, 84 177"
+          stroke="#D8B185" stroke-width="0.78" opacity="0.62"/>
+
+    <!-- dark little dots -->
+    <g fill="#7A3D1D" opacity="0.88">
+      <circle cx="10" cy="89" r="1.2"/>
+      <circle cx="23" cy="82" r="3.2"/>
+      <circle cx="31" cy="95" r="1.0"/>
+      <circle cx="42" cy="108" r="1.6"/>
+      <circle cx="95" cy="130" r="5.0"/>
+      <circle cx="141" cy="122" r="1.5"/>
+      <circle cx="171" cy="120" r="1.0"/>
+      <circle cx="308" cy="153" r="1.4"/>
+      <circle cx="321" cy="150" r="0.9"/>
+      <circle cx="366" cy="152" r="0.9"/>
+      <circle cx="687" cy="130" r="5.0"/>
+      <circle cx="726" cy="108" r="1.6"/>
+      <circle cx="737" cy="95" r="1.0"/>
+      <circle cx="745" cy="82" r="3.2"/>
+      <circle cx="758" cy="89" r="1.2"/>
+    </g>
+
+    <!-- medium caramel dots -->
+    <g fill="#B6733F" opacity="0.78">
+      <circle cx="43" cy="178" r="4.2"/>
+      <circle cx="157" cy="104" r="3.3"/>
+      <circle cx="176" cy="104" r="1.8"/>
+      <circle cx="306" cy="150" r="2.4"/>
+      <circle cx="412" cy="148" r="5.0"/>
+      <circle cx="436" cy="148" r="3.9"/>
+      <circle cx="558" cy="120" r="4.5"/>
+      <circle cx="611" cy="111" r="1.5"/>
+      <circle cx="627" cy="112" r="1.7"/>
+      <circle cx="646" cy="118" r="1.8"/>
+      <circle cx="698" cy="82" r="7.4"/>
+      <circle cx="742" cy="182" r="4.5"/>
+    </g>
+
+    <!-- pale dots near center and edges -->
+    <g fill="#E5BF8E" opacity="0.86">
+      <circle cx="19" cy="184" r="3.8"/>
+      <circle cx="283" cy="155" r="1.0"/>
+      <circle cx="292" cy="154" r="0.9"/>
+      <circle cx="296" cy="154" r="0.8"/>
+      <circle cx="406" cy="145" r="1.0"/>
+      <circle cx="422" cy="147" r="1.2"/>
+      <circle cx="447" cy="147" r="0.9"/>
+      <circle cx="709" cy="174" r="1.6"/>
+      <circle cx="717" cy="175" r="1.1"/>
+      <circle cx="725" cy="176" r="0.9"/>
+      <circle cx="735" cy="178" r="1.4"/>
+    </g>
+
+    <!-- tiny sparkles on right/left dark ribbons -->
+    <g fill="#F3CD81" opacity="0.80">
+      <circle cx="36" cy="186" r="0.9"/>
+      <circle cx="48" cy="187" r="0.8"/>
+      <circle cx="61" cy="188" r="0.8"/>
+      <circle cx="74" cy="188" r="0.7"/>
+      <circle cx="86" cy="188" r="0.7"/>
+      <circle cx="98" cy="187" r="0.7"/>
+      <circle cx="111" cy="185" r="0.8"/>
+      <circle cx="670" cy="185" r="0.8"/>
+      <circle cx="682" cy="187" r="0.7"/>
+      <circle cx="694" cy="188" r="0.7"/>
+      <circle cx="707" cy="188" r="0.8"/>
+      <circle cx="719" cy="187" r="0.8"/>
+      <circle cx="731" cy="186" r="0.9"/>
+    </g>
+
+    <!-- dotted mini trail near right top -->
+    <g fill="#D3A066" opacity="0.68">
+      <circle cx="709" cy="73" r="1.0"/>
+      <circle cx="715" cy="72" r="1.0"/>
+      <circle cx="721" cy="72" r="1.0"/>
+      <circle cx="729" cy="74" r="0.9"/>
+    </g>
+  </g>
+</svg>
