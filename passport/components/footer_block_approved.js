@@ -1,20 +1,17 @@
 /**
  * DiArt Passport
- * File: passport/components/footer_block.js
- * Version: 3.0.0-approved
+ * File: passport/components/footer_block_approved.js
+ * Version: 5.0.0-corner-png-mirror
  *
- * FIRST PAGE — FOOTER
- *
- * Assets:
- * - official DiArt logo from assets.logo
- * - official four-ray star from assets.footer_star
- *
- * This file draws no logo and no decorative symbol.
+ * FIRST PAGE — FOOTER.
+ * One season-specific corner PNG is rendered on the left.
+ * The right corner is the exact horizontal mirror of the same PNG.
+ * Asset opacity is not modified by Builder.
  */
 
 "use strict";
 
-const FOOTER_BLOCK_VERSION = "3.0.0-approved";
+const FOOTER_BLOCK_VERSION = "5.0.0-corner-png-mirror";
 
 function esc(value) {
   return String(value ?? "")
@@ -25,98 +22,68 @@ function esc(value) {
     .replace(/'/g, "&apos;");
 }
 
-function text({
-  value,
-  x,
-  y,
-  size,
-  weight = 400,
+function text({ value, x, y, size, weight = 400,
   family = "Georgia, 'Times New Roman', serif",
-  fill = "#2C1A13",
-  anchor = "middle",
-  tracking = 0
-}) {
+  fill = "#2C1A13", anchor = "middle", tracking = 0 }) {
   return `<text x="${x}" y="${y}" text-anchor="${anchor}"
     font-family="${family}" font-size="${size}" font-weight="${weight}"
     letter-spacing="${tracking}" fill="${fill}">${esc(value)}</text>`;
 }
 
-function image({
-  href,
-  x,
-  y,
-  width,
-  height,
-  transform = ""
-}) {
+function image({ href, x, y, width, height, transform = "" }) {
   if (!href) return "";
-
-  return `<image href="${esc(href)}"
-    x="${x}" y="${y}"
+  return `<image href="${esc(href)}" x="${x}" y="${y}"
     width="${width}" height="${height}"
     preserveAspectRatio="xMidYMid meet"
     ${transform ? `transform="${transform}"` : ""}/>`;
 }
 
 function buildFooterBlock({
+  seasonId = "",
+  ornamentUrl = "",
   logoUrl = "",
-  starUrl = "",
   slogan = "Цвет украшает тебя",
   passportId = "",
-  fill: accentColor
+  accentColor = "#8A4E25"
 }) {
   const width = 768;
   const centerX = width / 2;
+  const footerX = 28;
+  const ornamentWidth = 181;
+  const ornamentHeight = 60;
+  const ornamentY = 14;
 
-  let out = `<g id="diart-footer-block">`;
-
-  out += `<line x1="24" y1="18" x2="744" y2="18"
-    stroke="${accentColor}" stroke-opacity="0.18" stroke-width="1"/>`;
+  let out = `<g id="diart-footer-block" data-season="${esc(seasonId)}">`;
 
   out += image({
-    href: logoUrl,
-    x: 294,
-    y: 32,
-    width: 180,
-    height: 76
+    href: ornamentUrl,
+    x: footerX,
+    y: ornamentY,
+    width: ornamentWidth,
+    height: ornamentHeight
   });
 
   out += image({
-    href: starUrl,
-    x: 228,
-    y: 118,
-    width: 30,
-    height: 30
+    href: ornamentUrl,
+    x: footerX,
+    y: ornamentY,
+    width: ornamentWidth,
+    height: ornamentHeight,
+    transform: "translate(768 0) scale(-1 1)"
   });
 
-  out += image({
-    href: starUrl,
-    x: 510,
-    y: 118,
-    width: 30,
-    height: 30,
-    transform: "rotate(180 525 133)"
-  });
+  out += image({ href: logoUrl, x: 294, y: 0, width: 180, height: 54 });
 
   out += text({
-    value: slogan,
-    x: centerX,
-    y: 141,
-    size: 24,
-    weight: 600,
-    fill: accentColor,
-    tracking: 0
+    value: slogan, x: centerX, y: 64, size: 18,
+    weight: 600, fill: accentColor
   });
 
   if (passportId) {
     out += text({
-      value: passportId,
-      x: centerX,
-      y: 170,
-      size: 10,
-      weight: 500,
-      family: "Arial, Helvetica, sans-serif",
-      fill: "#7B6758"
+      value: passportId, x: centerX, y: 82, size: 9,
+      weight: 500, family: "Arial, Helvetica, sans-serif",
+      fill: accentColor
     });
   }
 
@@ -124,7 +91,4 @@ function buildFooterBlock({
   return out;
 }
 
-module.exports = {
-  FOOTER_BLOCK_VERSION,
-  buildFooterBlock
-};
+module.exports = { FOOTER_BLOCK_VERSION, buildFooterBlock };
