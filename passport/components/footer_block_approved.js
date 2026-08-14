@@ -1,16 +1,18 @@
 /**
  * DiArt Passport
- * File: passport/components/footer_block.js
- * Version: 4.0.0-abstract-fullwidth-svg
+ * File: passport/components/footer_block_approved.js
+ * Version: 4.0.1-herbarium-edge-shift
  *
  * FIRST PAGE — FOOTER.
- * Uses one season-specific abstract SVG ornament across the full page width.
- * Canvas standard of the ornament asset: 768 × 220, transparent background.
+ * Approved herbarium is NOT redrawn, resized, recolored or re-opacity-adjusted.
+ * Only horizontal positioning changes:
+ * - left half: 28 px outward
+ * - right half: 28 px outward
  */
 
 "use strict";
 
-const FOOTER_BLOCK_VERSION = "4.0.1-herbarium-edge-alignment";
+const FOOTER_BLOCK_VERSION = "4.0.1-herbarium-edge-shift";
 
 function esc(value) {
   return String(value ?? "")
@@ -30,11 +32,11 @@ function text({ value, x, y, size, weight = 400,
 }
 
 function image({ href, x, y, width, height, opacity = 1,
-  preserveAspectRatio = "xMidYMid meet" }) {
+  preserveAspectRatio = "xMidYMid meet", clipPath = "" }) {
   if (!href) return "";
   return `<image href="${esc(href)}" x="${x}" y="${y}"
     width="${width}" height="${height}"
-    preserveAspectRatio="${preserveAspectRatio}" opacity="${opacity}"/>`;
+    preserveAspectRatio="${preserveAspectRatio}" opacity="${opacity}"${clipPath ? ` clip-path="url(#${clipPath})"` : ""}/>`;
 }
 
 function buildFooterBlock({
@@ -47,28 +49,42 @@ function buildFooterBlock({
 }) {
   const width = 768;
   const centerX = width / 2;
+  const edgeShift = 28;
 
   let out = `<g id="diart-footer-block" data-season="${esc(seasonId)}">`;
 
-  // One approved abstract ornament, full width. The Page 1 assembly translates
-  // this component to y=942, so y=-28 maps the 220 px asset exactly to
-  // page y=914..1134 (the bottom edge of the 1134 px page).
-  // Ornament is intentionally widened beyond the page edges.
-  // This moves both herbarium corners outward, closer to the same
-  // left/right alignment used by the passport blocks, without changing
-  // the approved artwork itself.
+  // Split only for positioning. The same approved 768×220 asset is used twice,
+  // at exactly the same size. No scale, opacity or artwork changes.
+  out += `<defs>
+    <clipPath id="diart-footer-left"><rect x="0" y="-28" width="384" height="220"/></clipPath>
+    <clipPath id="diart-footer-right"><rect x="384" y="-28" width="384" height="220"/></clipPath>
+  </defs>`;
+
+  // Left herbarium moves toward the left page edge.
   out += image({
     href: ornamentUrl,
-    x: -48,
+    x: -edgeShift,
     y: -28,
-    width: 864,
+    width: 768,
     height: 220,
     opacity: 1,
-    preserveAspectRatio: "xMidYMid meet"
+    preserveAspectRatio: "xMidYMid meet",
+    clipPath: "diart-footer-left"
   });
 
-  // Brand layer stays above the ornament. The approved artwork is intentionally
-  // light in the center so logo / slogan / ID remain readable.
+  // Right herbarium moves toward the right page edge.
+  out += image({
+    href: ornamentUrl,
+    x: edgeShift,
+    y: -28,
+    width: 768,
+    height: 220,
+    opacity: 1,
+    preserveAspectRatio: "xMidYMid meet",
+    clipPath: "diart-footer-right"
+  });
+
+  // Brand layer is unchanged.
   out += image({ href: logoUrl, x: 294, y: 32, width: 180, height: 76 });
 
   out += text({
