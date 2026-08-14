@@ -1,0 +1,65 @@
+{
+  "version": "1.1.0-png-corner-mirror",
+  "ornaments": {
+    "light_spring": {
+      "svg": "light_spring/ornament.svg",
+      "preview": "light_spring/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "warm_spring": {
+      "svg": "warm_spring/ornament.svg",
+      "preview": "warm_spring/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "bright_spring": {
+      "svg": "bright_spring/ornament.svg",
+      "preview": "bright_spring/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "light_summer": {
+      "svg": "light_summer/ornament.svg",
+      "preview": "light_summer/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "soft_summer": {
+      "svg": "soft_summer/ornament.svg",
+      "preview": "soft_summer/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "true_summer": {
+      "svg": "true_summer/ornament.svg",
+      "preview": "true_summer/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "soft_autumn": {
+      "svg": "soft_autumn/ornament.svg",
+      "preview": "soft_autumn/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "true_autumn": {
+      "svg": "true_autumn/ornament.svg",
+      "preview": "true_autumn/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "deep_autumn": {
+      "preview": "deep_autumn/preview.png",
+      "footer_usage": "left original; right mirrored horizontally by Builder",
+      "png": "deep_autumn/ornament.png"
+    },
+    "deep_winter": {
+      "svg": "deep_winter/ornament.svg",
+      "preview": "deep_winter/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "true_winter": {
+      "svg": "true_winter/ornament.svg",
+      "preview": "true_winter/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    },
+    "bright_winter": {
+      "svg": "bright_winter/ornament.svg",
+      "preview": "bright_winter/preview.png",
+      "footer_usage": "left original; right mirrored horizontally"
+    }
+  }
+}
