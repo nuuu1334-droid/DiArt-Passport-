@@ -49,9 +49,9 @@ function buildFooterBlock({
   const width = 768;
   const centerX = width / 2;
   const footerX = 28;
-  const ornamentWidth = 181;
-  const ornamentHeight = 60;
-  const ornamentY = 14;
+  const ornamentWidth = 330;
+  const ornamentHeight = 150;
+  const ornamentY = 42;
 
   let out = `<g id="diart-footer-block" data-season="${esc(seasonId)}">`;
 
@@ -72,16 +72,16 @@ function buildFooterBlock({
     transform: "translate(768 0) scale(-1 1)"
   });
 
-  out += image({ href: logoUrl, x: 294, y: 0, width: 180, height: 54 });
+  out += image({ href: logoUrl, x: 294, y: 32, width: 180, height: 76 });
 
   out += text({
-    value: slogan, x: centerX, y: 64, size: 18,
+    value: slogan, x: centerX, y: 141, size: 24,
     weight: 600, fill: accentColor
   });
 
   if (passportId) {
     out += text({
-      value: passportId, x: centerX, y: 82, size: 9,
+      value: passportId, x: centerX, y: 170, size: 10,
       weight: 500, family: "Arial, Helvetica, sans-serif",
       fill: accentColor
     });
