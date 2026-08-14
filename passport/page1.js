@@ -105,8 +105,9 @@ function buildPage1(data) {
 
   out += group(
     buildFooterBlock({
+      seasonId: season.id,
+      ornamentUrl: assets.footer_ornament,
       logoUrl: assets.logo,
-      starUrl: assets.footer_star,
       slogan: "Цвет украшает тебя",
       passportId: passport.id || "",
       accentColor: safe.accentColor
