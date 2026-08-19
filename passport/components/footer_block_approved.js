@@ -48,14 +48,10 @@ function buildFooterBlock({
 }) {
   const width = 768;
   const centerX = width / 2;
-
-  // Footer ornament geometry:
-  // keep each corner low and close to the outer footer edges,
-  // leaving the center clear for logo + slogan.
-  const footerX = 28;
-  const ornamentWidth = 248;
-  const ornamentHeight = 60;
-  const ornamentY = 14;
+  const footerX = -28;
+  const ornamentWidth = 330;
+  const ornamentHeight = 150;
+  const ornamentY = 42;
 
   let out = `<g id="diart-footer-block" data-season="${esc(seasonId)}">`;
 
