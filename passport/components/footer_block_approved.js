@@ -11,7 +11,7 @@
 
 "use strict";
 
-const FOOTER_BLOCK_VERSION = "5.0.0-corner-png-mirror";
+const FOOTER_BLOCK_VERSION = "5.0.1-corner-png-safe-clip";
 
 function esc(value) {
   return String(value ?? "")
@@ -55,6 +55,18 @@ function buildFooterBlock({
 
   let out = `<g id="diart-footer-block" data-season="${esc(seasonId)}">`;
 
+  // SAFE ORNAMENT ZONE.
+  // Geometry stays exactly as in the approved working footer.
+  // The clip only prevents any season PNG from escaping the footer bounds.
+  // PAGE_1 footer horizontal bounds: x=28..752.
+  out += `<defs>
+    <clipPath id="diart-footer-ornament-safe">
+      <rect x="28" y="${ornamentY}" width="724" height="${ornamentHeight}"/>
+    </clipPath>
+  </defs>`;
+
+  out += `<g clip-path="url(#diart-footer-ornament-safe)">`;
+
   out += image({
     href: ornamentUrl,
     x: footerX,
@@ -72,6 +84,9 @@ function buildFooterBlock({
     transform: "translate(768 0) scale(-1 1)"
   });
 
+  out += `</g>`;
+
+  // Brand layer stays outside the clip and therefore is never cut.
   out += image({ href: logoUrl, x: 294, y: 32, width: 180, height: 76 });
 
   out += text({
