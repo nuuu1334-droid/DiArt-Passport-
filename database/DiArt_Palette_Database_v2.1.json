@@ -49,7 +49,7 @@
           "slug": "espresso",
           "name": {
             "en": "Espresso",
-            "ru": null
+            "ru": "Эспрессо"
           },
           "group": "signature",
           "status": "linked",
@@ -79,7 +79,7 @@
           "slug": "dark_chocolate",
           "name": {
             "en": "Dark Chocolate",
-            "ru": null
+            "ru": "Темный шоколад"
           },
           "group": "signature",
           "status": "linked",
@@ -109,7 +109,7 @@
           "slug": "terracotta",
           "name": {
             "en": "Terracotta",
-            "ru": null
+            "ru": "Терракотовый"
           },
           "group": "signature",
           "status": "linked",
@@ -139,7 +139,7 @@
           "slug": "forest_green",
           "name": {
             "en": "Forest Green",
-            "ru": null
+            "ru": "Лесной зеленый"
           },
           "group": "signature",
           "status": "linked",
@@ -169,7 +169,7 @@
           "slug": "olive_green",
           "name": {
             "en": "Olive Green",
-            "ru": null
+            "ru": "Оливково-зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -199,7 +199,7 @@
           "slug": "moss_green",
           "name": {
             "en": "Moss Green",
-            "ru": null
+            "ru": "Моховой зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -229,7 +229,7 @@
           "slug": "mahogany",
           "name": {
             "en": "Mahogany",
-            "ru": null
+            "ru": "Махагоновый"
           },
           "group": "core",
           "status": "linked",
@@ -259,7 +259,7 @@
           "slug": "deep_teal",
           "name": {
             "en": "Deep Teal",
-            "ru": null
+            "ru": "Глубокий тил"
           },
           "group": "core",
           "status": "linked",
@@ -289,7 +289,7 @@
           "slug": "rust",
           "name": {
             "en": "Rust",
-            "ru": null
+            "ru": "Ржаво-терракотовый"
           },
           "group": "additional",
           "status": "linked",
@@ -319,7 +319,7 @@
           "slug": "brick_red",
           "name": {
             "en": "Brick Red",
-            "ru": null
+            "ru": "Кирпично-красный"
           },
           "group": "additional",
           "status": "linked",
@@ -349,7 +349,7 @@
           "slug": "camel",
           "name": {
             "en": "Camel",
-            "ru": null
+            "ru": "Кэмел"
           },
           "group": "additional",
           "status": "linked",
@@ -379,7 +379,7 @@
           "slug": "coffee_brown",
           "name": {
             "en": "Coffee Brown",
-            "ru": null
+            "ru": "Кофейно-коричневый"
           },
           "group": "additional",
           "status": "linked",
@@ -409,7 +409,7 @@
           "slug": "warm_ivory",
           "name": {
             "en": "Warm Ivory",
-            "ru": null
+            "ru": "Теплый айвори"
           },
           "group": "neutral",
           "status": "linked",
@@ -439,7 +439,7 @@
           "slug": "warm_beige",
           "name": {
             "en": "Warm Beige",
-            "ru": null
+            "ru": "Теплый бежевый"
           },
           "group": "neutral",
           "status": "linked",
@@ -469,7 +469,7 @@
           "slug": "chestnut",
           "name": {
             "en": "Chestnut",
-            "ru": null
+            "ru": "Каштановый"
           },
           "group": "neutral",
           "status": "linked",
@@ -499,7 +499,7 @@
           "slug": "dark_khaki",
           "name": {
             "en": "Dark Khaki",
-            "ru": null
+            "ru": "Темный хаки"
           },
           "group": "neutral",
           "status": "linked",
@@ -529,7 +529,7 @@
           "slug": "chocolate_brown",
           "name": {
             "en": "Chocolate Brown",
-            "ru": null
+            "ru": "Шоколадно-коричневый"
           },
           "group": "neutral",
           "status": "linked",
@@ -559,7 +559,7 @@
           "slug": "oyster",
           "name": {
             "en": "Oyster",
-            "ru": null
+            "ru": "Устричный"
           },
           "group": "neutral",
           "status": "linked",
@@ -589,7 +589,7 @@
           "slug": "mustard",
           "name": {
             "en": "Mustard",
-            "ru": null
+            "ru": "Горчичный"
           },
           "group": "accent",
           "status": "linked",
@@ -619,7 +619,7 @@
           "slug": "copper",
           "name": {
             "en": "Copper",
-            "ru": null
+            "ru": "Медный"
           },
           "group": "accent",
           "status": "linked",
@@ -649,7 +649,7 @@
           "slug": "gold",
           "name": {
             "en": "Gold",
-            "ru": null
+            "ru": "Золотой"
           },
           "group": "accent",
           "status": "linked",
@@ -679,7 +679,7 @@
           "slug": "jade",
           "name": {
             "en": "Jade",
-            "ru": null
+            "ru": "Нефритовый"
           },
           "group": "accent",
           "status": "linked",
@@ -709,7 +709,7 @@
           "slug": "paprika",
           "name": {
             "en": "Paprika",
-            "ru": null
+            "ru": "Паприка"
           },
           "group": "accent",
           "status": "linked",
@@ -739,7 +739,7 @@
           "slug": "warm_burgundy",
           "name": {
             "en": "Warm Burgundy",
-            "ru": null
+            "ru": "Теплый бордо"
           },
           "group": "accent",
           "status": "linked",
@@ -778,7 +778,7 @@
           "slug": "peach",
           "name": {
             "en": "Peach",
-            "ru": null
+            "ru": "Персиковый"
           },
           "group": "signature",
           "status": "linked",
@@ -808,7 +808,7 @@
           "slug": "apricot",
           "name": {
             "en": "Apricot",
-            "ru": null
+            "ru": "Абрикосовый"
           },
           "group": "signature",
           "status": "linked",
@@ -838,7 +838,7 @@
           "slug": "light_aqua",
           "name": {
             "en": "Light Aqua",
-            "ru": null
+            "ru": "Светлая аква"
           },
           "group": "signature",
           "status": "linked",
@@ -868,7 +868,7 @@
           "slug": "warm_mint",
           "name": {
             "en": "Warm Mint",
-            "ru": null
+            "ru": "Теплая мята"
           },
           "group": "signature",
           "status": "linked",
@@ -898,7 +898,7 @@
           "slug": "coral",
           "name": {
             "en": "Coral",
-            "ru": null
+            "ru": "Коралловый"
           },
           "group": "core",
           "status": "linked",
@@ -928,7 +928,7 @@
           "slug": "salmon",
           "name": {
             "en": "Salmon",
-            "ru": null
+            "ru": "Лососевый"
           },
           "group": "core",
           "status": "linked",
@@ -958,7 +958,7 @@
           "slug": "sky_blue",
           "name": {
             "en": "Sky Blue",
-            "ru": null
+            "ru": "Небесно-голубой"
           },
           "group": "core",
           "status": "linked",
@@ -988,7 +988,7 @@
           "slug": "periwinkle",
           "name": {
             "en": "Periwinkle",
-            "ru": null
+            "ru": "Барвинковый"
           },
           "group": "core",
           "status": "linked",
@@ -1018,7 +1018,7 @@
           "slug": "golden_yellow",
           "name": {
             "en": "Golden Yellow",
-            "ru": null
+            "ru": "Золотисто-желтый"
           },
           "group": "additional",
           "status": "linked",
@@ -1048,7 +1048,7 @@
           "slug": "light_yellow_green",
           "name": {
             "en": "Light Yellow Green",
-            "ru": null
+            "ru": "Светлый желто-зеленый"
           },
           "group": "additional",
           "status": "linked",
@@ -1078,7 +1078,7 @@
           "slug": "warm_turquoise",
           "name": {
             "en": "Warm Turquoise",
-            "ru": null
+            "ru": "Теплая бирюза"
           },
           "group": "additional",
           "status": "linked",
@@ -1108,7 +1108,7 @@
           "slug": "light_orange",
           "name": {
             "en": "Light Orange",
-            "ru": null
+            "ru": "Светлый оранжевый"
           },
           "group": "additional",
           "status": "linked",
@@ -1138,7 +1138,7 @@
           "slug": "cream",
           "name": {
             "en": "Cream",
-            "ru": null
+            "ru": "Кремовый"
           },
           "group": "neutral",
           "status": "linked",
@@ -1168,7 +1168,7 @@
           "slug": "ivory",
           "name": {
             "en": "Ivory",
-            "ru": null
+            "ru": "Айвори"
           },
           "group": "neutral",
           "status": "linked",
@@ -1198,7 +1198,7 @@
           "slug": "warm_beige",
           "name": {
             "en": "Warm Beige",
-            "ru": null
+            "ru": "Теплый бежевый"
           },
           "group": "neutral",
           "status": "linked",
@@ -1228,7 +1228,7 @@
           "slug": "light_camel",
           "name": {
             "en": "Light Camel",
-            "ru": null
+            "ru": "Светлый кэмел"
           },
           "group": "neutral",
           "status": "linked",
@@ -1258,7 +1258,7 @@
           "slug": "warm_light_gray",
           "name": {
             "en": "Warm Light Gray",
-            "ru": null
+            "ru": "Теплый светло-серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -1288,7 +1288,7 @@
           "slug": "light_clear_navy",
           "name": {
             "en": "Light Clear Navy",
-            "ru": null
+            "ru": "Светлый чистый темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -1318,7 +1318,7 @@
           "slug": "bright_coral",
           "name": {
             "en": "Bright Coral",
-            "ru": null
+            "ru": "Яркий коралл"
           },
           "group": "accent",
           "status": "linked",
@@ -1348,7 +1348,7 @@
           "slug": "orange_red",
           "name": {
             "en": "Orange Red",
-            "ru": null
+            "ru": "Оранжево-красный"
           },
           "group": "accent",
           "status": "linked",
@@ -1378,7 +1378,7 @@
           "slug": "clear_red",
           "name": {
             "en": "Clear Red",
-            "ru": null
+            "ru": "Чистый красный"
           },
           "group": "accent",
           "status": "linked",
@@ -1408,7 +1408,7 @@
           "slug": "butter_yellow",
           "name": {
             "en": "Butter Yellow",
-            "ru": null
+            "ru": "Сливочно-желтый"
           },
           "group": "accent",
           "status": "linked",
@@ -1438,7 +1438,7 @@
           "slug": "clear_gold",
           "name": {
             "en": "Clear Gold",
-            "ru": null
+            "ru": "Чистое золото"
           },
           "group": "accent",
           "status": "linked",
@@ -1468,7 +1468,7 @@
           "slug": "clear_aqua",
           "name": {
             "en": "Clear Aqua",
-            "ru": null
+            "ru": "Чистая аква"
           },
           "group": "accent",
           "status": "linked",
@@ -1507,7 +1507,7 @@
           "slug": "coral",
           "name": {
             "en": "Coral",
-            "ru": null
+            "ru": "Коралловый"
           },
           "group": "signature",
           "status": "linked",
@@ -1537,7 +1537,7 @@
           "slug": "peach",
           "name": {
             "en": "Peach",
-            "ru": null
+            "ru": "Персиковый"
           },
           "group": "signature",
           "status": "linked",
@@ -1567,7 +1567,7 @@
           "slug": "apricot",
           "name": {
             "en": "Apricot",
-            "ru": null
+            "ru": "Абрикосовый"
           },
           "group": "signature",
           "status": "linked",
@@ -1597,7 +1597,7 @@
           "slug": "warm_turquoise",
           "name": {
             "en": "Warm Turquoise",
-            "ru": null
+            "ru": "Теплая бирюза"
           },
           "group": "signature",
           "status": "linked",
@@ -1627,7 +1627,7 @@
           "slug": "golden_yellow",
           "name": {
             "en": "Golden Yellow",
-            "ru": null
+            "ru": "Золотисто-желтый"
           },
           "group": "core",
           "status": "linked",
@@ -1657,7 +1657,7 @@
           "slug": "warm_sky_blue",
           "name": {
             "en": "Warm Sky Blue",
-            "ru": null
+            "ru": "Теплый небесно-голубой"
           },
           "group": "core",
           "status": "linked",
@@ -1687,7 +1687,7 @@
           "slug": "leaf_green",
           "name": {
             "en": "Leaf Green",
-            "ru": null
+            "ru": "Листовой зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -1717,7 +1717,7 @@
           "slug": "aqua",
           "name": {
             "en": "Aqua",
-            "ru": null
+            "ru": "Аква"
           },
           "group": "core",
           "status": "linked",
@@ -1747,7 +1747,7 @@
           "slug": "tomato_red",
           "name": {
             "en": "Tomato Red",
-            "ru": null
+            "ru": "Томатно-красный"
           },
           "group": "additional",
           "status": "linked",
@@ -1777,7 +1777,7 @@
           "slug": "warm_orange",
           "name": {
             "en": "Warm Orange",
-            "ru": null
+            "ru": "Теплый оранжевый"
           },
           "group": "additional",
           "status": "linked",
@@ -1807,7 +1807,7 @@
           "slug": "fresh_green",
           "name": {
             "en": "Fresh Green",
-            "ru": null
+            "ru": "Свежий зеленый"
           },
           "group": "additional",
           "status": "linked",
@@ -1837,7 +1837,7 @@
           "slug": "warm_pink",
           "name": {
             "en": "Warm Pink",
-            "ru": null
+            "ru": "Теплый розовый"
           },
           "group": "additional",
           "status": "linked",
@@ -1867,7 +1867,7 @@
           "slug": "cream",
           "name": {
             "en": "Cream",
-            "ru": null
+            "ru": "Кремовый"
           },
           "group": "neutral",
           "status": "linked",
@@ -1897,7 +1897,7 @@
           "slug": "ivory",
           "name": {
             "en": "Ivory",
-            "ru": null
+            "ru": "Айвори"
           },
           "group": "neutral",
           "status": "linked",
@@ -1927,7 +1927,7 @@
           "slug": "camel",
           "name": {
             "en": "Camel",
-            "ru": null
+            "ru": "Кэмел"
           },
           "group": "neutral",
           "status": "linked",
@@ -1957,7 +1957,7 @@
           "slug": "warm_beige",
           "name": {
             "en": "Warm Beige",
-            "ru": null
+            "ru": "Теплый бежевый"
           },
           "group": "neutral",
           "status": "linked",
@@ -1987,7 +1987,7 @@
           "slug": "light_camel",
           "name": {
             "en": "Light Camel",
-            "ru": null
+            "ru": "Светлый кэмел"
           },
           "group": "neutral",
           "status": "linked",
@@ -2017,7 +2017,7 @@
           "slug": "warm_stone",
           "name": {
             "en": "Warm Stone",
-            "ru": null
+            "ru": "Теплый каменный"
           },
           "group": "neutral",
           "status": "linked",
@@ -2047,7 +2047,7 @@
           "slug": "poppy_red",
           "name": {
             "en": "Poppy Red",
-            "ru": null
+            "ru": "Маково-красный"
           },
           "group": "accent",
           "status": "linked",
@@ -2077,7 +2077,7 @@
           "slug": "tangerine",
           "name": {
             "en": "Tangerine",
-            "ru": null
+            "ru": "Мандариновый"
           },
           "group": "accent",
           "status": "linked",
@@ -2107,7 +2107,7 @@
           "slug": "bright_coral",
           "name": {
             "en": "Bright Coral",
-            "ru": null
+            "ru": "Яркий коралл"
           },
           "group": "accent",
           "status": "linked",
@@ -2137,7 +2137,7 @@
           "slug": "lime_green",
           "name": {
             "en": "Lime Green",
-            "ru": null
+            "ru": "Лаймово-зеленый"
           },
           "group": "accent",
           "status": "linked",
@@ -2167,7 +2167,7 @@
           "slug": "clear_aqua",
           "name": {
             "en": "Clear Aqua",
-            "ru": null
+            "ru": "Чистая аква"
           },
           "group": "accent",
           "status": "linked",
@@ -2197,7 +2197,7 @@
           "slug": "sunny_yellow",
           "name": {
             "en": "Sunny Yellow",
-            "ru": null
+            "ru": "Солнечно-желтый"
           },
           "group": "accent",
           "status": "linked",
@@ -2236,7 +2236,7 @@
           "slug": "clear_coral",
           "name": {
             "en": "Clear Coral",
-            "ru": null
+            "ru": "Чистый коралл"
           },
           "group": "signature",
           "status": "linked",
@@ -2266,7 +2266,7 @@
           "slug": "clear_peach",
           "name": {
             "en": "Clear Peach",
-            "ru": null
+            "ru": "Чистый персиковый"
           },
           "group": "signature",
           "status": "linked",
@@ -2296,7 +2296,7 @@
           "slug": "bright_turquoise",
           "name": {
             "en": "Bright Turquoise",
-            "ru": null
+            "ru": "Яркая бирюза"
           },
           "group": "signature",
           "status": "linked",
@@ -2326,7 +2326,7 @@
           "slug": "clear_aqua",
           "name": {
             "en": "Clear Aqua",
-            "ru": null
+            "ru": "Чистая аква"
           },
           "group": "signature",
           "status": "linked",
@@ -2356,7 +2356,7 @@
           "slug": "bright_green",
           "name": {
             "en": "Bright Green",
-            "ru": null
+            "ru": "Яркий зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -2386,7 +2386,7 @@
           "slug": "lime",
           "name": {
             "en": "Lime",
-            "ru": null
+            "ru": "Лайм"
           },
           "group": "core",
           "status": "linked",
@@ -2416,7 +2416,7 @@
           "slug": "golden_yellow",
           "name": {
             "en": "Golden Yellow",
-            "ru": null
+            "ru": "Золотисто-желтый"
           },
           "group": "core",
           "status": "linked",
@@ -2446,7 +2446,7 @@
           "slug": "bright_sky_blue",
           "name": {
             "en": "Bright Sky Blue",
-            "ru": null
+            "ru": "Яркий небесно-голубой"
           },
           "group": "core",
           "status": "linked",
@@ -2476,7 +2476,7 @@
           "slug": "tomato_red",
           "name": {
             "en": "Tomato Red",
-            "ru": null
+            "ru": "Томатно-красный"
           },
           "group": "additional",
           "status": "linked",
@@ -2506,7 +2506,7 @@
           "slug": "bright_orange",
           "name": {
             "en": "Bright Orange",
-            "ru": null
+            "ru": "Яркий оранжевый"
           },
           "group": "additional",
           "status": "linked",
@@ -2536,7 +2536,7 @@
           "slug": "coral_red",
           "name": {
             "en": "Coral Red",
-            "ru": null
+            "ru": "Кораллово-красный"
           },
           "group": "additional",
           "status": "linked",
@@ -2566,7 +2566,7 @@
           "slug": "fresh_leaf_green",
           "name": {
             "en": "Fresh Leaf Green",
-            "ru": null
+            "ru": "Свежий листовой зеленый"
           },
           "group": "additional",
           "status": "linked",
@@ -2596,7 +2596,7 @@
           "slug": "cream",
           "name": {
             "en": "Cream",
-            "ru": null
+            "ru": "Кремовый"
           },
           "group": "neutral",
           "status": "linked",
@@ -2626,7 +2626,7 @@
           "slug": "ivory",
           "name": {
             "en": "Ivory",
-            "ru": null
+            "ru": "Айвори"
           },
           "group": "neutral",
           "status": "linked",
@@ -2656,7 +2656,7 @@
           "slug": "camel",
           "name": {
             "en": "Camel",
-            "ru": null
+            "ru": "Кэмел"
           },
           "group": "neutral",
           "status": "linked",
@@ -2686,7 +2686,7 @@
           "slug": "warm_beige",
           "name": {
             "en": "Warm Beige",
-            "ru": null
+            "ru": "Теплый бежевый"
           },
           "group": "neutral",
           "status": "linked",
@@ -2716,7 +2716,7 @@
           "slug": "light_camel",
           "name": {
             "en": "Light Camel",
-            "ru": null
+            "ru": "Светлый кэмел"
           },
           "group": "neutral",
           "status": "linked",
@@ -2746,7 +2746,7 @@
           "slug": "warm_stone",
           "name": {
             "en": "Warm Stone",
-            "ru": null
+            "ru": "Теплый каменный"
           },
           "group": "neutral",
           "status": "linked",
@@ -2776,7 +2776,7 @@
           "slug": "bright_yellow",
           "name": {
             "en": "Bright Yellow",
-            "ru": null
+            "ru": "Яркий желтый"
           },
           "group": "accent",
           "status": "linked",
@@ -2806,7 +2806,7 @@
           "slug": "tangerine",
           "name": {
             "en": "Tangerine",
-            "ru": null
+            "ru": "Мандариновый"
           },
           "group": "accent",
           "status": "linked",
@@ -2836,7 +2836,7 @@
           "slug": "bright_coral",
           "name": {
             "en": "Bright Coral",
-            "ru": null
+            "ru": "Яркий коралл"
           },
           "group": "accent",
           "status": "linked",
@@ -2866,7 +2866,7 @@
           "slug": "bright_lime",
           "name": {
             "en": "Bright Lime",
-            "ru": null
+            "ru": "Яркий лайм"
           },
           "group": "accent",
           "status": "linked",
@@ -2896,7 +2896,7 @@
           "slug": "clear_aqua",
           "name": {
             "en": "Clear Aqua",
-            "ru": null
+            "ru": "Чистая аква"
           },
           "group": "accent",
           "status": "linked",
@@ -2926,7 +2926,7 @@
           "slug": "bright_red",
           "name": {
             "en": "Bright Red",
-            "ru": null
+            "ru": "Яркий красный"
           },
           "group": "accent",
           "status": "linked",
@@ -2965,7 +2965,7 @@
           "slug": "powder_blue",
           "name": {
             "en": "Powder Blue",
-            "ru": null
+            "ru": "Пудрово-голубой"
           },
           "group": "signature",
           "status": "linked",
@@ -2995,7 +2995,7 @@
           "slug": "soft_rose",
           "name": {
             "en": "Soft Rose",
-            "ru": null
+            "ru": "Мягкий розовый"
           },
           "group": "signature",
           "status": "linked",
@@ -3025,7 +3025,7 @@
           "slug": "soft_aqua",
           "name": {
             "en": "Soft Aqua",
-            "ru": null
+            "ru": "Мягкая аква"
           },
           "group": "signature",
           "status": "linked",
@@ -3055,7 +3055,7 @@
           "slug": "periwinkle",
           "name": {
             "en": "Periwinkle",
-            "ru": null
+            "ru": "Барвинковый"
           },
           "group": "signature",
           "status": "linked",
@@ -3085,7 +3085,7 @@
           "slug": "sky_blue",
           "name": {
             "en": "Sky Blue",
-            "ru": null
+            "ru": "Небесно-голубой"
           },
           "group": "core",
           "status": "linked",
@@ -3115,7 +3115,7 @@
           "slug": "lavender",
           "name": {
             "en": "Lavender",
-            "ru": null
+            "ru": "Лавандовый"
           },
           "group": "core",
           "status": "linked",
@@ -3145,7 +3145,7 @@
           "slug": "mauve",
           "name": {
             "en": "Mauve",
-            "ru": null
+            "ru": "Мовеин"
           },
           "group": "core",
           "status": "linked",
@@ -3175,7 +3175,7 @@
           "slug": "pastel_green",
           "name": {
             "en": "Pastel Green",
-            "ru": null
+            "ru": "Пастельно-зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -3205,7 +3205,7 @@
           "slug": "watermelon",
           "name": {
             "en": "Watermelon",
-            "ru": null
+            "ru": "Арбузный"
           },
           "group": "additional",
           "status": "linked",
@@ -3235,7 +3235,7 @@
           "slug": "raspberry",
           "name": {
             "en": "Raspberry",
-            "ru": null
+            "ru": "Малиновый"
           },
           "group": "additional",
           "status": "linked",
@@ -3265,7 +3265,7 @@
           "slug": "blue_green",
           "name": {
             "en": "Blue Green",
-            "ru": null
+            "ru": "Сине-зеленый"
           },
           "group": "additional",
           "status": "linked",
@@ -3295,7 +3295,7 @@
           "slug": "orchid",
           "name": {
             "en": "Orchid",
-            "ru": null
+            "ru": "Орхидея"
           },
           "group": "additional",
           "status": "linked",
@@ -3325,7 +3325,7 @@
           "slug": "soft_white",
           "name": {
             "en": "Soft White",
-            "ru": null
+            "ru": "Мягкий белый"
           },
           "group": "neutral",
           "status": "linked",
@@ -3355,7 +3355,7 @@
           "slug": "rose_beige",
           "name": {
             "en": "Rose Beige",
-            "ru": null
+            "ru": "Розово-бежевый"
           },
           "group": "neutral",
           "status": "linked",
@@ -3385,7 +3385,7 @@
           "slug": "light_blue_gray",
           "name": {
             "en": "Light Blue Gray",
-            "ru": null
+            "ru": "Светлый серо-голубой"
           },
           "group": "neutral",
           "status": "linked",
@@ -3415,7 +3415,7 @@
           "slug": "grayed_navy",
           "name": {
             "en": "Grayed Navy",
-            "ru": null
+            "ru": "Приглушенный темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -3445,7 +3445,7 @@
           "slug": "cocoa",
           "name": {
             "en": "Cocoa",
-            "ru": null
+            "ru": "Какао"
           },
           "group": "neutral",
           "status": "linked",
@@ -3475,7 +3475,7 @@
           "slug": "rose_brown",
           "name": {
             "en": "Rose Brown",
-            "ru": null
+            "ru": "Розово-коричневый"
           },
           "group": "neutral",
           "status": "linked",
@@ -3505,7 +3505,7 @@
           "slug": "soft_fuchsia",
           "name": {
             "en": "Soft Fuchsia",
-            "ru": null
+            "ru": "Мягкая фуксия"
           },
           "group": "accent",
           "status": "linked",
@@ -3535,7 +3535,7 @@
           "slug": "plum",
           "name": {
             "en": "Plum",
-            "ru": null
+            "ru": "Сливовый"
           },
           "group": "accent",
           "status": "linked",
@@ -3565,7 +3565,7 @@
           "slug": "cadet_blue",
           "name": {
             "en": "Cadet Blue",
-            "ru": null
+            "ru": "Кадетский синий"
           },
           "group": "accent",
           "status": "linked",
@@ -3595,7 +3595,7 @@
           "slug": "light_lemon_yellow",
           "name": {
             "en": "Light Lemon Yellow",
-            "ru": null
+            "ru": "Светлый лимонно-желтый"
           },
           "group": "accent",
           "status": "linked",
@@ -3625,7 +3625,7 @@
           "slug": "medium_blue",
           "name": {
             "en": "Medium Blue",
-            "ru": null
+            "ru": "Средний синий"
           },
           "group": "accent",
           "status": "linked",
@@ -3655,7 +3655,7 @@
           "slug": "deep_emerald_green",
           "name": {
             "en": "Deep Emerald Green",
-            "ru": null
+            "ru": "Глубокий изумрудно-зеленый"
           },
           "group": "accent",
           "status": "linked",
@@ -3694,7 +3694,7 @@
           "slug": "powder_blue",
           "name": {
             "en": "Powder Blue",
-            "ru": null
+            "ru": "Пудрово-голубой"
           },
           "group": "signature",
           "status": "linked",
@@ -3724,7 +3724,7 @@
           "slug": "dusty_rose",
           "name": {
             "en": "Dusty Rose",
-            "ru": null
+            "ru": "Пыльная роза"
           },
           "group": "signature",
           "status": "linked",
@@ -3754,7 +3754,7 @@
           "slug": "lavender",
           "name": {
             "en": "Lavender",
-            "ru": null
+            "ru": "Лавандовый"
           },
           "group": "signature",
           "status": "linked",
@@ -3784,7 +3784,7 @@
           "slug": "sage",
           "name": {
             "en": "Sage",
-            "ru": null
+            "ru": "Шалфейный"
           },
           "group": "signature",
           "status": "linked",
@@ -3814,7 +3814,7 @@
           "slug": "denim_blue",
           "name": {
             "en": "Denim Blue",
-            "ru": null
+            "ru": "Джинсово-синий"
           },
           "group": "core",
           "status": "linked",
@@ -3844,7 +3844,7 @@
           "slug": "steel_blue",
           "name": {
             "en": "Steel Blue",
-            "ru": null
+            "ru": "Стальной синий"
           },
           "group": "core",
           "status": "linked",
@@ -3874,7 +3874,7 @@
           "slug": "mauve",
           "name": {
             "en": "Mauve",
-            "ru": null
+            "ru": "Мовеин"
           },
           "group": "core",
           "status": "linked",
@@ -3904,7 +3904,7 @@
           "slug": "sea_green",
           "name": {
             "en": "Sea Green",
-            "ru": null
+            "ru": "Морской зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -3934,7 +3934,7 @@
           "slug": "raspberry",
           "name": {
             "en": "Raspberry",
-            "ru": null
+            "ru": "Малиновый"
           },
           "group": "additional",
           "status": "linked",
@@ -3964,7 +3964,7 @@
           "slug": "plum",
           "name": {
             "en": "Plum",
-            "ru": null
+            "ru": "Сливовый"
           },
           "group": "additional",
           "status": "linked",
@@ -3994,7 +3994,7 @@
           "slug": "blue_spruce",
           "name": {
             "en": "Blue Spruce",
-            "ru": null
+            "ru": "Голубая ель"
           },
           "group": "additional",
           "status": "linked",
@@ -4024,7 +4024,7 @@
           "slug": "soft_orchid",
           "name": {
             "en": "Soft Orchid",
-            "ru": null
+            "ru": "Мягкая орхидея"
           },
           "group": "additional",
           "status": "linked",
@@ -4054,7 +4054,7 @@
           "slug": "soft_white",
           "name": {
             "en": "Soft White",
-            "ru": null
+            "ru": "Мягкий белый"
           },
           "group": "neutral",
           "status": "linked",
@@ -4084,7 +4084,7 @@
           "slug": "dove_gray",
           "name": {
             "en": "Dove Gray",
-            "ru": null
+            "ru": "Голубино-серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -4114,7 +4114,7 @@
           "slug": "cool_taupe",
           "name": {
             "en": "Cool Taupe",
-            "ru": null
+            "ru": "Холодный тауп"
           },
           "group": "neutral",
           "status": "linked",
@@ -4144,7 +4144,7 @@
           "slug": "charcoal",
           "name": {
             "en": "Charcoal",
-            "ru": null
+            "ru": "Угольный"
           },
           "group": "neutral",
           "status": "linked",
@@ -4174,7 +4174,7 @@
           "slug": "soft_navy",
           "name": {
             "en": "Soft Navy",
-            "ru": null
+            "ru": "Мягкий темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -4204,7 +4204,7 @@
           "slug": "silver_gray",
           "name": {
             "en": "Silver Gray",
-            "ru": null
+            "ru": "Серебристо-серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -4234,7 +4234,7 @@
           "slug": "cool_pink",
           "name": {
             "en": "Cool Pink",
-            "ru": null
+            "ru": "Холодный розовый"
           },
           "group": "accent",
           "status": "linked",
@@ -4264,7 +4264,7 @@
           "slug": "blue_violet",
           "name": {
             "en": "Blue Violet",
-            "ru": null
+            "ru": "Сине-фиолетовый"
           },
           "group": "accent",
           "status": "linked",
@@ -4294,7 +4294,7 @@
           "slug": "cranberry",
           "name": {
             "en": "Cranberry",
-            "ru": null
+            "ru": "Клюквенный"
           },
           "group": "accent",
           "status": "linked",
@@ -4324,7 +4324,7 @@
           "slug": "soft_teal",
           "name": {
             "en": "Soft Teal",
-            "ru": null
+            "ru": "Мягкий тил"
           },
           "group": "accent",
           "status": "linked",
@@ -4354,7 +4354,7 @@
           "slug": "blue_iris",
           "name": {
             "en": "Blue Iris",
-            "ru": null
+            "ru": "Голубой ирис"
           },
           "group": "accent",
           "status": "linked",
@@ -4384,7 +4384,7 @@
           "slug": "slate_blue",
           "name": {
             "en": "Slate Blue",
-            "ru": null
+            "ru": "Сланцево-синий"
           },
           "group": "accent",
           "status": "linked",
@@ -4423,7 +4423,7 @@
           "slug": "dusty_rose",
           "name": {
             "en": "Dusty Rose",
-            "ru": null
+            "ru": "Пыльная роза"
           },
           "group": "signature",
           "status": "linked",
@@ -4453,7 +4453,7 @@
           "slug": "sage",
           "name": {
             "en": "Sage",
-            "ru": null
+            "ru": "Шалфейный"
           },
           "group": "signature",
           "status": "linked",
@@ -4483,7 +4483,7 @@
           "slug": "soft_teal",
           "name": {
             "en": "Soft Teal",
-            "ru": null
+            "ru": "Мягкий тил"
           },
           "group": "signature",
           "status": "linked",
@@ -4513,7 +4513,7 @@
           "slug": "blue_gray",
           "name": {
             "en": "Blue Gray",
-            "ru": null
+            "ru": "Серо-голубой"
           },
           "group": "signature",
           "status": "linked",
@@ -4543,7 +4543,7 @@
           "slug": "slate_blue",
           "name": {
             "en": "Slate Blue",
-            "ru": null
+            "ru": "Сланцево-синий"
           },
           "group": "core",
           "status": "linked",
@@ -4573,7 +4573,7 @@
           "slug": "lavender_gray",
           "name": {
             "en": "Lavender Gray",
-            "ru": null
+            "ru": "Лавандово-серый"
           },
           "group": "core",
           "status": "linked",
@@ -4603,7 +4603,7 @@
           "slug": "mauve",
           "name": {
             "en": "Mauve",
-            "ru": null
+            "ru": "Мовеин"
           },
           "group": "core",
           "status": "linked",
@@ -4633,7 +4633,7 @@
           "slug": "eucalyptus_green",
           "name": {
             "en": "Eucalyptus Green",
-            "ru": null
+            "ru": "Эвкалиптовый зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -4663,7 +4663,7 @@
           "slug": "plum",
           "name": {
             "en": "Plum",
-            "ru": null
+            "ru": "Сливовый"
           },
           "group": "additional",
           "status": "linked",
@@ -4693,7 +4693,7 @@
           "slug": "berry",
           "name": {
             "en": "Berry",
-            "ru": null
+            "ru": "Ягодный"
           },
           "group": "additional",
           "status": "linked",
@@ -4723,7 +4723,7 @@
           "slug": "dusty_turquoise",
           "name": {
             "en": "Dusty Turquoise",
-            "ru": null
+            "ru": "Пыльная бирюза"
           },
           "group": "additional",
           "status": "linked",
@@ -4753,7 +4753,7 @@
           "slug": "cool_rose",
           "name": {
             "en": "Cool Rose",
-            "ru": null
+            "ru": "Холодная роза"
           },
           "group": "additional",
           "status": "linked",
@@ -4783,7 +4783,7 @@
           "slug": "soft_white",
           "name": {
             "en": "Soft White",
-            "ru": null
+            "ru": "Мягкий белый"
           },
           "group": "neutral",
           "status": "linked",
@@ -4813,7 +4813,7 @@
           "slug": "dove_gray",
           "name": {
             "en": "Dove Gray",
-            "ru": null
+            "ru": "Голубино-серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -4843,7 +4843,7 @@
           "slug": "cool_taupe",
           "name": {
             "en": "Cool Taupe",
-            "ru": null
+            "ru": "Холодный тауп"
           },
           "group": "neutral",
           "status": "linked",
@@ -4873,7 +4873,7 @@
           "slug": "mushroom",
           "name": {
             "en": "Mushroom",
-            "ru": null
+            "ru": "Грибной"
           },
           "group": "neutral",
           "status": "linked",
@@ -4903,7 +4903,7 @@
           "slug": "soft_navy",
           "name": {
             "en": "Soft Navy",
-            "ru": null
+            "ru": "Мягкий темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -4933,7 +4933,7 @@
           "slug": "stone_gray",
           "name": {
             "en": "Stone Gray",
-            "ru": null
+            "ru": "Каменно-серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -4963,7 +4963,7 @@
           "slug": "dusty_raspberry",
           "name": {
             "en": "Dusty Raspberry",
-            "ru": null
+            "ru": "Пыльный малиновый"
           },
           "group": "accent",
           "status": "linked",
@@ -4993,7 +4993,7 @@
           "slug": "blueberry",
           "name": {
             "en": "Blueberry",
-            "ru": null
+            "ru": "Черничный"
           },
           "group": "accent",
           "status": "linked",
@@ -5023,7 +5023,7 @@
           "slug": "soft_indigo",
           "name": {
             "en": "Soft Indigo",
-            "ru": null
+            "ru": "Мягкий индиго"
           },
           "group": "accent",
           "status": "linked",
@@ -5053,7 +5053,7 @@
           "slug": "juniper",
           "name": {
             "en": "Juniper",
-            "ru": null
+            "ru": "Можжевеловый"
           },
           "group": "accent",
           "status": "linked",
@@ -5083,7 +5083,7 @@
           "slug": "smoky_plum",
           "name": {
             "en": "Smoky Plum",
-            "ru": null
+            "ru": "Дымчато-сливовый"
           },
           "group": "accent",
           "status": "linked",
@@ -5113,7 +5113,7 @@
           "slug": "dusty_orchid",
           "name": {
             "en": "Dusty Orchid",
-            "ru": null
+            "ru": "Пыльная орхидея"
           },
           "group": "accent",
           "status": "linked",
@@ -5152,7 +5152,7 @@
           "slug": "soft_terracotta",
           "name": {
             "en": "Soft Terracotta",
-            "ru": null
+            "ru": "Мягкая терракота"
           },
           "group": "signature",
           "status": "linked",
@@ -5182,7 +5182,7 @@
           "slug": "sage",
           "name": {
             "en": "Sage",
-            "ru": null
+            "ru": "Шалфейный"
           },
           "group": "signature",
           "status": "linked",
@@ -5212,7 +5212,7 @@
           "slug": "soft_olive",
           "name": {
             "en": "Soft Olive",
-            "ru": null
+            "ru": "Мягкая олива"
           },
           "group": "signature",
           "status": "linked",
@@ -5242,7 +5242,7 @@
           "slug": "warm_taupe",
           "name": {
             "en": "Warm Taupe",
-            "ru": null
+            "ru": "Теплый тауп"
           },
           "group": "signature",
           "status": "linked",
@@ -5272,7 +5272,7 @@
           "slug": "moss_green",
           "name": {
             "en": "Moss Green",
-            "ru": null
+            "ru": "Моховой зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -5302,7 +5302,7 @@
           "slug": "dusty_teal",
           "name": {
             "en": "Dusty Teal",
-            "ru": null
+            "ru": "Пыльный тил"
           },
           "group": "core",
           "status": "linked",
@@ -5332,7 +5332,7 @@
           "slug": "cinnamon",
           "name": {
             "en": "Cinnamon",
-            "ru": null
+            "ru": "Корица"
           },
           "group": "core",
           "status": "linked",
@@ -5362,7 +5362,7 @@
           "slug": "camel",
           "name": {
             "en": "Camel",
-            "ru": null
+            "ru": "Кэмел"
           },
           "group": "core",
           "status": "linked",
@@ -5392,7 +5392,7 @@
           "slug": "salmon",
           "name": {
             "en": "Salmon",
-            "ru": null
+            "ru": "Лососевый"
           },
           "group": "additional",
           "status": "linked",
@@ -5422,7 +5422,7 @@
           "slug": "copper",
           "name": {
             "en": "Copper",
-            "ru": null
+            "ru": "Медный"
           },
           "group": "additional",
           "status": "linked",
@@ -5452,7 +5452,7 @@
           "slug": "clay",
           "name": {
             "en": "Clay",
-            "ru": null
+            "ru": "Глиняный"
           },
           "group": "additional",
           "status": "linked",
@@ -5482,7 +5482,7 @@
           "slug": "sand",
           "name": {
             "en": "Sand",
-            "ru": null
+            "ru": "Песочный"
           },
           "group": "additional",
           "status": "linked",
@@ -5512,7 +5512,7 @@
           "slug": "cream",
           "name": {
             "en": "Cream",
-            "ru": null
+            "ru": "Кремовый"
           },
           "group": "neutral",
           "status": "linked",
@@ -5542,7 +5542,7 @@
           "slug": "ivory",
           "name": {
             "en": "Ivory",
-            "ru": null
+            "ru": "Айвори"
           },
           "group": "neutral",
           "status": "linked",
@@ -5572,7 +5572,7 @@
           "slug": "oatmeal",
           "name": {
             "en": "Oatmeal",
-            "ru": null
+            "ru": "Овсяный"
           },
           "group": "neutral",
           "status": "linked",
@@ -5602,7 +5602,7 @@
           "slug": "mushroom",
           "name": {
             "en": "Mushroom",
-            "ru": null
+            "ru": "Грибной"
           },
           "group": "neutral",
           "status": "linked",
@@ -5632,7 +5632,7 @@
           "slug": "cocoa",
           "name": {
             "en": "Cocoa",
-            "ru": null
+            "ru": "Какао"
           },
           "group": "neutral",
           "status": "linked",
@@ -5662,7 +5662,7 @@
           "slug": "warm_gray",
           "name": {
             "en": "Warm Gray",
-            "ru": null
+            "ru": "Теплый серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -5692,7 +5692,7 @@
           "slug": "rust",
           "name": {
             "en": "Rust",
-            "ru": null
+            "ru": "Ржаво-терракотовый"
           },
           "group": "accent",
           "status": "linked",
@@ -5722,7 +5722,7 @@
           "slug": "mustard",
           "name": {
             "en": "Mustard",
-            "ru": null
+            "ru": "Горчичный"
           },
           "group": "accent",
           "status": "linked",
@@ -5752,7 +5752,7 @@
           "slug": "soft_coral",
           "name": {
             "en": "Soft Coral",
-            "ru": null
+            "ru": "Мягкий коралл"
           },
           "group": "accent",
           "status": "linked",
@@ -5782,7 +5782,7 @@
           "slug": "pine_green",
           "name": {
             "en": "Pine Green",
-            "ru": null
+            "ru": "Сосново-зеленый"
           },
           "group": "accent",
           "status": "linked",
@@ -5812,7 +5812,7 @@
           "slug": "bronze",
           "name": {
             "en": "Bronze",
-            "ru": null
+            "ru": "Бронзовый"
           },
           "group": "accent",
           "status": "linked",
@@ -5842,7 +5842,7 @@
           "slug": "tea_rose",
           "name": {
             "en": "Tea Rose",
-            "ru": null
+            "ru": "Чайная роза"
           },
           "group": "accent",
           "status": "linked",
@@ -5881,7 +5881,7 @@
           "slug": "terracotta",
           "name": {
             "en": "Terracotta",
-            "ru": null
+            "ru": "Терракотовый"
           },
           "group": "signature",
           "status": "linked",
@@ -5911,7 +5911,7 @@
           "slug": "forest_green",
           "name": {
             "en": "Forest Green",
-            "ru": null
+            "ru": "Лесной зеленый"
           },
           "group": "signature",
           "status": "linked",
@@ -5941,7 +5941,7 @@
           "slug": "rust",
           "name": {
             "en": "Rust",
-            "ru": null
+            "ru": "Ржаво-терракотовый"
           },
           "group": "signature",
           "status": "linked",
@@ -5971,7 +5971,7 @@
           "slug": "mustard",
           "name": {
             "en": "Mustard",
-            "ru": null
+            "ru": "Горчичный"
           },
           "group": "signature",
           "status": "linked",
@@ -6001,7 +6001,7 @@
           "slug": "olive_green",
           "name": {
             "en": "Olive Green",
-            "ru": null
+            "ru": "Оливково-зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -6031,7 +6031,7 @@
           "slug": "moss_green",
           "name": {
             "en": "Moss Green",
-            "ru": null
+            "ru": "Моховой зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -6061,7 +6061,7 @@
           "slug": "cinnamon",
           "name": {
             "en": "Cinnamon",
-            "ru": null
+            "ru": "Корица"
           },
           "group": "core",
           "status": "linked",
@@ -6091,7 +6091,7 @@
           "slug": "camel",
           "name": {
             "en": "Camel",
-            "ru": null
+            "ru": "Кэмел"
           },
           "group": "core",
           "status": "linked",
@@ -6121,7 +6121,7 @@
           "slug": "brick_red",
           "name": {
             "en": "Brick Red",
-            "ru": null
+            "ru": "Кирпично-красный"
           },
           "group": "additional",
           "status": "linked",
@@ -6151,7 +6151,7 @@
           "slug": "copper",
           "name": {
             "en": "Copper",
-            "ru": null
+            "ru": "Медный"
           },
           "group": "additional",
           "status": "linked",
@@ -6181,7 +6181,7 @@
           "slug": "pumpkin",
           "name": {
             "en": "Pumpkin",
-            "ru": null
+            "ru": "Тыквенный"
           },
           "group": "additional",
           "status": "linked",
@@ -6211,7 +6211,7 @@
           "slug": "warm_teal",
           "name": {
             "en": "Warm Teal",
-            "ru": null
+            "ru": "Теплый тил"
           },
           "group": "additional",
           "status": "linked",
@@ -6241,7 +6241,7 @@
           "slug": "cream",
           "name": {
             "en": "Cream",
-            "ru": null
+            "ru": "Кремовый"
           },
           "group": "neutral",
           "status": "linked",
@@ -6271,7 +6271,7 @@
           "slug": "ivory",
           "name": {
             "en": "Ivory",
-            "ru": null
+            "ru": "Айвори"
           },
           "group": "neutral",
           "status": "linked",
@@ -6301,7 +6301,7 @@
           "slug": "warm_beige",
           "name": {
             "en": "Warm Beige",
-            "ru": null
+            "ru": "Теплый бежевый"
           },
           "group": "neutral",
           "status": "linked",
@@ -6331,7 +6331,7 @@
           "slug": "cocoa",
           "name": {
             "en": "Cocoa",
-            "ru": null
+            "ru": "Какао"
           },
           "group": "neutral",
           "status": "linked",
@@ -6361,7 +6361,7 @@
           "slug": "chocolate_brown",
           "name": {
             "en": "Chocolate Brown",
-            "ru": null
+            "ru": "Шоколадно-коричневый"
           },
           "group": "neutral",
           "status": "linked",
@@ -6391,7 +6391,7 @@
           "slug": "warm_gray",
           "name": {
             "en": "Warm Gray",
-            "ru": null
+            "ru": "Теплый серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -6421,7 +6421,7 @@
           "slug": "gold",
           "name": {
             "en": "Gold",
-            "ru": null
+            "ru": "Золотой"
           },
           "group": "accent",
           "status": "linked",
@@ -6451,7 +6451,7 @@
           "slug": "bronze",
           "name": {
             "en": "Bronze",
-            "ru": null
+            "ru": "Бронзовый"
           },
           "group": "accent",
           "status": "linked",
@@ -6481,7 +6481,7 @@
           "slug": "paprika",
           "name": {
             "en": "Paprika",
-            "ru": null
+            "ru": "Паприка"
           },
           "group": "accent",
           "status": "linked",
@@ -6511,7 +6511,7 @@
           "slug": "pine_green",
           "name": {
             "en": "Pine Green",
-            "ru": null
+            "ru": "Сосново-зеленый"
           },
           "group": "accent",
           "status": "linked",
@@ -6541,7 +6541,7 @@
           "slug": "salmon",
           "name": {
             "en": "Salmon",
-            "ru": null
+            "ru": "Лососевый"
           },
           "group": "accent",
           "status": "linked",
@@ -6571,7 +6571,7 @@
           "slug": "tea_rose",
           "name": {
             "en": "Tea Rose",
-            "ru": null
+            "ru": "Чайная роза"
           },
           "group": "accent",
           "status": "linked",
@@ -6610,7 +6610,7 @@
           "slug": "pure_white",
           "name": {
             "en": "Pure White",
-            "ru": null
+            "ru": "Чистый белый"
           },
           "group": "signature",
           "status": "linked",
@@ -6640,7 +6640,7 @@
           "slug": "pure_black",
           "name": {
             "en": "Pure Black",
-            "ru": null
+            "ru": "Чистый черный"
           },
           "group": "signature",
           "status": "linked",
@@ -6670,7 +6670,7 @@
           "slug": "fuchsia",
           "name": {
             "en": "Fuchsia",
-            "ru": null
+            "ru": "Фуксия"
           },
           "group": "signature",
           "status": "linked",
@@ -6700,7 +6700,7 @@
           "slug": "ice_turquoise",
           "name": {
             "en": "Ice Turquoise",
-            "ru": null
+            "ru": "Ледяная бирюза"
           },
           "group": "signature",
           "status": "linked",
@@ -6730,7 +6730,7 @@
           "slug": "royal_blue",
           "name": {
             "en": "Royal Blue",
-            "ru": null
+            "ru": "Королевский синий"
           },
           "group": "core",
           "status": "linked",
@@ -6760,7 +6760,7 @@
           "slug": "cobalt_blue",
           "name": {
             "en": "Cobalt Blue",
-            "ru": null
+            "ru": "Кобальтово-синий"
           },
           "group": "core",
           "status": "linked",
@@ -6790,7 +6790,7 @@
           "slug": "emerald",
           "name": {
             "en": "Emerald",
-            "ru": null
+            "ru": "Изумрудный"
           },
           "group": "core",
           "status": "linked",
@@ -6820,7 +6820,7 @@
           "slug": "bright_purple",
           "name": {
             "en": "Bright Purple",
-            "ru": null
+            "ru": "Яркий фиолетовый"
           },
           "group": "core",
           "status": "linked",
@@ -6850,7 +6850,7 @@
           "slug": "raspberry",
           "name": {
             "en": "Raspberry",
-            "ru": null
+            "ru": "Малиновый"
           },
           "group": "additional",
           "status": "linked",
@@ -6880,7 +6880,7 @@
           "slug": "true_red",
           "name": {
             "en": "True Red",
-            "ru": null
+            "ru": "Истинный красный"
           },
           "group": "additional",
           "status": "linked",
@@ -6910,7 +6910,7 @@
           "slug": "icy_pink",
           "name": {
             "en": "Icy Pink",
-            "ru": null
+            "ru": "Ледяной розовый"
           },
           "group": "additional",
           "status": "linked",
@@ -6940,7 +6940,7 @@
           "slug": "icy_blue",
           "name": {
             "en": "Icy Blue",
-            "ru": null
+            "ru": "Ледяной голубой"
           },
           "group": "additional",
           "status": "linked",
@@ -6970,7 +6970,7 @@
           "slug": "white",
           "name": {
             "en": "White",
-            "ru": null
+            "ru": "Белый"
           },
           "group": "neutral",
           "status": "linked",
@@ -7000,7 +7000,7 @@
           "slug": "black",
           "name": {
             "en": "Black",
-            "ru": null
+            "ru": "Черный"
           },
           "group": "neutral",
           "status": "linked",
@@ -7030,7 +7030,7 @@
           "slug": "cool_gray",
           "name": {
             "en": "Cool Gray",
-            "ru": null
+            "ru": "Холодный серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -7060,7 +7060,7 @@
           "slug": "steel_gray",
           "name": {
             "en": "Steel Gray",
-            "ru": null
+            "ru": "Стальной серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -7090,7 +7090,7 @@
           "slug": "charcoal",
           "name": {
             "en": "Charcoal",
-            "ru": null
+            "ru": "Угольный"
           },
           "group": "neutral",
           "status": "linked",
@@ -7120,7 +7120,7 @@
           "slug": "navy",
           "name": {
             "en": "Navy",
-            "ru": null
+            "ru": "Темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -7150,7 +7150,7 @@
           "slug": "lime",
           "name": {
             "en": "Lime",
-            "ru": null
+            "ru": "Лайм"
           },
           "group": "accent",
           "status": "linked",
@@ -7180,7 +7180,7 @@
           "slug": "electric_blue",
           "name": {
             "en": "Electric Blue",
-            "ru": null
+            "ru": "Электрический синий"
           },
           "group": "accent",
           "status": "linked",
@@ -7210,7 +7210,7 @@
           "slug": "bright_aqua",
           "name": {
             "en": "Bright Aqua",
-            "ru": null
+            "ru": "Яркая аква"
           },
           "group": "accent",
           "status": "linked",
@@ -7240,7 +7240,7 @@
           "slug": "icy_lemon",
           "name": {
             "en": "Icy Lemon",
-            "ru": null
+            "ru": "Ледяной лимонный"
           },
           "group": "accent",
           "status": "linked",
@@ -7270,7 +7270,7 @@
           "slug": "magenta",
           "name": {
             "en": "Magenta",
-            "ru": null
+            "ru": "Маджента"
           },
           "group": "accent",
           "status": "linked",
@@ -7300,7 +7300,7 @@
           "slug": "ice_mint",
           "name": {
             "en": "Ice Mint",
-            "ru": null
+            "ru": "Ледяная мята"
           },
           "group": "accent",
           "status": "linked",
@@ -7339,7 +7339,7 @@
           "slug": "pure_white",
           "name": {
             "en": "Pure White",
-            "ru": null
+            "ru": "Чистый белый"
           },
           "group": "signature",
           "status": "linked",
@@ -7369,7 +7369,7 @@
           "slug": "black",
           "name": {
             "en": "Black",
-            "ru": null
+            "ru": "Черный"
           },
           "group": "signature",
           "status": "linked",
@@ -7399,7 +7399,7 @@
           "slug": "sapphire_blue",
           "name": {
             "en": "Sapphire Blue",
-            "ru": null
+            "ru": "Сапфирово-синий"
           },
           "group": "signature",
           "status": "linked",
@@ -7429,7 +7429,7 @@
           "slug": "true_red",
           "name": {
             "en": "True Red",
-            "ru": null
+            "ru": "Истинный красный"
           },
           "group": "signature",
           "status": "linked",
@@ -7459,7 +7459,7 @@
           "slug": "cobalt_blue",
           "name": {
             "en": "Cobalt Blue",
-            "ru": null
+            "ru": "Кобальтово-синий"
           },
           "group": "core",
           "status": "linked",
@@ -7489,7 +7489,7 @@
           "slug": "emerald",
           "name": {
             "en": "Emerald",
-            "ru": null
+            "ru": "Изумрудный"
           },
           "group": "core",
           "status": "linked",
@@ -7519,7 +7519,7 @@
           "slug": "amethyst",
           "name": {
             "en": "Amethyst",
-            "ru": null
+            "ru": "Аметистовый"
           },
           "group": "core",
           "status": "linked",
@@ -7549,7 +7549,7 @@
           "slug": "cool_fuchsia",
           "name": {
             "en": "Cool Fuchsia",
-            "ru": null
+            "ru": "Холодная фуксия"
           },
           "group": "core",
           "status": "linked",
@@ -7579,7 +7579,7 @@
           "slug": "icy_pink",
           "name": {
             "en": "Icy Pink",
-            "ru": null
+            "ru": "Ледяной розовый"
           },
           "group": "additional",
           "status": "linked",
@@ -7609,7 +7609,7 @@
           "slug": "icy_blue",
           "name": {
             "en": "Icy Blue",
-            "ru": null
+            "ru": "Ледяной голубой"
           },
           "group": "additional",
           "status": "linked",
@@ -7639,7 +7639,7 @@
           "slug": "cool_turquoise",
           "name": {
             "en": "Cool Turquoise",
-            "ru": null
+            "ru": "Холодная бирюза"
           },
           "group": "additional",
           "status": "linked",
@@ -7669,7 +7669,7 @@
           "slug": "raspberry",
           "name": {
             "en": "Raspberry",
-            "ru": null
+            "ru": "Малиновый"
           },
           "group": "additional",
           "status": "linked",
@@ -7699,7 +7699,7 @@
           "slug": "white",
           "name": {
             "en": "White",
-            "ru": null
+            "ru": "Белый"
           },
           "group": "neutral",
           "status": "linked",
@@ -7729,7 +7729,7 @@
           "slug": "black",
           "name": {
             "en": "Black",
-            "ru": null
+            "ru": "Черный"
           },
           "group": "neutral",
           "status": "linked",
@@ -7759,7 +7759,7 @@
           "slug": "cool_gray",
           "name": {
             "en": "Cool Gray",
-            "ru": null
+            "ru": "Холодный серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -7789,7 +7789,7 @@
           "slug": "steel_gray",
           "name": {
             "en": "Steel Gray",
-            "ru": null
+            "ru": "Стальной серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -7819,7 +7819,7 @@
           "slug": "charcoal",
           "name": {
             "en": "Charcoal",
-            "ru": null
+            "ru": "Угольный"
           },
           "group": "neutral",
           "status": "linked",
@@ -7849,7 +7849,7 @@
           "slug": "navy",
           "name": {
             "en": "Navy",
-            "ru": null
+            "ru": "Темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -7879,7 +7879,7 @@
           "slug": "icy_lemon",
           "name": {
             "en": "Icy Lemon",
-            "ru": null
+            "ru": "Ледяной лимонный"
           },
           "group": "accent",
           "status": "linked",
@@ -7909,7 +7909,7 @@
           "slug": "magenta",
           "name": {
             "en": "Magenta",
-            "ru": null
+            "ru": "Маджента"
           },
           "group": "accent",
           "status": "linked",
@@ -7939,7 +7939,7 @@
           "slug": "electric_blue",
           "name": {
             "en": "Electric Blue",
-            "ru": null
+            "ru": "Электрический синий"
           },
           "group": "accent",
           "status": "linked",
@@ -7969,7 +7969,7 @@
           "slug": "ice_mint",
           "name": {
             "en": "Ice Mint",
-            "ru": null
+            "ru": "Ледяная мята"
           },
           "group": "accent",
           "status": "linked",
@@ -7999,7 +7999,7 @@
           "slug": "bright_purple",
           "name": {
             "en": "Bright Purple",
-            "ru": null
+            "ru": "Яркий фиолетовый"
           },
           "group": "accent",
           "status": "linked",
@@ -8029,7 +8029,7 @@
           "slug": "cool_aqua",
           "name": {
             "en": "Cool Aqua",
-            "ru": null
+            "ru": "Холодная аква"
           },
           "group": "accent",
           "status": "linked",
@@ -8068,7 +8068,7 @@
           "slug": "black",
           "name": {
             "en": "Black",
-            "ru": null
+            "ru": "Черный"
           },
           "group": "signature",
           "status": "linked",
@@ -8098,7 +8098,7 @@
           "slug": "ice_white",
           "name": {
             "en": "Ice White",
-            "ru": null
+            "ru": "Ледяной белый"
           },
           "group": "signature",
           "status": "linked",
@@ -8128,7 +8128,7 @@
           "slug": "deep_sapphire",
           "name": {
             "en": "Deep Sapphire",
-            "ru": null
+            "ru": "Глубокий сапфировый"
           },
           "group": "signature",
           "status": "linked",
@@ -8158,7 +8158,7 @@
           "slug": "burgundy",
           "name": {
             "en": "Burgundy",
-            "ru": null
+            "ru": "Бургундский"
           },
           "group": "signature",
           "status": "linked",
@@ -8188,7 +8188,7 @@
           "slug": "midnight_blue",
           "name": {
             "en": "Midnight Blue",
-            "ru": null
+            "ru": "Полуночно-синий"
           },
           "group": "core",
           "status": "linked",
@@ -8218,7 +8218,7 @@
           "slug": "spruce_green",
           "name": {
             "en": "Spruce Green",
-            "ru": null
+            "ru": "Елово-зеленый"
           },
           "group": "core",
           "status": "linked",
@@ -8248,7 +8248,7 @@
           "slug": "aubergine",
           "name": {
             "en": "Aubergine",
-            "ru": null
+            "ru": "Баклажановый"
           },
           "group": "core",
           "status": "linked",
@@ -8278,7 +8278,7 @@
           "slug": "charcoal",
           "name": {
             "en": "Charcoal",
-            "ru": null
+            "ru": "Угольный"
           },
           "group": "core",
           "status": "linked",
@@ -8308,7 +8308,7 @@
           "slug": "icy_pink",
           "name": {
             "en": "Icy Pink",
-            "ru": null
+            "ru": "Ледяной розовый"
           },
           "group": "additional",
           "status": "linked",
@@ -8338,7 +8338,7 @@
           "slug": "cool_raspberry",
           "name": {
             "en": "Cool Raspberry",
-            "ru": null
+            "ru": "Холодный малиновый"
           },
           "group": "additional",
           "status": "linked",
@@ -8368,7 +8368,7 @@
           "slug": "deep_emerald",
           "name": {
             "en": "Deep Emerald",
-            "ru": null
+            "ru": "Глубокий изумрудный"
           },
           "group": "additional",
           "status": "linked",
@@ -8398,7 +8398,7 @@
           "slug": "cool_teal",
           "name": {
             "en": "Cool Teal",
-            "ru": null
+            "ru": "Холодный тил"
           },
           "group": "additional",
           "status": "linked",
@@ -8428,7 +8428,7 @@
           "slug": "white",
           "name": {
             "en": "White",
-            "ru": null
+            "ru": "Белый"
           },
           "group": "neutral",
           "status": "linked",
@@ -8458,7 +8458,7 @@
           "slug": "graphite",
           "name": {
             "en": "Graphite",
-            "ru": null
+            "ru": "Графитовый"
           },
           "group": "neutral",
           "status": "linked",
@@ -8488,7 +8488,7 @@
           "slug": "cool_gray",
           "name": {
             "en": "Cool Gray",
-            "ru": null
+            "ru": "Холодный серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -8518,7 +8518,7 @@
           "slug": "steel_gray",
           "name": {
             "en": "Steel Gray",
-            "ru": null
+            "ru": "Стальной серый"
           },
           "group": "neutral",
           "status": "linked",
@@ -8548,7 +8548,7 @@
           "slug": "navy",
           "name": {
             "en": "Navy",
-            "ru": null
+            "ru": "Темно-синий"
           },
           "group": "neutral",
           "status": "linked",
@@ -8578,7 +8578,7 @@
           "slug": "silver",
           "name": {
             "en": "Silver",
-            "ru": null
+            "ru": "Серебряный"
           },
           "group": "neutral",
           "status": "linked",
@@ -8608,7 +8608,7 @@
           "slug": "icy_blue",
           "name": {
             "en": "Icy Blue",
-            "ru": null
+            "ru": "Ледяной голубой"
           },
           "group": "accent",
           "status": "linked",
@@ -8638,7 +8638,7 @@
           "slug": "magenta",
           "name": {
             "en": "Magenta",
-            "ru": null
+            "ru": "Маджента"
           },
           "group": "accent",
           "status": "linked",
@@ -8668,7 +8668,7 @@
           "slug": "cobalt_blue",
           "name": {
             "en": "Cobalt Blue",
-            "ru": null
+            "ru": "Кобальтово-синий"
           },
           "group": "accent",
           "status": "linked",
@@ -8698,7 +8698,7 @@
           "slug": "cool_aqua",
           "name": {
             "en": "Cool Aqua",
-            "ru": null
+            "ru": "Холодная аква"
           },
           "group": "accent",
           "status": "linked",
@@ -8728,7 +8728,7 @@
           "slug": "amethyst",
           "name": {
             "en": "Amethyst",
-            "ru": null
+            "ru": "Аметистовый"
           },
           "group": "accent",
           "status": "linked",
@@ -8758,7 +8758,7 @@
           "slug": "berry",
           "name": {
             "en": "Berry",
-            "ru": null
+            "ru": "Ягодный"
           },
           "group": "accent",
           "status": "linked",
