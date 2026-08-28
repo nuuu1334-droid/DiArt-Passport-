@@ -26,7 +26,7 @@
       "slug": "amethyst",
       "name": {
         "en": "Amethyst",
-        "ru": null
+        "ru": "Аметистовый"
       },
       "occurrences": [
         {
@@ -131,7 +131,7 @@
       "slug": "apricot",
       "name": {
         "en": "Apricot",
-        "ru": null
+        "ru": "Абрикосовый"
       },
       "occurrences": [
         {
@@ -231,7 +231,7 @@
       "slug": "aqua",
       "name": {
         "en": "Aqua",
-        "ru": null
+        "ru": "Аква"
       },
       "occurrences": [
         {
@@ -322,7 +322,7 @@
       "slug": "aubergine",
       "name": {
         "en": "Aubergine",
-        "ru": null
+        "ru": "Баклажановый"
       },
       "occurrences": [
         {
@@ -418,7 +418,7 @@
       "slug": "berry",
       "name": {
         "en": "Berry",
-        "ru": null
+        "ru": "Ягодный"
       },
       "occurrences": [
         {
@@ -523,7 +523,7 @@
       "slug": "black",
       "name": {
         "en": "Black",
-        "ru": null
+        "ru": "Черный"
       },
       "occurrences": [
         {
@@ -641,7 +641,7 @@
       "slug": "blue_gray",
       "name": {
         "en": "Blue Gray",
-        "ru": null
+        "ru": "Серо-голубой"
       },
       "occurrences": [
         {
@@ -737,7 +737,7 @@
       "slug": "blue_green",
       "name": {
         "en": "Blue Green",
-        "ru": null
+        "ru": "Сине-зеленый"
       },
       "occurrences": [
         {
@@ -833,7 +833,7 @@
       "slug": "blue_iris",
       "name": {
         "en": "Blue Iris",
-        "ru": null
+        "ru": "Голубой ирис"
       },
       "occurrences": [
         {
@@ -929,7 +929,7 @@
       "slug": "blue_spruce",
       "name": {
         "en": "Blue Spruce",
-        "ru": null
+        "ru": "Голубая ель"
       },
       "occurrences": [
         {
@@ -1030,7 +1030,7 @@
       "slug": "blue_violet",
       "name": {
         "en": "Blue Violet",
-        "ru": null
+        "ru": "Сине-фиолетовый"
       },
       "occurrences": [
         {
@@ -1125,7 +1125,7 @@
       "slug": "blueberry",
       "name": {
         "en": "Blueberry",
-        "ru": null
+        "ru": "Черничный"
       },
       "occurrences": [
         {
@@ -1230,7 +1230,7 @@
       "slug": "brick_red",
       "name": {
         "en": "Brick Red",
-        "ru": null
+        "ru": "Кирпично-красный"
       },
       "occurrences": [
         {
@@ -1354,7 +1354,7 @@
       "slug": "bright_aqua",
       "name": {
         "en": "Bright Aqua",
-        "ru": null
+        "ru": "Яркая аква"
       },
       "occurrences": [
         {
@@ -1459,7 +1459,7 @@
       "slug": "bright_coral",
       "name": {
         "en": "Bright Coral",
-        "ru": null
+        "ru": "Яркий коралл"
       },
       "occurrences": [
         {
@@ -1582,7 +1582,7 @@
       "slug": "bright_green",
       "name": {
         "en": "Bright Green",
-        "ru": null
+        "ru": "Яркий зеленый"
       },
       "occurrences": [
         {
@@ -1677,7 +1677,7 @@
       "slug": "bright_lime",
       "name": {
         "en": "Bright Lime",
-        "ru": null
+        "ru": "Яркий лайм"
       },
       "occurrences": [
         {
@@ -1772,7 +1772,7 @@
       "slug": "bright_orange",
       "name": {
         "en": "Bright Orange",
-        "ru": null
+        "ru": "Яркий оранжевый"
       },
       "occurrences": [
         {
@@ -1877,7 +1877,7 @@
       "slug": "bright_purple",
       "name": {
         "en": "Bright Purple",
-        "ru": null
+        "ru": "Яркий фиолетовый"
       },
       "occurrences": [
         {
@@ -1981,7 +1981,7 @@
       "slug": "bright_red",
       "name": {
         "en": "Bright Red",
-        "ru": null
+        "ru": "Яркий красный"
       },
       "occurrences": [
         {
@@ -2076,7 +2076,7 @@
       "slug": "bright_sky_blue",
       "name": {
         "en": "Bright Sky Blue",
-        "ru": null
+        "ru": "Яркий небесно-голубой"
       },
       "occurrences": [
         {
@@ -2191,7 +2191,7 @@
       "slug": "bright_turquoise",
       "name": {
         "en": "Bright Turquoise",
-        "ru": null
+        "ru": "Яркая бирюза"
       },
       "occurrences": [
         {
@@ -2316,7 +2316,7 @@
       "slug": "bright_yellow",
       "name": {
         "en": "Bright Yellow",
-        "ru": null
+        "ru": "Яркий желтый"
       },
       "occurrences": [
         {
@@ -2431,7 +2431,7 @@
       "slug": "bronze",
       "name": {
         "en": "Bronze",
-        "ru": null
+        "ru": "Бронзовый"
       },
       "occurrences": [
         {
@@ -2506,7 +2506,7 @@
       "slug": "burgundy",
       "name": {
         "en": "Burgundy",
-        "ru": null
+        "ru": "Бургундский"
       },
       "occurrences": [
         {
@@ -2571,7 +2571,7 @@
       "slug": "butter_yellow",
       "name": {
         "en": "Butter Yellow",
-        "ru": null
+        "ru": "Сливочно-желтый"
       },
       "occurrences": [
         {
@@ -2637,7 +2637,7 @@
       "slug": "cadet_blue",
       "name": {
         "en": "Cadet Blue",
-        "ru": null
+        "ru": "Кадетский синий"
       },
       "occurrences": [
         {
@@ -2703,7 +2703,7 @@
       "slug": "camel",
       "name": {
         "en": "Camel",
-        "ru": null
+        "ru": "Кэмел"
       },
       "occurrences": [
         {
@@ -2825,7 +2825,7 @@
       "slug": "charcoal",
       "name": {
         "en": "Charcoal",
-        "ru": null
+        "ru": "Угольный"
       },
       "occurrences": [
         {
@@ -2918,7 +2918,7 @@
       "slug": "chestnut",
       "name": {
         "en": "Chestnut",
-        "ru": null
+        "ru": "Каштановый"
       },
       "occurrences": [
         {
@@ -3004,7 +3004,7 @@
       "slug": "chocolate_brown",
       "name": {
         "en": "Chocolate Brown",
-        "ru": null
+        "ru": "Шоколадно-коричневый"
       },
       "occurrences": [
         {
@@ -3100,7 +3100,7 @@
       "slug": "cinnamon",
       "name": {
         "en": "Cinnamon",
-        "ru": null
+        "ru": "Корица"
       },
       "occurrences": [
         {
@@ -3174,7 +3174,7 @@
       "slug": "clay",
       "name": {
         "en": "Clay",
-        "ru": null
+        "ru": "Глиняный"
       },
       "occurrences": [
         {
@@ -3289,7 +3289,7 @@
       "slug": "clear_aqua",
       "name": {
         "en": "Clear Aqua",
-        "ru": null
+        "ru": "Чистая аква"
       },
       "occurrences": [
         {
@@ -3431,7 +3431,7 @@
       "slug": "clear_coral",
       "name": {
         "en": "Clear Coral",
-        "ru": null
+        "ru": "Чистый коралл"
       },
       "occurrences": [
         {
@@ -3526,7 +3526,7 @@
       "slug": "clear_gold",
       "name": {
         "en": "Clear Gold",
-        "ru": null
+        "ru": "Чистое золото"
       },
       "occurrences": [
         {
@@ -3621,7 +3621,7 @@
       "slug": "clear_peach",
       "name": {
         "en": "Clear Peach",
-        "ru": null
+        "ru": "Чистый персиковый"
       },
       "occurrences": [
         {
@@ -3706,7 +3706,7 @@
       "slug": "clear_red",
       "name": {
         "en": "Clear Red",
-        "ru": null
+        "ru": "Чистый красный"
       },
       "occurrences": [
         {
@@ -3811,7 +3811,7 @@
       "slug": "cobalt_blue",
       "name": {
         "en": "Cobalt Blue",
-        "ru": null
+        "ru": "Кобальтово-синий"
       },
       "occurrences": [
         {
@@ -3944,7 +3944,7 @@
       "slug": "cocoa",
       "name": {
         "en": "Cocoa",
-        "ru": null
+        "ru": "Какао"
       },
       "occurrences": [
         {
@@ -4077,7 +4077,7 @@
       "slug": "coffee_brown",
       "name": {
         "en": "Coffee Brown",
-        "ru": null
+        "ru": "Кофейно-коричневый"
       },
       "occurrences": [
         {
@@ -4192,7 +4192,7 @@
       "slug": "cool_aqua",
       "name": {
         "en": "Cool Aqua",
-        "ru": null
+        "ru": "Холодная аква"
       },
       "occurrences": [
         {
@@ -4316,7 +4316,7 @@
       "slug": "cool_fuchsia",
       "name": {
         "en": "Cool Fuchsia",
-        "ru": null
+        "ru": "Холодная фуксия"
       },
       "occurrences": [
         {
@@ -4431,7 +4431,7 @@
       "slug": "cool_gray",
       "name": {
         "en": "Cool Gray",
-        "ru": null
+        "ru": "Холодный серый"
       },
       "occurrences": [
         {
@@ -4564,7 +4564,7 @@
       "slug": "cool_pink",
       "name": {
         "en": "Cool Pink",
-        "ru": null
+        "ru": "Холодный розовый"
       },
       "occurrences": [
         {
@@ -4669,7 +4669,7 @@
       "slug": "cool_raspberry",
       "name": {
         "en": "Cool Raspberry",
-        "ru": null
+        "ru": "Холодный малиновый"
       },
       "occurrences": [
         {
@@ -4774,7 +4774,7 @@
       "slug": "cool_rose",
       "name": {
         "en": "Cool Rose",
-        "ru": null
+        "ru": "Холодная роза"
       },
       "occurrences": [
         {
@@ -4859,7 +4859,7 @@
       "slug": "cool_taupe",
       "name": {
         "en": "Cool Taupe",
-        "ru": null
+        "ru": "Холодный тауп"
       },
       "occurrences": [
         {
@@ -4973,7 +4973,7 @@
       "slug": "cool_teal",
       "name": {
         "en": "Cool Teal",
-        "ru": null
+        "ru": "Холодный тил"
       },
       "occurrences": [
         {
@@ -5068,7 +5068,7 @@
       "slug": "cool_turquoise",
       "name": {
         "en": "Cool Turquoise",
-        "ru": null
+        "ru": "Холодная бирюза"
       },
       "occurrences": [
         {
@@ -5163,7 +5163,7 @@
       "slug": "copper",
       "name": {
         "en": "Copper",
-        "ru": null
+        "ru": "Медный"
       },
       "occurrences": [
         {
@@ -5296,7 +5296,7 @@
       "slug": "coral",
       "name": {
         "en": "Coral",
-        "ru": null
+        "ru": "Коралловый"
       },
       "occurrences": [
         {
@@ -5430,7 +5430,7 @@
       "slug": "coral_red",
       "name": {
         "en": "Coral Red",
-        "ru": null
+        "ru": "Кораллово-красный"
       },
       "occurrences": [
         {
@@ -5525,7 +5525,7 @@
       "slug": "cranberry",
       "name": {
         "en": "Cranberry",
-        "ru": null
+        "ru": "Клюквенный"
       },
       "occurrences": [
         {
@@ -5630,7 +5630,7 @@
       "slug": "cream",
       "name": {
         "en": "Cream",
-        "ru": null
+        "ru": "Кремовый"
       },
       "occurrences": [
         {
@@ -5781,7 +5781,7 @@
       "slug": "dark_chocolate",
       "name": {
         "en": "Dark Chocolate",
-        "ru": null
+        "ru": "Темный шоколад"
       },
       "occurrences": [
         {
@@ -5896,7 +5896,7 @@
       "slug": "dark_khaki",
       "name": {
         "en": "Dark Khaki",
-        "ru": null
+        "ru": "Темный хаки"
       },
       "occurrences": [
         {
@@ -6011,7 +6011,7 @@
       "slug": "deep_emerald",
       "name": {
         "en": "Deep Emerald",
-        "ru": null
+        "ru": "Глубокий изумрудный"
       },
       "occurrences": [
         {
@@ -6106,7 +6106,7 @@
       "slug": "deep_emerald_green",
       "name": {
         "en": "Deep Emerald Green",
-        "ru": null
+        "ru": "Глубокий изумрудно-зеленый"
       },
       "occurrences": [
         {
@@ -6211,7 +6211,7 @@
       "slug": "deep_sapphire",
       "name": {
         "en": "Deep Sapphire",
-        "ru": null
+        "ru": "Глубокий сапфировый"
       },
       "occurrences": [
         {
@@ -6316,7 +6316,7 @@
       "slug": "deep_teal",
       "name": {
         "en": "Deep Teal",
-        "ru": null
+        "ru": "Глубокий тил"
       },
       "occurrences": [
         {
@@ -6441,7 +6441,7 @@
       "slug": "denim_blue",
       "name": {
         "en": "Denim Blue",
-        "ru": null
+        "ru": "Джинсово-синий"
       },
       "occurrences": [
         {
@@ -6566,7 +6566,7 @@
       "slug": "dove_gray",
       "name": {
         "en": "Dove Gray",
-        "ru": null
+        "ru": "Голубино-серый"
       },
       "occurrences": [
         {
@@ -6700,7 +6700,7 @@
       "slug": "dusty_orchid",
       "name": {
         "en": "Dusty Orchid",
-        "ru": null
+        "ru": "Пыльная орхидея"
       },
       "occurrences": [
         {
@@ -6805,7 +6805,7 @@
       "slug": "dusty_raspberry",
       "name": {
         "en": "Dusty Raspberry",
-        "ru": null
+        "ru": "Пыльный малиновый"
       },
       "occurrences": [
         {
@@ -6930,7 +6930,7 @@
       "slug": "dusty_rose",
       "name": {
         "en": "Dusty Rose",
-        "ru": null
+        "ru": "Пыльная роза"
       },
       "occurrences": [
         {
@@ -7054,7 +7054,7 @@
       "slug": "dusty_teal",
       "name": {
         "en": "Dusty Teal",
-        "ru": null
+        "ru": "Пыльный тил"
       },
       "occurrences": [
         {
@@ -7149,7 +7149,7 @@
       "slug": "dusty_turquoise",
       "name": {
         "en": "Dusty Turquoise",
-        "ru": null
+        "ru": "Пыльная бирюза"
       },
       "occurrences": [
         {
@@ -7254,7 +7254,7 @@
       "slug": "electric_blue",
       "name": {
         "en": "Electric Blue",
-        "ru": null
+        "ru": "Электрический синий"
       },
       "occurrences": [
         {
@@ -7378,7 +7378,7 @@
       "slug": "emerald",
       "name": {
         "en": "Emerald",
-        "ru": null
+        "ru": "Изумрудный"
       },
       "occurrences": [
         {
@@ -7492,7 +7492,7 @@
       "slug": "espresso",
       "name": {
         "en": "Espresso",
-        "ru": null
+        "ru": "Эспрессо"
       },
       "occurrences": [
         {
@@ -7627,7 +7627,7 @@
       "slug": "eucalyptus_green",
       "name": {
         "en": "Eucalyptus Green",
-        "ru": null
+        "ru": "Эвкалиптовый зеленый"
       },
       "occurrences": [
         {
@@ -7732,7 +7732,7 @@
       "slug": "forest_green",
       "name": {
         "en": "Forest Green",
-        "ru": null
+        "ru": "Лесной зеленый"
       },
       "occurrences": [
         {
@@ -7856,7 +7856,7 @@
       "slug": "fresh_green",
       "name": {
         "en": "Fresh Green",
-        "ru": null
+        "ru": "Свежий зеленый"
       },
       "occurrences": [
         {
@@ -7961,7 +7961,7 @@
       "slug": "fresh_leaf_green",
       "name": {
         "en": "Fresh Leaf Green",
-        "ru": null
+        "ru": "Свежий листовой зеленый"
       },
       "occurrences": [
         {
@@ -8066,7 +8066,7 @@
       "slug": "fuchsia",
       "name": {
         "en": "Fuchsia",
-        "ru": null
+        "ru": "Фуксия"
       },
       "occurrences": [
         {
@@ -8171,7 +8171,7 @@
       "slug": "gold",
       "name": {
         "en": "Gold",
-        "ru": null
+        "ru": "Золотой"
       },
       "occurrences": [
         {
@@ -8295,7 +8295,7 @@
       "slug": "golden_yellow",
       "name": {
         "en": "Golden Yellow",
-        "ru": null
+        "ru": "Золотисто-желтый"
       },
       "occurrences": [
         {
@@ -8438,7 +8438,7 @@
       "slug": "graphite",
       "name": {
         "en": "Graphite",
-        "ru": null
+        "ru": "Графитовый"
       },
       "occurrences": [
         {
@@ -8563,7 +8563,7 @@
       "slug": "grayed_navy",
       "name": {
         "en": "Grayed Navy",
-        "ru": null
+        "ru": "Приглушенный темно-синий"
       },
       "occurrences": [
         {
@@ -8678,7 +8678,7 @@
       "slug": "ice_mint",
       "name": {
         "en": "Ice Mint",
-        "ru": null
+        "ru": "Ледяная мята"
       },
       "occurrences": [
         {
@@ -8802,7 +8802,7 @@
       "slug": "ice_turquoise",
       "name": {
         "en": "Ice Turquoise",
-        "ru": null
+        "ru": "Ледяная бирюза"
       },
       "occurrences": [
         {
@@ -8917,7 +8917,7 @@
       "slug": "ice_white",
       "name": {
         "en": "Ice White",
-        "ru": null
+        "ru": "Ледяной белый"
       },
       "occurrences": [
         {
@@ -9022,7 +9022,7 @@
       "slug": "icy_blue",
       "name": {
         "en": "Icy Blue",
-        "ru": null
+        "ru": "Ледяной голубой"
       },
       "occurrences": [
         {
@@ -9145,7 +9145,7 @@
       "slug": "icy_lemon",
       "name": {
         "en": "Icy Lemon",
-        "ru": null
+        "ru": "Ледяной лимонный"
       },
       "occurrences": [
         {
@@ -9259,7 +9259,7 @@
       "slug": "icy_pink",
       "name": {
         "en": "Icy Pink",
-        "ru": null
+        "ru": "Ледяной розовый"
       },
       "occurrences": [
         {
@@ -9372,7 +9372,7 @@
       "slug": "ivory",
       "name": {
         "en": "Ivory",
-        "ru": null
+        "ru": "Айвори"
       },
       "occurrences": [
         {
@@ -9533,7 +9533,7 @@
       "slug": "jade",
       "name": {
         "en": "Jade",
-        "ru": null
+        "ru": "Нефритовый"
       },
       "occurrences": [
         {
@@ -9658,7 +9658,7 @@
       "slug": "juniper",
       "name": {
         "en": "Juniper",
-        "ru": null
+        "ru": "Можжевеловый"
       },
       "occurrences": [
         {
@@ -9783,7 +9783,7 @@
       "slug": "lavender",
       "name": {
         "en": "Lavender",
-        "ru": null
+        "ru": "Лавандовый"
       },
       "occurrences": [
         {
@@ -9917,7 +9917,7 @@
       "slug": "lavender_gray",
       "name": {
         "en": "Lavender Gray",
-        "ru": null
+        "ru": "Лавандово-серый"
       },
       "occurrences": [
         {
@@ -10052,7 +10052,7 @@
       "slug": "leaf_green",
       "name": {
         "en": "Leaf Green",
-        "ru": null
+        "ru": "Листовой зеленый"
       },
       "occurrences": [
         {
@@ -10177,7 +10177,7 @@
       "slug": "light_aqua",
       "name": {
         "en": "Light Aqua",
-        "ru": null
+        "ru": "Светлая аква"
       },
       "occurrences": [
         {
@@ -10292,7 +10292,7 @@
       "slug": "light_blue_gray",
       "name": {
         "en": "Light Blue Gray",
-        "ru": null
+        "ru": "Светлый серо-голубой"
       },
       "occurrences": [
         {
@@ -10407,7 +10407,7 @@
       "slug": "light_camel",
       "name": {
         "en": "Light Camel",
-        "ru": null
+        "ru": "Светлый кэмел"
       },
       "occurrences": [
         {
@@ -10520,7 +10520,7 @@
       "slug": "light_clear_navy",
       "name": {
         "en": "Light Clear Navy",
-        "ru": null
+        "ru": "Светлый чистый темно-синий"
       },
       "occurrences": [
         {
@@ -10605,7 +10605,7 @@
       "slug": "light_lemon_yellow",
       "name": {
         "en": "Light Lemon Yellow",
-        "ru": null
+        "ru": "Светлый лимонно-желтый"
       },
       "occurrences": [
         {
@@ -10710,7 +10710,7 @@
       "slug": "light_orange",
       "name": {
         "en": "Light Orange",
-        "ru": null
+        "ru": "Светлый оранжевый"
       },
       "occurrences": [
         {
@@ -10825,7 +10825,7 @@
       "slug": "light_yellow_green",
       "name": {
         "en": "Light Yellow Green",
-        "ru": null
+        "ru": "Светлый желто-зеленый"
       },
       "occurrences": [
         {
@@ -10930,7 +10930,7 @@
       "slug": "lime",
       "name": {
         "en": "Lime",
-        "ru": null
+        "ru": "Лайм"
       },
       "occurrences": [
         {
@@ -11044,7 +11044,7 @@
       "slug": "lime_green",
       "name": {
         "en": "Lime Green",
-        "ru": null
+        "ru": "Лаймово-зеленый"
       },
       "occurrences": [
         {
@@ -11159,7 +11159,7 @@
       "slug": "magenta",
       "name": {
         "en": "Magenta",
-        "ru": null
+        "ru": "Маджента"
       },
       "occurrences": [
         {
@@ -11302,7 +11302,7 @@
       "slug": "mahogany",
       "name": {
         "en": "Mahogany",
-        "ru": null
+        "ru": "Махагоновый"
       },
       "occurrences": [
         {
@@ -11427,7 +11427,7 @@
       "slug": "mauve",
       "name": {
         "en": "Mauve",
-        "ru": null
+        "ru": "Мовеин"
       },
       "occurrences": [
         {
@@ -11550,7 +11550,7 @@
       "slug": "medium_blue",
       "name": {
         "en": "Medium Blue",
-        "ru": null
+        "ru": "Средний синий"
       },
       "occurrences": [
         {
@@ -11655,7 +11655,7 @@
       "slug": "midnight_blue",
       "name": {
         "en": "Midnight Blue",
-        "ru": null
+        "ru": "Полуночно-синий"
       },
       "occurrences": [
         {
@@ -11760,7 +11760,7 @@
       "slug": "moss_green",
       "name": {
         "en": "Moss Green",
-        "ru": null
+        "ru": "Моховой зеленый"
       },
       "occurrences": [
         {
@@ -11903,7 +11903,7 @@
       "slug": "mushroom",
       "name": {
         "en": "Mushroom",
-        "ru": null
+        "ru": "Грибной"
       },
       "occurrences": [
         {
@@ -11997,7 +11997,7 @@
       "slug": "mustard",
       "name": {
         "en": "Mustard",
-        "ru": null
+        "ru": "Горчичный"
       },
       "occurrences": [
         {
@@ -12130,7 +12130,7 @@
       "slug": "navy",
       "name": {
         "en": "Navy",
-        "ru": null
+        "ru": "Темно-синий"
       },
       "occurrences": [
         {
@@ -12253,7 +12253,7 @@
       "slug": "oatmeal",
       "name": {
         "en": "Oatmeal",
-        "ru": null
+        "ru": "Овсяный"
       },
       "occurrences": [
         {
@@ -12358,7 +12358,7 @@
       "slug": "olive_green",
       "name": {
         "en": "Olive Green",
-        "ru": null
+        "ru": "Оливково-зеленый"
       },
       "occurrences": [
         {
@@ -12492,7 +12492,7 @@
       "slug": "orange_red",
       "name": {
         "en": "Orange Red",
-        "ru": null
+        "ru": "Оранжево-красный"
       },
       "occurrences": [
         {
@@ -12597,7 +12597,7 @@
       "slug": "orchid",
       "name": {
         "en": "Orchid",
-        "ru": null
+        "ru": "Орхидея"
       },
       "occurrences": [
         {
@@ -12712,7 +12712,7 @@
       "slug": "oyster",
       "name": {
         "en": "Oyster",
-        "ru": null
+        "ru": "Устричный"
       },
       "occurrences": [
         {
@@ -12837,7 +12837,7 @@
       "slug": "paprika",
       "name": {
         "en": "Paprika",
-        "ru": null
+        "ru": "Паприка"
       },
       "occurrences": [
         {
@@ -12961,7 +12961,7 @@
       "slug": "pastel_green",
       "name": {
         "en": "Pastel Green",
-        "ru": null
+        "ru": "Пастельно-зеленый"
       },
       "occurrences": [
         {
@@ -13056,7 +13056,7 @@
       "slug": "peach",
       "name": {
         "en": "Peach",
-        "ru": null
+        "ru": "Персиковый"
       },
       "occurrences": [
         {
@@ -13180,7 +13180,7 @@
       "slug": "periwinkle",
       "name": {
         "en": "Periwinkle",
-        "ru": null
+        "ru": "Барвинковый"
       },
       "occurrences": [
         {
@@ -13304,7 +13304,7 @@
       "slug": "pine_green",
       "name": {
         "en": "Pine Green",
-        "ru": null
+        "ru": "Сосново-зеленый"
       },
       "occurrences": [
         {
@@ -13428,7 +13428,7 @@
       "slug": "plum",
       "name": {
         "en": "Plum",
-        "ru": null
+        "ru": "Сливовый"
       },
       "occurrences": [
         {
@@ -13551,7 +13551,7 @@
       "slug": "poppy_red",
       "name": {
         "en": "Poppy Red",
-        "ru": null
+        "ru": "Маково-красный"
       },
       "occurrences": [
         {
@@ -13666,7 +13666,7 @@
       "slug": "powder_blue",
       "name": {
         "en": "Powder Blue",
-        "ru": null
+        "ru": "Пудрово-голубой"
       },
       "occurrences": [
         {
@@ -13780,7 +13780,7 @@
       "slug": "pumpkin",
       "name": {
         "en": "Pumpkin",
-        "ru": null
+        "ru": "Тыквенный"
       },
       "occurrences": [
         {
@@ -13885,7 +13885,7 @@
       "slug": "pure_black",
       "name": {
         "en": "Pure Black",
-        "ru": null
+        "ru": "Чистый черный"
       },
       "occurrences": [
         {
@@ -13990,7 +13990,7 @@
       "slug": "pure_white",
       "name": {
         "en": "Pure White",
-        "ru": null
+        "ru": "Чистый белый"
       },
       "occurrences": [
         {
@@ -14104,7 +14104,7 @@
       "slug": "raspberry",
       "name": {
         "en": "Raspberry",
-        "ru": null
+        "ru": "Малиновый"
       },
       "occurrences": [
         {
@@ -14226,7 +14226,7 @@
       "slug": "rose_beige",
       "name": {
         "en": "Rose Beige",
-        "ru": null
+        "ru": "Розово-бежевый"
       },
       "occurrences": [
         {
@@ -14331,7 +14331,7 @@
       "slug": "rose_brown",
       "name": {
         "en": "Rose Brown",
-        "ru": null
+        "ru": "Розово-коричневый"
       },
       "occurrences": [
         {
@@ -14436,7 +14436,7 @@
       "slug": "royal_blue",
       "name": {
         "en": "Royal Blue",
-        "ru": null
+        "ru": "Королевский синий"
       },
       "occurrences": [
         {
@@ -14561,7 +14561,7 @@
       "slug": "rust",
       "name": {
         "en": "Rust",
-        "ru": null
+        "ru": "Ржаво-терракотовый"
       },
       "occurrences": [
         {
@@ -14694,7 +14694,7 @@
       "slug": "sage",
       "name": {
         "en": "Sage",
-        "ru": null
+        "ru": "Шалфейный"
       },
       "occurrences": [
         {
@@ -14837,7 +14837,7 @@
       "slug": "salmon",
       "name": {
         "en": "Salmon",
-        "ru": null
+        "ru": "Лососевый"
       },
       "occurrences": [
         {
@@ -14990,7 +14990,7 @@
       "slug": "sand",
       "name": {
         "en": "Sand",
-        "ru": null
+        "ru": "Песочный"
       },
       "occurrences": [
         {
@@ -15115,7 +15115,7 @@
       "slug": "sapphire_blue",
       "name": {
         "en": "Sapphire Blue",
-        "ru": null
+        "ru": "Сапфирово-синий"
       },
       "occurrences": [
         {
@@ -15240,7 +15240,7 @@
       "slug": "sea_green",
       "name": {
         "en": "Sea Green",
-        "ru": null
+        "ru": "Морской зеленый"
       },
       "occurrences": [
         {
@@ -15365,7 +15365,7 @@
       "slug": "silver",
       "name": {
         "en": "Silver",
-        "ru": null
+        "ru": "Серебряный"
       },
       "occurrences": [
         {
@@ -15490,7 +15490,7 @@
       "slug": "silver_gray",
       "name": {
         "en": "Silver Gray",
-        "ru": null
+        "ru": "Серебристо-серый"
       },
       "occurrences": [
         {
@@ -15615,7 +15615,7 @@
       "slug": "sky_blue",
       "name": {
         "en": "Sky Blue",
-        "ru": null
+        "ru": "Небесно-голубой"
       },
       "occurrences": [
         {
@@ -15739,7 +15739,7 @@
       "slug": "slate_blue",
       "name": {
         "en": "Slate Blue",
-        "ru": null
+        "ru": "Сланцево-синий"
       },
       "occurrences": [
         {
@@ -15873,7 +15873,7 @@
       "slug": "smoky_plum",
       "name": {
         "en": "Smoky Plum",
-        "ru": null
+        "ru": "Дымчато-сливовый"
       },
       "occurrences": [
         {
@@ -15968,7 +15968,7 @@
       "slug": "soft_aqua",
       "name": {
         "en": "Soft Aqua",
-        "ru": null
+        "ru": "Мягкая аква"
       },
       "occurrences": [
         {
@@ -16083,7 +16083,7 @@
       "slug": "soft_coral",
       "name": {
         "en": "Soft Coral",
-        "ru": null
+        "ru": "Мягкий коралл"
       },
       "occurrences": [
         {
@@ -16208,7 +16208,7 @@
       "slug": "soft_fuchsia",
       "name": {
         "en": "Soft Fuchsia",
-        "ru": null
+        "ru": "Мягкая фуксия"
       },
       "occurrences": [
         {
@@ -16323,7 +16323,7 @@
       "slug": "soft_indigo",
       "name": {
         "en": "Soft Indigo",
-        "ru": null
+        "ru": "Мягкий индиго"
       },
       "occurrences": [
         {
@@ -16438,7 +16438,7 @@
       "slug": "soft_navy",
       "name": {
         "en": "Soft Navy",
-        "ru": null
+        "ru": "Мягкий темно-синий"
       },
       "occurrences": [
         {
@@ -16532,7 +16532,7 @@
       "slug": "soft_olive",
       "name": {
         "en": "Soft Olive",
-        "ru": null
+        "ru": "Мягкая олива"
       },
       "occurrences": [
         {
@@ -16637,7 +16637,7 @@
       "slug": "soft_orchid",
       "name": {
         "en": "Soft Orchid",
-        "ru": null
+        "ru": "Мягкая орхидея"
       },
       "occurrences": [
         {
@@ -16752,7 +16752,7 @@
       "slug": "soft_rose",
       "name": {
         "en": "Soft Rose",
-        "ru": null
+        "ru": "Мягкий розовый"
       },
       "occurrences": [
         {
@@ -16867,7 +16867,7 @@
       "slug": "soft_teal",
       "name": {
         "en": "Soft Teal",
-        "ru": null
+        "ru": "Мягкий тил"
       },
       "occurrences": [
         {
@@ -16991,7 +16991,7 @@
       "slug": "soft_terracotta",
       "name": {
         "en": "Soft Terracotta",
-        "ru": null
+        "ru": "Мягкая терракота"
       },
       "occurrences": [
         {
@@ -17076,7 +17076,7 @@
       "slug": "soft_white",
       "name": {
         "en": "Soft White",
-        "ru": null
+        "ru": "Мягкий белый"
       },
       "occurrences": [
         {
@@ -17199,7 +17199,7 @@
       "slug": "spruce_green",
       "name": {
         "en": "Spruce Green",
-        "ru": null
+        "ru": "Елово-зеленый"
       },
       "occurrences": [
         {
@@ -17324,7 +17324,7 @@
       "slug": "steel_blue",
       "name": {
         "en": "Steel Blue",
-        "ru": null
+        "ru": "Стальной синий"
       },
       "occurrences": [
         {
@@ -17429,7 +17429,7 @@
       "slug": "steel_gray",
       "name": {
         "en": "Steel Gray",
-        "ru": null
+        "ru": "Стальной серый"
       },
       "occurrences": [
         {
@@ -17562,7 +17562,7 @@
       "slug": "stone_gray",
       "name": {
         "en": "Stone Gray",
-        "ru": null
+        "ru": "Каменно-серый"
       },
       "occurrences": [
         {
@@ -17667,7 +17667,7 @@
       "slug": "sunny_yellow",
       "name": {
         "en": "Sunny Yellow",
-        "ru": null
+        "ru": "Солнечно-желтый"
       },
       "occurrences": [
         {
@@ -17762,7 +17762,7 @@
       "slug": "tangerine",
       "name": {
         "en": "Tangerine",
-        "ru": null
+        "ru": "Мандариновый"
       },
       "occurrences": [
         {
@@ -17896,7 +17896,7 @@
       "slug": "tea_rose",
       "name": {
         "en": "Tea Rose",
-        "ru": null
+        "ru": "Чайная роза"
       },
       "occurrences": [
         {
@@ -18020,7 +18020,7 @@
       "slug": "terracotta",
       "name": {
         "en": "Terracotta",
-        "ru": null
+        "ru": "Терракотовый"
       },
       "occurrences": [
         {
@@ -18154,7 +18154,7 @@
       "slug": "tomato_red",
       "name": {
         "en": "Tomato Red",
-        "ru": null
+        "ru": "Томатно-красный"
       },
       "occurrences": [
         {
@@ -18278,7 +18278,7 @@
       "slug": "true_red",
       "name": {
         "en": "True Red",
-        "ru": null
+        "ru": "Истинный красный"
       },
       "occurrences": [
         {
@@ -18412,7 +18412,7 @@
       "slug": "warm_beige",
       "name": {
         "en": "Warm Beige",
-        "ru": null
+        "ru": "Теплый бежевый"
       },
       "occurrences": [
         {
@@ -18563,7 +18563,7 @@
       "slug": "warm_burgundy",
       "name": {
         "en": "Warm Burgundy",
-        "ru": null
+        "ru": "Теплый бордо"
       },
       "occurrences": [
         {
@@ -18668,7 +18668,7 @@
       "slug": "warm_gray",
       "name": {
         "en": "Warm Gray",
-        "ru": null
+        "ru": "Теплый серый"
       },
       "occurrences": [
         {
@@ -18802,7 +18802,7 @@
       "slug": "warm_ivory",
       "name": {
         "en": "Warm Ivory",
-        "ru": null
+        "ru": "Теплый айвори"
       },
       "occurrences": [
         {
@@ -18917,7 +18917,7 @@
       "slug": "warm_light_gray",
       "name": {
         "en": "Warm Light Gray",
-        "ru": null
+        "ru": "Теплый светло-серый"
       },
       "occurrences": [
         {
@@ -19012,7 +19012,7 @@
       "slug": "warm_mint",
       "name": {
         "en": "Warm Mint",
-        "ru": null
+        "ru": "Теплая мята"
       },
       "occurrences": [
         {
@@ -19117,7 +19117,7 @@
       "slug": "warm_orange",
       "name": {
         "en": "Warm Orange",
-        "ru": null
+        "ru": "Теплый оранжевый"
       },
       "occurrences": [
         {
@@ -19222,7 +19222,7 @@
       "slug": "warm_pink",
       "name": {
         "en": "Warm Pink",
-        "ru": null
+        "ru": "Теплый розовый"
       },
       "occurrences": [
         {
@@ -19327,7 +19327,7 @@
       "slug": "warm_sky_blue",
       "name": {
         "en": "Warm Sky Blue",
-        "ru": null
+        "ru": "Теплый небесно-голубой"
       },
       "occurrences": [
         {
@@ -19422,7 +19422,7 @@
       "slug": "warm_stone",
       "name": {
         "en": "Warm Stone",
-        "ru": null
+        "ru": "Теплый каменный"
       },
       "occurrences": [
         {
@@ -19536,7 +19536,7 @@
       "slug": "warm_taupe",
       "name": {
         "en": "Warm Taupe",
-        "ru": null
+        "ru": "Теплый тауп"
       },
       "occurrences": [
         {
@@ -19641,7 +19641,7 @@
       "slug": "warm_teal",
       "name": {
         "en": "Warm Teal",
-        "ru": null
+        "ru": "Теплый тил"
       },
       "occurrences": [
         {
@@ -19746,7 +19746,7 @@
       "slug": "warm_turquoise",
       "name": {
         "en": "Warm Turquoise",
-        "ru": null
+        "ru": "Теплая бирюза"
       },
       "occurrences": [
         {
@@ -19860,7 +19860,7 @@
       "slug": "watermelon",
       "name": {
         "en": "Watermelon",
-        "ru": null
+        "ru": "Арбузный"
       },
       "occurrences": [
         {
@@ -19985,7 +19985,7 @@
       "slug": "white",
       "name": {
         "en": "White",
-        "ru": null
+        "ru": "Белый"
       },
       "occurrences": [
         {
