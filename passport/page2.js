@@ -19,10 +19,9 @@
 const { buildPalette12Block } = require("./components/palette12_block");
 const { buildNeutralColorsBlock } = require("./components/neutral_colors_block");
 const { buildAccentColorsBlock } = require("./components/accent_colors_block");
-const { buildPaletteUsageBlock } = require("./components/palette_usage_block");
 const { buildFooterBlock } = require("./components/footer_block_approved");
 
-const PAGE2_VERSION = "3.3.0-palette-usage";
+const PAGE2_VERSION = "3.4.0-palette-usage-image-test";
 const PAGE_WIDTH = 768;
 const PAGE_HEIGHT = 1134;
 
@@ -166,18 +165,18 @@ function buildPage2(data) {
   });
 
   // STEP 4 — HOW TO WEAR YOUR COLORS.
-  out += buildPaletteUsageBlock({
-    x: 24,
-    y: 708,
-    width: 720,
-    height: 190,
+  // TEST: one finished raster asset for Light Spring.
+  // The image is rendered into the exact free Page 2 area before the footer.
+  if (season.id === "light_spring") {
+    const paletteUsageUrl =
+      "https://raw.githubusercontent.com/nuuu1334-droid/DiArt-Passport-/refs/heads/main/assets/palette_usage/light_spring.png";
 
-    accentColor,
-    textColor,
-    mutedColor,
-    lineColor,
-    panelColor
-  });
+    out += `<image
+      href="${paletteUsageUrl}"
+      x="24" y="708"
+      width="720" height="214"
+      preserveAspectRatio="xMidYMid meet"/>`;
+  }
 
   /*
    * RESERVED SPACE FOR NEXT APPROVED BLOCKS:
