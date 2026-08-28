@@ -19,9 +19,10 @@
 const { buildPalette12Block } = require("./components/palette12_block");
 const { buildNeutralColorsBlock } = require("./components/neutral_colors_block");
 const { buildAccentColorsBlock } = require("./components/accent_colors_block");
+const { buildPaletteUsageBlock } = require("./components/palette_usage_block");
 const { buildFooterBlock } = require("./components/footer_block_approved");
 
-const PAGE2_VERSION = "3.2.0-accent-block";
+const PAGE2_VERSION = "3.3.0-palette-usage";
 const PAGE_WIDTH = 768;
 const PAGE_HEIGHT = 1134;
 
@@ -164,10 +165,23 @@ function buildPage2(data) {
     panelColor
   });
 
+  // STEP 4 — HOW TO WEAR YOUR COLORS.
+  out += buildPaletteUsageBlock({
+    x: 24,
+    y: 708,
+    width: 720,
+    height: 190,
+
+    accentColor,
+    textColor,
+    mutedColor,
+    lineColor,
+    panelColor
+  });
+
   /*
    * RESERVED SPACE FOR NEXT APPROVED BLOCKS:
    *
-   *  - palette_usage_block
    *  - important_block
    *
    * They are intentionally NOT rendered yet.
