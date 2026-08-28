@@ -18,9 +18,10 @@
 
 const { buildPalette12Block } = require("./components/palette12_block");
 const { buildNeutralColorsBlock } = require("./components/neutral_colors_block");
+const { buildAccentColorsBlock } = require("./components/accent_colors_block");
 const { buildFooterBlock } = require("./components/footer_block_approved");
 
-const PAGE2_VERSION = "3.1.0-neutral-block";
+const PAGE2_VERSION = "3.2.0-accent-block";
 const PAGE_WIDTH = 768;
 const PAGE_HEIGHT = 1134;
 
@@ -147,10 +148,25 @@ function buildPage2(data) {
     panelColor
   });
 
+  // STEP 3 — ACCENT COLORS.
+  out += buildAccentColorsBlock({
+    palette: safe.palette,
+
+    x: 394,
+    y: 500,
+    width: 350,
+    height: 188,
+
+    accentColor,
+    textColor,
+    mutedColor,
+    lineColor,
+    panelColor
+  });
+
   /*
    * RESERVED SPACE FOR NEXT APPROVED BLOCKS:
    *
-   *  - accent_colors_block
    *  - palette_usage_block
    *  - important_block
    *
