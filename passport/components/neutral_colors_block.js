@@ -15,7 +15,7 @@
 
 "use strict";
 
-const NEUTRAL_COLORS_BLOCK_VERSION = "1.0.0";
+const NEUTRAL_COLORS_BLOCK_VERSION = "1.1.0-wrap-names";
 
 function esc(value) {
   return String(value ?? "")
@@ -60,11 +60,55 @@ function text({
     letter-spacing="${tracking}" fill="${fill}">${esc(value)}</text>`;
 }
 
-function fit(value, maxChars) {
+function wrapWords(value, maxChars = 12, maxLines = 2) {
   const str = String(value || "").trim();
-  if (!str) return "—";
-  if (str.length <= maxChars) return str;
-  return `${str.slice(0, Math.max(1, maxChars - 1)).trim()}…`;
+  if (!str) return ["—"];
+
+  const words = str.split(/\s+/).filter(Boolean);
+  if (!words.length) return ["—"];
+
+  const lines = [];
+  let current = "";
+
+  for (const word of words) {
+    const candidate = current ? `${current} ${word}` : word;
+
+    if (candidate.length <= maxChars || !current) {
+      current = candidate;
+      continue;
+    }
+
+    lines.push(current);
+    current = word;
+
+    if (lines.length >= maxLines - 1) break;
+  }
+
+  if (current && lines.length < maxLines) {
+    lines.push(current);
+  }
+
+  return lines.slice(0, maxLines);
+}
+
+function multilineText({
+  lines,
+  x,
+  y,
+  lineHeight,
+  size,
+  weight = 400,
+  family = "Georgia, 'Times New Roman', serif",
+  fill = "#2C1A13",
+  anchor = "middle"
+}) {
+  const safeLines = Array.isArray(lines) && lines.length ? lines : ["—"];
+
+  return `<text x="${x}" y="${y}" text-anchor="${anchor}"
+    font-family="${family}" font-size="${size}" font-weight="${weight}"
+    fill="${fill}">${safeLines.map((line, index) =>
+      `<tspan x="${x}" dy="${index === 0 ? 0 : lineHeight}">${esc(line)}</tspan>`
+    ).join("")}</text>`;
 }
 
 function collectNeutralColors(palette) {
@@ -129,21 +173,26 @@ function buildNeutralColorsBlock({
     out += `<rect x="${sx}" y="${swatchY}" width="${swatchWidth}" height="${swatchHeight}"
       rx="8" fill="${hex}" stroke="${lineColor}" stroke-width="0.8"/>`;
 
-    out += text({
-      value: fit(nameEn, 11),
+    const enLines = wrapWords(nameEn, 10, 2);
+    const ruLines = wrapWords(nameRu, 11, 2);
+
+    out += multilineText({
+      lines: enLines,
       x: sx + swatchWidth / 2,
-      y: swatchY + swatchHeight + 20,
-      size: 7.7,
+      y: swatchY + swatchHeight + 18,
+      lineHeight: 9,
+      size: 7.4,
       weight: 700,
       fill: textColor,
       anchor: "middle"
     });
 
-    out += text({
-      value: fit(nameRu, 12),
+    out += multilineText({
+      lines: ruLines,
       x: sx + swatchWidth / 2,
-      y: swatchY + swatchHeight + 35,
-      size: 7.1,
+      y: swatchY + swatchHeight + 40,
+      lineHeight: 8.5,
+      size: 6.8,
       weight: 500,
       fill: textColor,
       anchor: "middle"
@@ -152,7 +201,7 @@ function buildNeutralColorsBlock({
     out += text({
       value: hex,
       x: sx + swatchWidth / 2,
-      y: y + height - 13,
+      y: y + height - 9,
       size: 6.7,
       weight: 500,
       family: "Arial, Helvetica, sans-serif",
